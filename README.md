@@ -1,4 +1,4 @@
-# iagora
+# iAgora
 
 ## Project setup
 ```
