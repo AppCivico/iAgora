@@ -1,0 +1,666 @@
+{
+  "questions": {
+    "1": {
+      "id": "P",
+      "text": "Olá! É bom ver-te.",
+      "options": [
+        {
+          "next_question_id": "P1",
+          "text": "Olá"
+        },
+        {
+          "next_question_id": "P2",
+          "text": "Humm, quem és tu?"
+        }
+      ]
+    },
+    "P1": {
+      "id": "P1",
+      "text": "Estás aqui para a posição de perito da desinformação e das notícias falsas, correto ?",
+      "options": [
+        {
+          "next_question_id": "P3",
+          "text": "Correto"
+        },
+        {
+          "next_question_id": "P4",
+          "text": "O que?"
+        }
+      ]
+    },
+    "P2": {
+      "id": "P2",
+      "text": "O meu trabalho é guiar-te na tua missão de te tornares um perito da desinformação e das notícias falsas.",
+      "options": [
+        {
+          "next_question_id": "P3",
+          "text": "Oh não!"
+        }
+      ]
+    },
+    "P3": {
+      "id": "P3",
+      "text": "Provavelmente estás frustrado com alguma, coisa ? Todos estamos frustrados com algo. Podes começar por usar o Twitter para desabafar.",
+      "options": [
+        {
+          "next_question_id": "P6",
+          "text": "Publicar um tweet frustrado"
+        },
+        {
+          "next_question_id": "P5",
+          "text": "Não tenho certeza"
+        }
+      ]
+    },
+    "P4": {
+      "id": "P4",
+      "text": "A desinformação tem muitos aspectos diferentes. É muito mais do que apenas 'fake news'. Não te preocupes, isto ficará claro em breve.",
+      "options": [
+        {
+          "next_question_id": "P3",
+          "text": "Entendi"
+        }
+      ]
+    },
+    "P5": {
+      "id": "P5",
+      "text": "Não te preocupes, é perfeitamente seguro. Nada do que faças neste jogo vai afetar o mundo real.",
+      "options": [
+        {
+          "next_question_id": "P6",
+          "text": "Publicar um tweet frustrado"
+        }
+      ]
+    },
+    "P6": {
+      "id": "P6",
+      "text": "Este governo é um fracasso completo e absulto. #Demitam-se! Falhados!",
+      "options": [
+        {
+          "next_question_id": "P6a",
+          "text": "Tweetar isto"
+        },
+        {
+          "next_question_id": "P7",
+          "text": "Este não"
+        }
+      ],
+      "image": "tweet-b0-p6.png"
+    },
+    "P7": {
+      "id": "P7",
+      "text": "Os media convencionais são uma grande conspiração. #FakeNews",
+      "options": [
+        {
+          "next_question_id": "P7a",
+          "text": "Tweetar isto"
+        },
+        {
+          "next_question_id": "P8",
+          "text": "Este não"
+        }
+      ],
+      "image": "tweet-b0-p7.png"
+    },
+    "P8": {
+      "id": "P8",
+      "text": "Acham que somos todos estúpidos ou quê ? A terra não é plana, é um CUBO!! #Conspiração",
+      "options": [
+        {
+          "next_question_id": "P8a",
+          "text": "Tweetar isto"
+        },
+        {
+          "next_question_id": "P6",
+          "text": "Este não"
+        }
+      ],
+      "image": "tweet-b0-p8.png"
+    },
+    "P6a": {
+      "id": "P6a",
+      "text": "Vê! Com a tua crítica construtiva ao governo conseguiste alguns seguidores. E mais seguidores significa mais influência.",
+      "options": [
+        {
+          "next_question_id": "P9",
+          "text": "Um começo é um começo"
+        },
+        {
+          "next_question_id": "P9",
+          "text": "O que faço agora?"
+        }
+      ]
+    },
+    "P7a": {
+      "id": "P7a",
+      "text": "Vê! Como a tua crítica edificante aos media convencionais conseguiste alguns seguidores. E mais seguidores significa mais influência.",
+      "options": [
+        {
+          "next_question_id": "P9",
+          "text": "Um começo é um começo"
+        },
+        {
+          "next_question_id": "P9",
+          "text": "O que faço agora?"
+        }
+      ]
+    },
+    "P8a": {
+      "id": "P8a",
+      "text": "Vê! Com a tua tentativa para te tornares o astrofísico mais fixe do mundo conseguiste alguns seguidores. E mais seguidores significa mais influência.",
+      "options": [
+        {
+          "next_question_id": "P9",
+          "text": "Um começo é um começo"
+        },
+        {
+          "next_question_id": "P9",
+          "text": "O que faço agora?"
+        }
+      ]
+    },
+    "P9": {
+      "id": "P9",
+      "text": "As pessoas ainda não te acham muito credível. Para ganhares realmente influência, precisas de aumentar a tua credibilidade.",
+      "options": [
+        {
+          "next_question_id": "P10",
+          "text": "Mas como ?"
+        },
+        {
+          "next_question_id": "P11",
+          "text": "Estou pronto"
+        }
+      ]
+    },
+    "P10": {
+      "id": "P10",
+      "text": "Vou mostrar-te! Para ganhar notoriedade, podemos começar por pedir emprestada a credibilidade de outra pessoa. O que queres fazer ?",
+      "options": [
+        {
+          "next_question_id": "P12",
+          "text": "Falsificar uma conta oficial do twitter"
+        },
+        {
+          "next_question_id": "P12",
+          "text": "Imitar alguém importante"
+        }
+      ]
+    },
+    "P11": {
+      "id": "P11",
+      "text": "É bom ouvir isso! para ganhar notoriedade, podemos começar por pedir emprestada a credibilidade de outra pessoa. O que queres fazer ?",
+      "options": [
+        {
+          "next_question_id": "P12",
+          "text": "Falsificar uma conta oficial do twitter"
+        },
+        {
+          "next_question_id": "P12",
+          "text": "Imitar alguém importante"
+        }
+      ]
+    },
+    "P12": {
+      "id": "P12",
+      "text": "Após uma longa discussão com os meus generais, decidi declarar guerra à Coreia do Norte. #KimJongTerminado",
+      "options": [
+        {
+          "next_question_id": "P12a",
+          "text": "Tweetar isto"
+        },
+        {
+          "next_question_id": "P13",
+          "text": "Este não"
+        }
+      ],
+      "image": "tweet-b0-12.png"
+    },
+    "P13": {
+      "id": "P13",
+      "text": "Alerta de meteorito: grande objeto especial em rota de colisão com a costa oeste dos EUA. #Cuidem-se",
+      "options": [
+        {
+          "next_question_id": "P13a",
+          "text": "Tweetar isto"
+        },
+        {
+          "next_question_id": "P14",
+          "text": "Este não"
+        }
+      ],
+      "image": "tweet-b0-13.png"
+    },
+    "P14": {
+      "id": "P14",
+      "text": "Anunciamos o cancelamento imediato e permanente do Spongebob Squarepants. #EstouPronto!",
+      "options": [
+        {
+          "next_question_id": "P14a",
+          "text": "Tweetar isto"
+        },
+        {
+          "next_question_id": "P12",
+          "text": "Este não"
+        }
+      ],
+      "image": "tweet-b0-14.png"
+    },
+    "P12a": {
+      "id": "P12a",
+      "text": "Muito bem! A guerra com a Coreia do Norte é suficietemente realista para preocupar as pessoas. Reparaste no nome de utilizador de Trump ligereiramente diferente ? Podes voltar atrás para verificar.",
+      "options": [
+        {
+          "next_question_id": "P15",
+          "text": "Entendi"
+        },
+        {
+          "next_question_id": "P12b",
+          "text": "Humm..."
+        }
+      ]
+    },
+    "P13a": {
+      "id": "P13a",
+      "text": "Muito bem! Um falso alerta de meteorito pode fazer as pessoas tremer de medo. Reparaste no nome de utilizador de NASA ligeraimente diferente? Podes voltar atrás para verificar.",
+      "options": [
+        {
+          "next_question_id": "P15",
+          "text": "Entendi"
+        },
+        {
+          "next_question_id": "P13b",
+          "text": "Humm..."
+        }
+      ]
+    },
+    "P14a": {
+      "id": "P14a",
+      "text": "Muito bem! Isto vai assustar bastante os fãs do Spongebob. Reparaste no nome de utilizador de Nickelodeon ligeiramente diferente? Podes voltar atrás para verificar.",
+      "options": [
+        {
+          "next_question_id": "P15",
+          "text": "Entendi"
+        },
+        {
+          "next_question_id": "P14b",
+          "text": "Humm..."
+        }
+      ]
+    },
+    "P12b": {
+      "id": "P12b",
+      "text": "Parece que enganaste alguns utilizadores do Twitter! Vamos ver como estão eles a reagir.",
+      "options": [
+        {
+          "next_question_id": "P12c",
+          "text": "Mostrar reações"
+        }
+      ]
+    },
+    "P13b": {
+      "id": "P13b",
+      "text": "Parece que enganaste alguns utilizadores do Twitter! Vamos ver como estão eles a reagir.",
+      "options": [
+        {
+          "next_question_id": "P13c",
+          "text": "Mostrar reações"
+        }
+      ]
+    },
+    "P14b": {
+      "id": "P14b",
+      "text": "Parece que enganaste alguns utilizadores do Twitter! Vamos ver como estão eles a reagir.",
+      "options": [
+        {
+          "next_question_id": "P14c",
+          "text": "Mostrar reações"
+        }
+      ]
+    },
+    "P12c": {
+      "id": "P12c",
+      "text": "Oh Meu Deus! A sério? O trump ficou completamente doido? #NãoÀGuerra!",
+      "options": [
+        {
+          "next_question_id": "P12d",
+          "text": "Mais"
+        }
+      ],
+      "image": "tweet-b0-p12c.png"
+    },
+    "P13c": {
+      "id": "P13c",
+      "text": "Alerta de metorito a chegar! Tenham cuidado! Protejam-se todos!!! #RezarPelosEUA",
+      "options": [
+        {
+          "next_question_id": "P13d",
+          "text": "Mais"
+        }
+      ],
+      "image": "tweet-b0-p13c.png"
+    },
+    "P14c": {
+      "id": "P14c",
+      "text": "Estão a acabar com o spongebob? Que locura é esta? #NãoEstouPronto",
+      "options": [
+        {
+          "next_question_id": "P14d",
+          "text": "Mais"
+        }
+      ],
+      "image": "tweet-b0-p14c.png"
+    },
+    "P12d": {
+      "id": "P12d",
+      "text": "Donald por favor não mandes bombas nucleares para cima deles! #NaoÀGuerra!",
+      "options": [
+        {
+          "next_question_id": "P15",
+          "text": "Continue"
+        }
+      ],
+      "image": "tweet-b0-p12d.png"
+    },
+    "P13d": {
+      "id": "P13d",
+      "text": "Isto parece sério. Espero que não seja o apocalipse. #RezarPelosEUA",
+      "options": [
+        {
+          "next_question_id": "P15",
+          "text": "Continue"
+        }
+      ],
+      "image": "tweet-b0-p13d.png"
+    },
+    "P14d": {
+      "id": "P14d",
+      "text": "@Nickelodeon são idiotas!! Como se ATREVEM a tirar-nos o Spongebob? #VãoPagarPorIsto",
+      "options": [
+        {
+          "next_question_id": "P15",
+          "text": "Continue"
+        }
+      ],
+      "image": "tweet-b0-p14d.png"
+    },
+    "P15": {
+      "id": "P15",
+      "text": "Apanhaste-os! Como te estás a sentir?",
+      "options": [
+        {
+          "next_question_id": "P20",
+          "text": "Muito bem!"
+        },
+        {
+          "next_question_id": "P16",
+          "text": "Tenho objetções morais"
+        }
+      ]
+    },
+    "P16": {
+      "id": "P16",
+      "text": "Que moral ?",
+      "options": [
+        {
+          "next_question_id": "P17",
+          "text": "Objeções"
+        },
+        {
+          "next_question_id": "P21",
+          "text": "Nada"
+        }
+      ]
+    },
+    "P17": {
+      "id": "P17",
+      "text": "Relaxa. Não há problema. A única coisa que fizemos foi enganar alguns utilizadores do Twitter mais desatentos.",
+      "options": [
+        {
+          "next_question_id": "P18",
+          "text": "Isto está errado."
+        },
+        {
+          "next_question_id": "P21",
+          "text": "Sim. Bom argumento"
+        }
+      ]
+    },
+    "P18": {
+      "id": "P18",
+      "text": "Isto não é ilegal. A sério; se queres tornar-te um mestre em desinformação, tens que deixar essa atitude boazinha. Duas opções, chefe.",
+      "options": [
+        {
+          "next_question_id": "P19",
+          "text": "Morrer como heroi."
+        },
+        {
+          "next_question_id": "P22",
+          "text": "Transformar-me em vilão"
+        }
+      ]
+    },
+    "P19": {
+      "id": "P19",
+      "text": "hahahah, és teimoso. Gosto disso. Aqui tens mais 1000 seguidores para dar motivação.",
+      "options": [
+        {
+          "next_question_id": "P22",
+          "text": "Adoro subornos. Vamos jogar!"
+        }
+      ]
+    },
+    "P20": {
+      "id": "P20",
+      "text": "Eu também. Mas tu não podes continuar a imitar as pessoa para sempre. Qual é o próximo passo?",
+      "options": [
+        {
+          "next_question_id": "P22",
+          "text": "Quero tornar-me profissional"
+        },
+        {
+          "next_question_id": "P23",
+          "text": "Acho que já atingi o meu limite"
+        }
+      ]
+    },
+    "P21": {
+      "id": "P21",
+      "text": "Boa escolha. Não te preocupes, estás a ir muito bem! Qual é o teu próximo passo ?",
+      "options": [
+        {
+          "next_question_id": "P22",
+          "text": "Quero tornar-me profissional"
+        },
+        {
+          "next_question_id": "P23",
+          "text": "Acho que já atingi o meu limite"
+        }
+      ]
+    },
+    "P22": {
+      "id": "P22",
+      "text": "É bom ter-te na euqipe. Pode onde queres começar?",
+      "options": [
+        {
+          "next_question_id": "P25",
+          "text": "Iniciar um site de notícias"
+        },
+        {
+          "next_question_id": "P26",
+          "text": "Iniciar um blog"
+        }
+      ]
+    },
+    "P23": {
+      "id": "P23",
+      "text": "Ah, vamos lá, não digas isso! Tenho muita fé em ti e no teu talento. Juntos podemos dominar o mundo!",
+      "options": [
+        {
+          "next_question_id": "P22",
+          "text": "Vamos a isso"
+        },
+        {
+          "next_question_id": "P24",
+          "text": "Estás a tentar seduzir-me"
+        }
+      ]
+    },
+    "P24": {
+      "id": "P24",
+      "text": "Bom... Bem... Vamos manter isto profissional por enquanto, certo?",
+      "options": [
+        {
+          "next_question_id": "P22",
+          "text": "Tudo bem então"
+        }
+      ]
+    },
+    "P25": {
+      "id": "P25",
+      "text": "Todos os sites de notícias sérios têm um nome. Qual é o teu ?",
+      "options": [
+        {
+          "next_question_id": "P27",
+          "text": "Escolher um nome"
+        }
+      ],
+      "image": "palavra-certa.png"
+    },
+    "P26": {
+      "id": "P26",
+      "text": "Um blog ? Um pouco mais de ambição, por favor! Um 'site de notícias' soa-me muito melhor.",
+      "options": [
+        {
+          "next_question_id": "P25",
+          "text": "Tens razão, como sempre..."
+        }
+      ],
+      "image": "verdade-digital.png"
+    },
+    "P27": {
+      "id": "P27",
+      "text": "Palavra Certa",
+      "options": [
+        {
+          "next_question_id": "P30",
+          "text": "É este!"
+        },
+        {
+          "next_question_id": "P28",
+          "text": "Este não"
+        }
+      ],
+      "image": "verdade-digital.png"
+    },
+    "P28": {
+      "id": "P28",
+      "text": "Verdade Digital",
+      "options": [
+        {
+          "next_question_id": "P30",
+          "text": "É este!"
+        },
+        {
+          "next_question_id": "P29",
+          "text": "Este não"
+        }
+      ]
+    },
+    "P29": {
+      "id": "P29",
+      "text": "Diário de Portugal",
+      "options": [
+        {
+          "next_question_id": "P30",
+          "text": "É este!"
+        },
+        {
+          "next_question_id": "P27",
+          "text": "Este não"
+        }
+      ]
+    },
+    "P30": {
+      "id": "P30",
+      "text": "Não é mau! Qual vai ser o teu cargo no site de notícias ?",
+      "options": [
+        {
+          "next_question_id": "P31",
+          "text": "Editor Chefe"
+        },
+        {
+          "next_question_id": "P30a",
+          "text": "Bandido Anonimo"
+        }
+      ]
+    },
+    "P30a": {
+      "id": "P30a",
+      "text": "Os bandidos anónimos geralmente não são vistos como jornalistas credíveis. O que há de errado com Editor-Chefe ?",
+      "options": [
+        {
+          "next_question_id": "P31",
+          "text": "Ok, tudo bem"
+        }
+      ]
+    },
+    "P31": {
+      "id": "P31",
+      "text": "Parece que estás pronto. Os outros sites de notícias já estão a reparar em ti.",
+      "options": [
+        {
+          "next_question_id": "P32",
+          "text": "Ver as respostas no Twitter"
+        }
+      ]
+    },
+    "P32": {
+      "id": "P32",
+      "text": "Novo na luta contra o convencional #Fake. O melhor novo site de notícias da internet!",
+      "options": [
+        {
+          "next_question_id": "P33",
+          "text": "Oh, obrigado!"
+        }
+      ],
+      "image": "tweet-b0-p32.png"
+    },
+    "P33": {
+      "id": "P33",
+      "text": "A república popular democrática apoia o brilhante trabalho do novo site de notícias! #BoasNotícias",
+      "options": [
+        {
+          "next_question_id": "P34",
+          "text": "Que bom!"
+        }
+      ],
+      "image": "tweet-b0-p33.png"
+    },
+    "P34": {
+      "id": "P34",
+      "text": "Bom trabalho, chefe. Seu site de notícias transformo-se na base do teu império de notícias falsas.",
+      "options": [
+        {
+          "next_question_id": "P35",
+          "text": "Uhu!"
+        }
+      ]
+    },
+    "P35": {
+      "id": "P35",
+      "text": "Vês agora como é fácil imitar uma fonte de notícias credível?",
+      "options": [
+        {
+          "next_question_id": "P36",
+          "text": "Sim!"
+        }
+      ]
+    },
+    "P36": {
+      "id": "P36",
+      "text": "Nova técnica dominada!",
+      "options": []
+    }
+  }
+}
