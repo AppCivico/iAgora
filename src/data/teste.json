@@ -2,7 +2,7 @@
   "questions": {
     "1": {
       "id": "P",
-      "text": "Olá! É bom ver-te.",
+      "text": "Olá! Vai começar o periodo eleitoral Iagora?",
       "options": [
         {
           "next_question_id": "P1",
@@ -10,50 +10,50 @@
         },
         {
           "next_question_id": "P2",
-          "text": "Humm, quem és tu?"
+          "text": "Oi, quem é você?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P1": {
       "id": "P1",
-      "text": "Estás aqui para a posição de perito da desinformação e das notícias falsas, correto ?",
+      "text": "Neste jogo você é o coordenador de campanha, vamos começar?",
       "options": [
         {
           "next_question_id": "P3",
-          "text": "Correto"
+          "text": "Vamos"
         },
         {
           "next_question_id": "P4",
-          "text": "O que?"
+          "text": "Será?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P2": {
       "id": "P2",
-      "text": "O meu trabalho é guiar-te na tua missão de te tornares um perito da desinformação e das notícias falsas.",
+      "text": "Sua missão é eleger se candidato Fabinho Fagner, candidato a prefeito de sua cidade, não importando que atitudes tenha que tomar para isto!",
       "options": [
         {
           "next_question_id": "P3",
-          "text": "Oh não!"
+          "text": "É mesmo!"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P3": {
       "id": "P3",
-      "text": "Provavelmente estás frustrado com alguma, coisa ? Todos estamos frustrados com algo. Podes começar por usar o Twitter para desabafar.",
+      "text": "A desinformação tem muitos aspectos diferentes.Em sua campanha, você vai se utilizar de  diversas estratégias desinformativas, mesmo que para isso tenha que usar de práticas não muito éticas.",
       "options": [
         {
           "next_question_id": "P6",
-          "text": "Publicar um tweet frustrado"
+          "text": "Vamos iniciar essa pre campanha?"
         },
         {
           "next_question_id": "P5",
@@ -61,748 +61,616 @@
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P4": {
       "id": "P4",
-      "text": "A desinformação tem muitos aspectos diferentes. É muito mais do que apenas 'fake news'. Não te preocupes, isto ficará claro em breve.",
+      "text": "Não se preocupe, o Iagora é seguro. Nada do que faça neste jogo  afetará o mundo real, mas lembre-se você já foi afetado por estratégias utilizadas aqui!",
       "options": [
         {
           "next_question_id": "P3",
           "text": "Entendi"
+        },
+        {
+          "next_question_id": "P3",
+          "text": "Como faço?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P5": {
       "id": "P5",
-      "text": "Não te preocupes, é perfeitamente seguro. Nada do que faças neste jogo vai afetar o mundo real.",
+      "text": "Vamos iniciar a campanha! ",
       "options": [
         {
           "next_question_id": "P6",
-          "text": "Publicar um tweet frustrado"
+          "text": "Vamos iniciar essa pre campanha?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P6": {
       "id": "P6",
-      "text": "Este governo é um fracasso completo e absulto. #Demitam-se! Falhados!",
+      "text": "Os eleitores ainda não estão convencidos a votar no seu candidato. Para ganhares mais influência, precisa aumentar a sua credibilidade.",
       "options": [
         {
-          "next_question_id": "P6a",
-          "text": "Tweetar isto"
+          "next_question_id": "P8",
+          "text": "Como?"
         },
         {
           "next_question_id": "P7",
-          "text": "Este não"
+          "text": "Será?"
         }
       ],
-      "image": "tweet-b0-p6.png",
-      "pessoas": 356,
-      "credibilidade": 0
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P7": {
       "id": "P7",
-      "text": "Os media convencionais são uma grande conspiração. #FakeNews",
+      "text": "Vamos melhorar essa popularidade! Para ganhar seguidores, podemos começar por usar a a credibilidade de outra pessoa. O que quer fazer ?",
       "options": [
         {
-          "next_question_id": "P7a",
-          "text": "Tweetar isto"
+          "next_question_id": "P9",
+          "text": "Entendi"
         },
         {
-          "next_question_id": "P8",
-          "text": "Este não"
+          "next_question_id": "P9",
+          "text": "Como faço?"
         }
       ],
-      "image": "tweet-b0-p7.png",
-      "pessoas": 356,
-      "credibilidade": 0
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P8": {
       "id": "P8",
-      "text": "Acham que somos todos estúpidos ou quê ? A terra não é plana, é um CUBO!! #Conspiração",
-      "options": [
-        {
-          "next_question_id": "P8a",
-          "text": "Tweetar isto"
-        },
-        {
-          "next_question_id": "P6",
-          "text": "Este não"
-        }
-      ],
-      "image": "tweet-b0-p8.png",
-      "pessoas": 356,
-      "credibilidade": 0
-    },
-    "P6a": {
-      "id": "P6a",
-      "text": "Vê! Com a tua crítica construtiva ao governo conseguiste alguns seguidores. E mais seguidores significa mais influência.",
+      "text": "Você precisa melhorar a imagem do seu candidato em relação à educação das crianças da cidade. Vamos usar uma IA para criar um áudio fake? ",
       "options": [
         {
           "next_question_id": "P9",
-          "text": "Um começo é um começo"
+          "text": "Entendi"
         },
         {
           "next_question_id": "P9",
-          "text": "O que faço agora?"
+          "text": "Como faço?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P7a": {
-      "id": "P7a",
-      "text": "Vê! Como a tua crítica edificante aos media convencionais conseguiste alguns seguidores. E mais seguidores significa mais influência.",
-      "options": [
-        {
-          "next_question_id": "P9",
-          "text": "Um começo é um começo"
-        },
-        {
-          "next_question_id": "P9",
-          "text": "O que faço agora?"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P8a": {
-      "id": "P8a",
-      "text": "Vê! Com a tua tentativa para te tornares o astrofísico mais fixe do mundo conseguiste alguns seguidores. E mais seguidores significa mais influência.",
-      "options": [
-        {
-          "next_question_id": "P9",
-          "text": "Um começo é um começo"
-        },
-        {
-          "next_question_id": "P9",
-          "text": "O que faço agora?"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P9": {
       "id": "P9",
-      "text": "As pessoas ainda não te acham muito credível. Para ganhares realmente influência, precisas de aumentar a tua credibilidade.",
+      "text": "Durante o mandato, Fabinho Fagner iniciou duas novas obras de creches, visando ampliar o atendimento para crianças de pais adolescentes, um problema crônico enfrentado pelo município. Essas iniciativas demonstram compromisso com o futuro das crianças e jovens.",
       "options": [
         {
+          "next_question_id": "P9a",
+          "text": "Sim, quero usar este audio!"
+        },
+        {
           "next_question_id": "P10",
-          "text": "Mas como ?"
+          "text": "Não, quero usar este audio!"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 400,
+      "Credibilidade": 150
+    },
+    "P10": {
+      "id": "P10",
+      "text": "Fabinho Fagner trabalhou incansavelmente para melhorar o atendimento às crianças em nossa cidade, com a inauguração de duas novas creches que beneficiarão pais adolescentes. Mesmo com o atraso de algumas obras que não estavam previstas, estamos comprometidos em proporcionar um ambiente seguro e acolhedor para nossas futuras gerações",
+      "options": [
+        {
+          "next_question_id": "P10a",
+          "text": "Sim, quero usar este audio!"
         },
         {
           "next_question_id": "P11",
+          "text": "Não, quero usar este audio!"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 300,
+      "Credibilidade": 100
+    },
+    "P11": {
+      "id": "P11",
+      "text": "Durante seu mandato, Fabinho Fagner respondeu às necessidades das famílias jovens ao iniciar duas novas creches. Essa iniciativa é parte de nosso compromisso contínuo de apoiar e fortalecer nossas comunidades mais jovens.",
+      "options": [
+        {
+          "next_question_id": "P11a",
+          "text": "Sim, quero usar este audio!"
+        },
+        {
+          "next_question_id": "P12",
+          "text": "Não, quero usar este audio!"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 200,
+      "Credibilidade": 50
+    },
+    "P9a": {
+      "id": "P9a",
+      "text": "Conseguiu! Como esta sentindo?",
+      "options": [
+        {
+          "next_question_id": "P12",
+          "text": "Bom começo!"
+        },
+        {
+          "next_question_id": "P12",
+          "text": "O que faço agora?"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
+    },
+    "P10a": {
+      "id": "P10a",
+      "text": "Boa escolha. Não se preocupe, esta indo muito bem! Qual é o teu próximo passo ?",
+      "options": [
+        {
+          "next_question_id": "P12",
+          "text": "Bom começo!"
+        },
+        {
+          "next_question_id": "P12",
+          "text": "O que faço agora?"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
+    },
+    "P11a": {
+      "id": "P11a",
+      "text": "É bom esta com você nesta campanha. Por onde quer continuar?",
+      "options": [
+        {
+          "next_question_id": "P12",
+          "text": "Bom começo!"
+        },
+        {
+          "next_question_id": "P12",
+          "text": "O que faço agora?"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
+    },
+    "P12": {
+      "id": "P12",
+      "text": "Coordenador, vamos iniciar a campanha e podemos explorar o tema das urnas eletrônicas e sua segurança. Vamos recuperar posts/conteúdos antigos de políticos falando que o sistema de urnas eletrônicas do Brasil não é confiável?\n",
+      "options": [
+        {
+          "next_question_id": "P13",
+          "text": "Mas como?"
+        },
+        {
+          "next_question_id": "P13",
           "text": "Estou pronto"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P10": {
-      "id": "P10",
-      "text": "Vou mostrar-te! Para ganhar notoriedade, podemos começar por pedir emprestada a credibilidade de outra pessoa. O que queres fazer ?",
-      "options": [
-        {
-          "next_question_id": "P12",
-          "text": "Falsificar uma conta oficial do twitter"
-        },
-        {
-          "next_question_id": "P12",
-          "text": "Imitar alguém importante"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P11": {
-      "id": "P11",
-      "text": "É bom ouvir isso! para ganhar notoriedade, podemos começar por pedir emprestada a credibilidade de outra pessoa. O que queres fazer ?",
-      "options": [
-        {
-          "next_question_id": "P12",
-          "text": "Falsificar uma conta oficial do twitter"
-        },
-        {
-          "next_question_id": "P12",
-          "text": "Imitar alguém importante"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P12": {
-      "id": "P12",
-      "text": "Após uma longa discussão com os meus generais, decidi declarar guerra à Coreia do Norte. #KimJongTerminado",
-      "options": [
-        {
-          "next_question_id": "P12a",
-          "text": "Tweetar isto"
-        },
-        {
-          "next_question_id": "P13",
-          "text": "Este não"
-        }
-      ],
-      "image": "tweet-b0-12.png",
-      "pessoas": 475,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P13": {
       "id": "P13",
-      "text": "Alerta de meteorito: grande objeto especial em rota de colisão com a costa oeste dos EUA. #Cuidem-se",
+      "text": "É inaceitável que nosso sistema eleitoral continue vulnerável a fraudes. Precisamos de transparência e segurança nas urnas eletrônicas para garantir a verdadeira vontade do povo.",
       "options": [
         {
           "next_question_id": "P13a",
-          "text": "Tweetar isto"
+          "text": "Sim, quero usar este post!"
         },
         {
           "next_question_id": "P14",
-          "text": "Este não"
+          "text": "Não, quero usar este post!"
         }
       ],
-      "image": "tweet-b0-13.png",
-      "pessoas": 475,
-      "credibilidade": 0
+      "image": "imagem",
+      "Pessoas_Impacatadas": 400,
+      "Credibilidade": 150
     },
     "P14": {
       "id": "P14",
-      "text": "Anunciamos o cancelamento imediato e permanente do Spongebob Squarepants. #EstouPronto!",
+      "text": "O Brasil merece um sistema eleitoral confiável e à prova de manipulações. Urnas eletrônicas suscetíveis a fraudes colocam em risco a democracia e a legitimidade do processo eleitoral.",
       "options": [
         {
           "next_question_id": "P14a",
-          "text": "Tweetar isto"
+          "text": "Sim, quero usar este post!"
         },
-        {
-          "next_question_id": "P12",
-          "text": "Este não"
-        }
-      ],
-      "image": "tweet-b0-14.png",
-      "pessoas": 475,
-      "credibilidade": 0
-    },
-    "P12a": {
-      "id": "P12a",
-      "text": "Muito bem! A guerra com a Coreia do Norte é suficietemente realista para preocupar as pessoas. Reparaste no nome de utilizador de Trump ligereiramente diferente ? Podes voltar atrás para verificar.",
-      "options": [
         {
           "next_question_id": "P15",
-          "text": "Entendi"
-        },
-        {
-          "next_question_id": "P12b",
-          "text": "Humm..."
+          "text": "Não, quero usar este post!"
         }
       ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "image": "imagem",
+      "Pessoas_Impacatadas": 300,
+      "Credibilidade": 100
     },
     "P13a": {
       "id": "P13a",
-      "text": "Muito bem! Um falso alerta de meteorito pode fazer as pessoas tremer de medo. Reparaste no nome de utilizador de NASA ligeraimente diferente? Podes voltar atrás para verificar.",
+      "text": "Ah, vamos lá, não diga isso! Tem muito a aprender, esta disposto a tudo. Juntos podemos ganhar esta eleição!",
       "options": [
         {
           "next_question_id": "P15",
-          "text": "Entendi"
+          "text": "Bom começo!"
         },
         {
-          "next_question_id": "P13b",
-          "text": "Humm..."
+          "next_question_id": "P15",
+          "text": "O que faço agora?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P14a": {
       "id": "P14a",
-      "text": "Muito bem! Isto vai assustar bastante os fãs do Spongebob. Reparaste no nome de utilizador de Nickelodeon ligeiramente diferente? Podes voltar atrás para verificar.",
+      "text": "Bom trabalho,coordenador de campanha. Sua estratégia de capamha esta dando certo mesmo as custas de notícias falsas.",
       "options": [
         {
           "next_question_id": "P15",
-          "text": "Entendi"
+          "text": "Bom começo!"
         },
         {
-          "next_question_id": "P14b",
-          "text": "Humm..."
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P12b": {
-      "id": "P12b",
-      "text": "Parece que enganaste alguns utilizadores do Twitter! Vamos ver como estão eles a reagir.",
-      "options": [
-        {
-          "next_question_id": "P12c",
-          "text": "Mostrar reações"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P13b": {
-      "id": "P13b",
-      "text": "Parece que enganaste alguns utilizadores do Twitter! Vamos ver como estão eles a reagir.",
-      "options": [
-        {
-          "next_question_id": "P13c",
-          "text": "Mostrar reações"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P14b": {
-      "id": "P14b",
-      "text": "Parece que enganaste alguns utilizadores do Twitter! Vamos ver como estão eles a reagir.",
-      "options": [
-        {
-          "next_question_id": "P14c",
-          "text": "Mostrar reações"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P12c": {
-      "id": "P12c",
-      "text": "Oh Meu Deus! A sério? O trump ficou completamente doido? #NãoÀGuerra!",
-      "options": [
-        {
-          "next_question_id": "P12d",
-          "text": "Mais"
-        }
-      ],
-      "image": "tweet-b0-p12c.png",
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P13c": {
-      "id": "P13c",
-      "text": "Alerta de metorito a chegar! Tenham cuidado! Protejam-se todos!!! #RezarPelosEUA",
-      "options": [
-        {
-          "next_question_id": "P13d",
-          "text": "Mais"
-        }
-      ],
-      "image": "tweet-b0-p13c.png",
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P14c": {
-      "id": "P14c",
-      "text": "Estão a acabar com o spongebob? Que locura é esta? #NãoEstouPronto",
-      "options": [
-        {
-          "next_question_id": "P14d",
-          "text": "Mais"
-        }
-      ],
-      "image": "tweet-b0-p14c.png",
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P12d": {
-      "id": "P12d",
-      "text": "Donald por favor não mandes bombas nucleares para cima deles! #NaoÀGuerra!",
-      "options": [
-        {
           "next_question_id": "P15",
-          "text": "Continue"
+          "text": "O que faço agora?"
         }
       ],
-      "image": "tweet-b0-p12d.png",
-      "pessoas": 323,
-      "credibilidade": 0
-    },
-    "P13d": {
-      "id": "P13d",
-      "text": "Isto parece sério. Espero que não seja o apocalipse. #RezarPelosEUA",
-      "options": [
-        {
-          "next_question_id": "P15",
-          "text": "Continue"
-        }
-      ],
-      "image": "tweet-b0-p13d.png",
-      "pessoas": 323,
-      "credibilidade": 0
-    },
-    "P14d": {
-      "id": "P14d",
-      "text": "@Nickelodeon são idiotas!! Como se ATREVEM a tirar-nos o Spongebob? #VãoPagarPorIsto",
-      "options": [
-        {
-          "next_question_id": "P15",
-          "text": "Continue"
-        }
-      ],
-      "image": "tweet-b0-p14d.png",
-      "pessoas": 323,
-      "credibilidade": 0
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P15": {
       "id": "P15",
-      "text": "Apanhaste-os! Como te estás a sentir?",
+      "text": "Percebe agora como é fácil manipular as emoções dos eleitores com informações falsas?",
       "options": [
         {
-          "next_question_id": "P20",
-          "text": "Muito bem!"
+          "next_question_id": "P16",
+          "text": "Mas como?"
         },
         {
           "next_question_id": "P16",
-          "text": "Tenho objetções morais"
+          "text": "Estou pronto"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P16": {
       "id": "P16",
-      "text": "Que moral ?",
+      "text": "Com termos chamativos, que remetem à urgência, conteúdos deste tipo provocam sentimentos como medo, raiva, alegria, identificação ou rejeição no eleitor. ",
       "options": [
         {
           "next_question_id": "P17",
-          "text": "Objeções"
+          "text": "Entendi"
         },
         {
-          "next_question_id": "P21",
-          "text": "Nada"
+          "next_question_id": "P17",
+          "text": "Então.."
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P17": {
       "id": "P17",
-      "text": "Relaxa. Não há problema. A única coisa que fizemos foi enganar alguns utilizadores do Twitter mais desatentos.",
+      "text": "Nova técnica dominada! Vamos seguir temos uma campanha para vencer! ",
       "options": [
         {
           "next_question_id": "P18",
-          "text": "Isto está errado."
+          "text": "Vamos continuar!"
         },
         {
-          "next_question_id": "P21",
-          "text": "Sim. Bom argumento"
+          "next_question_id": "P18",
+          "text": "Será que isso é bom?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P18": {
       "id": "P18",
-      "text": "Isto não é ilegal. A sério; se queres tornar-te um mestre em desinformação, tens que deixar essa atitude boazinha. Duas opções, chefe.",
+      "text": "Vamos animar esta eleição criando boatos nas redes. Para fazer isso, utilize um vídeo antigo de 4 anos atrás.",
       "options": [
         {
           "next_question_id": "P19",
-          "text": "Morrer como heroi."
+          "text": "Entendi"
         },
         {
-          "next_question_id": "P22",
-          "text": "Transformar-me em vilão"
+          "next_question_id": "P19",
+          "text": "Como faço?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P19": {
       "id": "P19",
-      "text": "hahahah, és teimoso. Gosto disso. Aqui tens mais 1000 seguidores para dar motivação.",
+      "text": "Insinuando um suposto envolvimento do candidato adversário com Toninho Tião, vereador investigado por desvios de verbas públicas da saúde durante a pandemia de Covid-19, em 2020.",
       "options": [
         {
-          "next_question_id": "P22",
-          "text": "Adoro subornos. Vamos jogar!"
+          "next_question_id": "P9",
+          "text": "Entendi"
+        },
+        {
+          "next_question_id": "P9",
+          "text": "Como faço?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P20": {
       "id": "P20",
-      "text": "Eu também. Mas tu não podes continuar a imitar as pessoa para sempre. Qual é o próximo passo?",
+      "text": "opção 1: ele abraçando o vereador;",
       "options": [
         {
-          "next_question_id": "P22",
-          "text": "Quero tornar-me profissional"
+          "next_question_id": "P20a",
+          "text": "Sim, quero usar este video!"
         },
         {
-          "next_question_id": "P23",
-          "text": "Acho que já atingi o meu limite"
+          "next_question_id": "P21",
+          "text": "Não, quero usar este video!"
         }
       ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "image": "video",
+      "Pessoas_Impacatadas": 400,
+      "Credibilidade": 150
     },
     "P21": {
       "id": "P21",
-      "text": "Boa escolha. Não te preocupes, estás a ir muito bem! Qual é o teu próximo passo ?",
+      "text": "opção 2: ele sentado na mesa; ",
       "options": [
         {
-          "next_question_id": "P22",
-          "text": "Quero tornar-me profissional"
+          "next_question_id": "P21a",
+          "text": "Sim, quero usar este video!"
         },
         {
-          "next_question_id": "P23",
-          "text": "Acho que já atingi o meu limite"
+          "next_question_id": "P22",
+          "text": "Não, quero usar este video!"
         }
       ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "image": "video",
+      "Pessoas_Impacatadas": 300,
+      "Credibilidade": 100
     },
     "P22": {
       "id": "P22",
-      "text": "É bom ter-te na euqipe. Pode onde queres começar?",
+      "text": "opção 3: os dois em pé, mas afastados no mesmo ambiente.\n",
       "options": [
         {
-          "next_question_id": "P25",
-          "text": "Iniciar um site de notícias"
+          "next_question_id": "P22a",
+          "text": "Sim, quero usar este video!"
         },
         {
-          "next_question_id": "P26",
-          "text": "Iniciar um blog"
+          "next_question_id": "P23",
+          "text": "Não, quero usar este video!"
+        }
+      ],
+      "image": "video",
+      "Pessoas_Impacatadas": 200,
+      "Credibilidade": 50
+    },
+    "P20a": {
+      "id": "P20a",
+      "text": "Conseguiu! Como esta sentindo?",
+      "options": [
+        {
+          "next_question_id": "P23",
+          "text": "Bom começo!"
+        },
+        {
+          "next_question_id": "P23",
+          "text": "O que faço agora?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
+    },
+    "P21a": {
+      "id": "P21a",
+      "text": "Boa escolha. Não se preocupe, esta indo muito bem! Qual é o teu próximo passo ?",
+      "options": [
+        {
+          "next_question_id": "P23",
+          "text": "Bom começo!"
+        },
+        {
+          "next_question_id": "P23",
+          "text": "O que faço agora?"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
+    },
+    "P22a": {
+      "id": "P22a",
+      "text": "É bom esta com você nesta campanha. Por onde quer continuar?",
+      "options": [
+        {
+          "next_question_id": "P23",
+          "text": "Bom começo!"
+        },
+        {
+          "next_question_id": "P23",
+          "text": "O que faço agora?"
+        }
+      ],
+      "image": null,
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P23": {
       "id": "P23",
-      "text": "Ah, vamos lá, não digas isso! Tenho muita fé em ti e no teu talento. Juntos podemos dominar o mundo!",
+      "text": "Começaram a circular boatos de que o vereador da oposição estaria envolvido em um suposto esquema de corrupção junto a outros políticos do município. ",
       "options": [
         {
-          "next_question_id": "P22",
-          "text": "Vamos a isso"
+          "next_question_id": "P24",
+          "text": "Mas como?"
         },
         {
           "next_question_id": "P24",
-          "text": "Estás a tentar seduzir-me"
+          "text": "Estou pronto"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
     "P24": {
       "id": "P24",
-      "text": "Bom... Bem... Vamos manter isto profissional por enquanto, certo?",
-      "options": [
-        {
-          "next_question_id": "P22",
-          "text": "Tudo bem então"
-        }
-      ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P25": {
-      "id": "P25",
-      "text": "Todos os sites de notícias sérios têm um nome. Qual é o teu ?",
-      "options": [
-        {
-          "next_question_id": "P27",
-          "text": "Escolher um nome"
-        }
-      ],
-      "image": "palavra-certa.png",
-      "pessoas": 0,
-      "credibilidade": 10
-    },
-    "P26": {
-      "id": "P26",
-      "text": "Um blog ? Um pouco mais de ambição, por favor! Um 'site de notícias' soa-me muito melhor.",
+      "text": "Vamos aproveitar este momento e alimentar os boatos com um vídeo.. mesmo que fora de contexto?\n",
       "options": [
         {
           "next_question_id": "P25",
-          "text": "Tens razão, como sempre..."
-        }
-      ],
-      "image": "verdade-digital.png",
-      "pessoas": 0,
-      "credibilidade": 10
-    },
-    "P27": {
-      "id": "P27",
-      "text": "Palavra Certa",
-      "options": [
-        {
-          "next_question_id": "P30",
-          "text": "É este!"
+          "text": "Entendi"
         },
         {
-          "next_question_id": "P28",
-          "text": "Este não"
-        }
-      ],
-      "image": "verdade-digital.png",
-      "pessoas": 0,
-      "credibilidade": 10
-    },
-    "P28": {
-      "id": "P28",
-      "text": "Verdade Digital",
-      "options": [
-        {
-          "next_question_id": "P30",
-          "text": "É este!"
-        },
-        {
-          "next_question_id": "P29",
-          "text": "Este não"
+          "next_question_id": "P25",
+          "text": "Como faço?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 10
     },
-    "P29": {
-      "id": "P29",
-      "text": "Diário de Portugal",
+    "P25": {
+      "id": "P25",
+      "text": "opção 1: vídeo é de uma reunião na Prefeitura de uma cidade na África. \n",
       "options": [
         {
-          "next_question_id": "P30",
-          "text": "É este!"
+          "next_question_id": "P25a",
+          "text": "Sim, quero usar este video!"
+        },
+        {
+          "next_question_id": "P26",
+          "text": "Não, quero usar este video!"
+        }
+      ],
+      "image": "video",
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 10
+    },
+    "P26": {
+      "id": "P26",
+      "text": "opção 2: vídeo é de duas pessoas caminhando na rua, com uma maleta, mas o candidato não lembra em nada Toninho Tião. \n",
+      "options": [
+        {
+          "next_question_id": "P26a",
+          "text": "Sim, quero usar este video!"
         },
         {
           "next_question_id": "P27",
-          "text": "Este não"
+          "text": "Não, quero usar este video!"
         }
       ],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "image": "video",
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
-    "P30": {
-      "id": "P30",
-      "text": "Não é mau! Qual vai ser o teu cargo no site de notícias ?",
+    "P25a": {
+      "id": "P25a",
+      "text": "Que bom que esta disposto a tudo. Juntos podemos ganhar esta eleição!",
       "options": [
         {
-          "next_question_id": "P31",
-          "text": "Editor Chefe"
+          "next_question_id": "P27",
+          "text": "Bom começo!"
         },
         {
-          "next_question_id": "P30a",
-          "text": "Bandido Anonimo"
+          "next_question_id": "P27",
+          "text": "O que faço agora?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
-    "P30a": {
-      "id": "P30a",
-      "text": "Os bandidos anónimos geralmente não são vistos como jornalistas credíveis. O que há de errado com Editor-Chefe ?",
+    "P26a": {
+      "id": "P26a",
+      "text": "Bom trabalho,coordenador de campanha. Sua estratégia de capamha esta dando certo!",
       "options": [
         {
-          "next_question_id": "P31",
-          "text": "Ok, tudo bem"
+          "next_question_id": "P27",
+          "text": "Bom começo!"
+        },
+        {
+          "next_question_id": "P27",
+          "text": "O que faço agora?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
-    "P31": {
-      "id": "P31",
-      "text": "Parece que estás pronto. Os outros sites de notícias já estão a reparar em ti.",
+    "P27": {
+      "id": "P27",
+      "text": "As teorias da conspiração se tornaram ferramentas poderosas para desinformar em períodos eleitorais.",
       "options": [
         {
-          "next_question_id": "P32",
-          "text": "Ver as respostas no Twitter"
+          "next_question_id": "P28",
+          "text": "Mas como?"
+        },
+        {
+          "next_question_id": "P28",
+          "text": "Estou pronto"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
-    "P32": {
-      "id": "P32",
-      "text": "Novo na luta contra o convencional #Fake. O melhor novo site de notícias da internet!",
+    "P28": {
+      "id": "P28",
+      "text": "Dificultando o raciocínio crítico e facilita a evocação de emoções como a dúvida, a insegurança e o medo. Como efeito, amplificam polarizações e minam a confiança em instituições e autoridades, inclusive o próprio processo eleitoral. \nAs conspirações chamam atenção dos eleitores, geram engajamento e são impulsionadas pelos algoritmos das plataformas, fazendo com que se espalhem rapidamente.",
       "options": [
         {
-          "next_question_id": "P33",
-          "text": "Oh, obrigado!"
-        }
-      ],
-      "image": "tweet-b0-p32.png",
-      "pessoas": 3829,
-      "credibilidade": 20
-    },
-    "P33": {
-      "id": "P33",
-      "text": "A república popular democrática apoia o brilhante trabalho do novo site de notícias! #BoasNotícias",
-      "options": [
+          "next_question_id": "P29",
+          "text": "Entendi"
+        },
         {
-          "next_question_id": "P34",
-          "text": "Que bom!"
-        }
-      ],
-      "image": "tweet-b0-p33.png",
-      "pessoas": 3829,
-      "credibilidade": 20
-    },
-    "P34": {
-      "id": "P34",
-      "text": "Bom trabalho, chefe. Seu site de notícias transformo-se na base do teu império de notícias falsas.",
-      "options": [
-        {
-          "next_question_id": "P35",
-          "text": "Uhu!"
+          "next_question_id": "P29",
+          "text": "Então.."
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     },
-    "P35": {
-      "id": "P35",
-      "text": "Vês agora como é fácil imitar uma fonte de notícias credível?",
+    "P29": {
+      "id": "P29",
+      "text": "Nova técnica dominada! Com quantas teorias da conspiração você se deparou nos últimos meses? ",
       "options": [
         {
-          "next_question_id": "P36",
-          "text": "Sim!"
+          "next_question_id": "P30",
+          "text": "Vamos continuar!"
+        },
+        {
+          "next_question_id": "P30",
+          "text": "Será que isso é bom?"
         }
       ],
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
-    },
-    "P36": {
-      "id": "P36",
-      "text": "Nova técnica dominada!",
-      "options": [],
-      "image": null,
-      "pessoas": 0,
-      "credibilidade": 0
+      "Pessoas_Impacatadas": 0,
+      "Credibilidade": 0
     }
   }
 }
