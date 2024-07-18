@@ -3,8 +3,8 @@
     @click="share"
     href="#"
     class="share-button">
-    <img src="@/assets/images/share.svg" />
-    <span class="sr-only">Compartilhar</span>
+    <img class="share-button__icon" src="@/assets/images/share.svg" />
+    <span class="share-button__text">Compartilhar</span>
   </a>
 </template>
 

@@ -1,6 +1,26 @@
+@use '@styles/abstracts/mixings' as mixing;
+
 .share-button {
   width: 1.5rem;
   aspect-ratio: 1;
   overflow: hidden;
   cursor: pointer;
+  color: inherit;
+}
+
+.share-button__icon {
+  @include mixing.breakpoint('large') {
+    display: none;
+  }
+}
+
+.share-button__text {
+  @include mixing.sr-only;
+
+  @include mixing.breakpoint('large') {
+    width: auto;
+    height: auto;
+    clip: auto;
+    margin: 0;
+  }
 }
