@@ -4,6 +4,7 @@
   text-transform: uppercase;
   font-size: 1.4375rem;
   color: var(--color-text-light-yellow);
+  transition: color var(--home-transition);
 }
 
 .main-header__link {

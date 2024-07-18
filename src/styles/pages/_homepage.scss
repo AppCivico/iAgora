@@ -2,6 +2,42 @@
 
 body {
   background-color: var(--color-body-background);
+  transition: background-color var(--home-transition);
+}
+
+
+body:has(.start-quiz-button:hover) {
+  background-color: var(--color-yellow);
+
+  .main-header {
+    color: var(--color-red);
+  }
+
+  .homepage__logo-mask {
+    background-color: var(--color-red);
+  }
+
+  .homepage__logo figcaption {
+    color: var(--color-text-dark);
+  }
+
+  .how-to-play-button {
+    background-color: var(--color-white);
+    color: var(--color-text-dark);
+    border-color: var(--color-white--dark);
+  }
+
+  .homepage__description {
+    color: var(--color-text-dark);
+  }
+}
+
+.start-quiz-button,
+.how-to-play-button {
+  transition:
+    background-color var(--home-transition),
+    border-color var(--home-transition),
+    color var(--home-transition);
 }
 
 .homepage__logo {
@@ -10,11 +46,23 @@ body {
   gap: 0.5rem;
 }
 
+.homepage__logo-mask {
+  mask-image: url('@images/logo.svg');
+  width: 100%;
+  background-color: var(--color-yellow);
+  max-width: 600px;
+  mask-clip: unset;
+  mask-size: 100%;
+  aspect-ratio: 3.642;
+  transition: background-color var(--home-transition);
+}
+
 .homepage__logo figcaption {
   font-size: clamp(1.3125rem, 0.9178rem + 1.7068vw, 2.375rem);
   text-transform: uppercase;
   font-family: 'knicknackregular';
   color: var(--color-text-light-yellow);
+  transition: color var(--home-transition);
 }
 
 .home-content {
@@ -29,6 +77,7 @@ body {
 }
 
 .homepage__description {
+  transition: color var(--home-transition);
   @include mixing.breakpoint("large") {
     order: 2;
   }

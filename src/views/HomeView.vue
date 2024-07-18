@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="flex flex-column gap-80">
         <figure class="homepage__logo">
-          <img src="@/assets/images/logo.svg" />
+          <div class="homepage__logo-mask"></div>
           <figcaption>{{ $t("home.title") }}</figcaption>
         </figure>
         <p class="homepage__description">
@@ -11,7 +11,7 @@
         </p>
         <div class="homepage__buttons">
           <router-link
-            class="button button--primary"
+            class="button button--primary start-quiz-button"
             to="/quiz"
           >
             {{ $t("home.start") }}
@@ -21,7 +21,7 @@
             />
           </router-link>
           <router-link
-            class="button button--secondary"
+            class="button button--secondary how-to-play-button"
             to="/how-to-play">
             {{ $t("home.how-to-play") }}
           </router-link>
