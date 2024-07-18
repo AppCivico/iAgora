@@ -1,0 +1,17 @@
+@font-face {
+  font-family: 'knicknackregular';
+  src: url('@fonts/knicknack-regular-webfont.woff2') format('woff2'),
+    url('@fonts/knicknack-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: "Kodchasan", sans-serif;
+}
+
+p {
+  font-size: clamp(1rem, 0.7214rem + 1.2048vw, 1.75rem);
+  text-wrap: balance;
+}
+

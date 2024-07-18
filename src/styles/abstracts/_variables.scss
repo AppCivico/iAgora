@@ -1,0 +1,88 @@
+:root {
+  --color-red: #f05038;
+  --color-yellow: #ffc233;
+  --color-yellow--dark: oklch(from var(--color-yellow) calc(l - 0.07) c h);
+
+  --color-body-background: var(--color-red);
+
+  --color-blue: #2a60fe;
+  --color-blue--dark: oklch(from var(--color-blue) calc(l - 0.07) c h);
+
+  --color-beige: #cebb9b;
+
+  --color-primary: #f6be01;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray: #c5d1e2;
+  --color-light-blue: #cdedff;
+  --color-light-yellow: #fff5d2;
+  --color-light-gray: #f6f6f6;
+
+  --color-background-gray: #f6f6f6;
+
+  --color-backdrop: rgba(0, 0, 0, 0.3);
+
+  --color-text-light-yellow: #ffffcc;
+  --color-text-dark: #1e1b16;
+  --color-text-primary: #22232c;
+  --color-text-secondary: #435254;
+  --color-text-light: #8c9aae;
+  --color-text-link: #3a3ac5;
+
+  --color-feedback--warning: #9c7901;
+  --color-feedback--warning-background: #ffeab9;
+
+  --color-feedback--danger: #d81f47;
+  --color-feedback--danger-background: #fecfcf;
+
+  --color-feedback--success: #0e8544;
+  --color-feedback--success-background: #e0fddf;
+
+  --color-zebra-table-background: #f2f2f2;
+
+
+  // Toastify
+  --toastify-font-family: 'Poppins';
+}
+
+/// Spacers map
+/// @prop {String} keys - The helper spacer class final name, without the spacing value
+/// @prop {Map} values - Values are the properties who will receive the spacing value
+/// @requires $spacing
+$spacer-types: (
+  'gap': ('gap'),
+  'gap-vertical': ('row-gap'),
+  'gap-horizontal': ('column-gap'),
+
+  'margin': ('margin'),
+  'margin--horizontal': ('margin-left', 'margin-right'),
+  'margin--vertical': ('margin-top', 'margin-bottom'),
+  'margin-top': ('margin-top'),
+  'margin-right': ('margin-right'),
+  'margin-bottom': ('margin-bottom'),
+  'margin-left': ('margin-left'),
+
+  'padding': ('padding'),
+  'padding--vertical': ('padding-top', padding-bottom),
+  'padding--horizontal': ('padding-left', padding-right),
+  'padding-top': ('padding-top'),
+  'padding-right': ('padding-right'),
+  'padding-bottom': ('padding-bottom'),
+  'padding-left': ('padding-left'),
+);
+
+/// Spacers map
+/// @prop {Map} values - Values are actual space values expressed in pixels
+$spacing: (0 4 8 12 16 24 32 40 48 80 128 200); // px values
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'medium': (min-width: 480px),
+  'large': (min-width: 768px),
+  'x-large': (min-width: 1100px),
+  'huge': (min-width: 1280px),
+);
+

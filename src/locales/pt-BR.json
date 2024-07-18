@@ -1,0 +1,14 @@
+{
+  "main": {
+    "hello": "Olá mundo"
+  },
+  "home": {
+    "start": "Começar!",
+    "title": "O jogo das eleições 2024",
+    "how-to-play": "Como jogar",
+    "description": "Descubra as motivações por trás da criação e propagação de notícias falsas, compreenda os mecanismos psicológicos que as tornam convincentes e explore as técnicas utilizadas para manipular a opinião pública."
+  },
+  "links": {
+    "about": "Sobre"
+  }
+}

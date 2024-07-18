@@ -1,0 +1,11 @@
+/// Convert number to it's rem value with base 16
+/// @group helpers
+/// @param {Number} $value - value in px
+/// @return {String}
+@function px-to-rem($value) {
+  @if ($value == 0) {
+    @return 0;
+  }
+
+  @return calc($value / 16 * 1rem);
+}

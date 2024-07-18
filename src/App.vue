@@ -1,25 +1,24 @@
 <template>
-   <QuizQuestions></QuizQuestions>
+  <AppHeader v-if="$route.meta.hasHeader" />
+  <RouterView />
 </template>
 
 <script>
-import QuizQuestions from './components/QuizQuestions.vue'
+import { RouterView } from 'vue-router'
+import AppHeader from './components/AppHeader.vue'
 
 export default {
   name: 'App',
   components: {
-    QuizQuestions
+    AppHeader,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 </style>

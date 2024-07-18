@@ -30,7 +30,6 @@ function choseOption(id){
 }
 
 onMounted(()=>{
-  console.log('montou');
   selectedQuestions.value.push(quiz.questions['1'])
 })
   

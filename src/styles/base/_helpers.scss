@@ -1,0 +1,206 @@
+@use '@styles/abstracts/variables' as variables;
+@use '@styles/abstracts/functions' as func;
+@use '@styles/abstracts/mixings' as mixing;
+
+/**
+ *
+ * Position helpers
+ *
+ **/
+
+.relative {
+  position: relative;
+}
+
+/**
+ *
+ * Container query helpers
+ *
+ **/
+ .container-inline {
+  container-type: inline-size;
+}
+
+/**
+ *
+ * Flex helpers
+ *
+ **/
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.justify-content-end {
+  justify-content: end;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+/**
+ *
+ * Grid helpers
+ *
+ **/
+
+.grid {
+  display: grid;
+}
+
+.md-grid-1-1 {
+  @include mixing.breakpoint('medium') {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.lg-grid-1-1 {
+  @include mixing.breakpoint('large') {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.x-lg-grid-1-auto {
+  @include mixing.breakpoint('x-large') {
+    grid-template-columns: 1fr auto;
+  }
+}
+
+
+.lg-grid-1-1-1 {
+  @include mixing.breakpoint('large') {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.x-lg-grid-1-1-1 {
+  @include mixing.breakpoint('x-large') {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/**
+ *
+ * Text helpers
+ *
+ **/
+
+.text-center {
+  text-align: center;
+}
+
+.font-weight-700 {
+  font-weight: 700;
+}
+
+
+/**
+ *
+ * Margin helpers
+ *
+ **/
+
+.margin-inline-start-auto {
+  margin-inline-start: auto;
+}
+
+/**
+ *
+ * Wrapper
+ *
+ **/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: clamp(16rem, 90vw, 70rem);
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+/**
+ *
+ * Border-radius helpers
+ *
+ **/
+
+.border-radius-8 {
+  border-radius: 8px;
+}
+
+.border-radius-16 {
+  border-radius: 16px;
+}
+
+.border-radius-24 {
+  border-radius: 24px;
+}
+
+
+/**
+ *
+ * Color helpers
+ *
+ **/
+
+.text-color-text-primary {
+  color: var(--color-text-primary);
+}
+
+.text-danger {
+  color: var(--color-feedback--danger);
+}
+
+.text-success {
+  color: var(--color-feedback--success);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+/**
+ *
+ * Spacer helpers
+ *
+ **/
+/// Create all the spacing helper classes
+/// @group helpers
+@each $space in variables.$spacing {
+  @each $spacer-type, $props in variables.$spacer-types {
+    .#{$spacer-type}-#{$space} {
+      @each $prop in $props {
+        #{$prop}: func.px-to-rem($space);
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+@use "@styles/abstracts/mixings" as mixing;
+
+body {
+  background-color: var(--color-body-background);
+}
+
+.homepage__logo {
+  display: grid;
+  justify-items: center;
+  gap: 0.5rem;
+}
+
+.homepage__logo figcaption {
+  font-size: clamp(1.3125rem, 0.9178rem + 1.7068vw, 2.375rem);
+  text-transform: uppercase;
+  font-family: 'knicknackregular';
+  color: var(--color-text-light-yellow);
+}
+
+.home-content {
+  margin-block-start: auto;
+  padding-block-end: 2rem;
+  text-align: center;
+  color: var(--color-text-light-yellow);
+
+  @include mixing.breakpoint("large") {
+    margin-block-end: auto;
+  }
+}
+
+.homepage__description {
+  @include mixing.breakpoint("large") {
+    order: 2;
+  }
+}
+
+.homepage__buttons {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 45rem;
+  margin-inline: auto;
+
+  @include mixing.breakpoint("large") {
+    grid-template-columns: 1.5fr 1fr;
+  }
+}
+
+.homepage__brain-icon {
+  margin-block-start: -1.6rem;
+}
+

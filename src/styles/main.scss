@@ -1,0 +1,21 @@
+@charset 'UTF-8';
+
+// abstracts
+
+
+// vendors (any vendor import like bulma/bootstrap/plugins)
+
+
+// base (base styles like resets, typography)
+@use '@styles/base/reset';
+@use '@styles/base/typography';
+
+// components that are app wide
+@use '@styles/components/buttons';
+@use '@styles/components/share-button';
+@use '@styles/components/main-header';
+@use '@styles/components/locale-select';
+
+// generated class helpers should be
+// at the end so we don't need important
+@use '@styles/base/helpers';

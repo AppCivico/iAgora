@@ -1,0 +1,14 @@
+.locale-select {
+
+}
+
+.locale-select__select {
+  color: var(--color-text-lightyellow);
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+}
+
+.locale-select__select option {
+  color: var(--color-text-primary);
+}
