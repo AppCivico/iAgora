@@ -1,4 +1,20 @@
-.quiz-page {
+.quiz-page-body {
   background-image: url('@images/i-like-food.svg');
   background-blend-mode: soft-light;
+}
+
+.quiz-page__header {
+  position: sticky;
+  top: 0;
+  background-color: var(--color-beige);
+  padding: 1.5rem;
+  box-shadow: 0px 2px 6px #6b6a6729;
+}
+
+.quiz-page__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  min-height: 90vh;
 }

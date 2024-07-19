@@ -1,6 +1,11 @@
 <template>
-  <main class="home-content">
-    <QuizQuestions />   
+  <main class="quiz-page">
+    <header class="quiz-page__header">
+      0 pessoas impactadas - credibilidade
+    </header>
+    <div class="quiz-page__wrapper">
+      <QuizQuestions />   
+    </div>
   </main>
 </template>
 
@@ -10,11 +15,11 @@ import { onBeforeMount, onBeforeUnmount } from 'vue'
 
 function addPageStyles() {
   document.body.style.setProperty('--color-body-background', 'var(--color-beige)');
-  document.body.classList.add('quiz-page');
+  document.body.classList.add('quiz-page-body');
 }
 
 function removePageStyles() {
-  document.body.classList.remove('quiz-page');
+  document.body.classList.remove('quiz-page-body');
 }
 
 onBeforeMount(() => {
