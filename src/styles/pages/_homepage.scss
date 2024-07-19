@@ -1,10 +1,16 @@
 @use "@styles/abstracts/mixings" as mixing;
 
+// @todo
+// I'm not happy with those things here.
+// I'll be back to organize it later
+html {
+  background-color: var(--color-body-background);
+}
+
 body {
   background-color: var(--color-body-background);
   transition: background-color var(--home-transition);
 }
-
 
 body:has(.start-quiz-button:hover) {
   background-color: var(--color-yellow);
@@ -38,6 +44,7 @@ body:has(.start-quiz-button:hover) {
     background-color var(--home-transition),
     border-color var(--home-transition),
     color var(--home-transition);
+  box-shadow: 0 20px 45px oklch(0 0 0 / 0.28);
 }
 
 .homepage__logo {

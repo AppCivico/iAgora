@@ -6,6 +6,12 @@
   overflow: hidden;
   cursor: pointer;
   color: inherit;
+  text-decoration: none;
+
+  @include mixing.breakpoint('large') {
+    width: auto;
+    aspect-ratio: auto;
+  }
 }
 
 .share-button__icon {
@@ -18,6 +24,7 @@
   @include mixing.sr-only;
 
   @include mixing.breakpoint('large') {
+    position: relative;
     width: auto;
     height: auto;
     clip: auto;
