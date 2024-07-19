@@ -40,7 +40,6 @@ body:has(.start-quiz-button:hover) {
     background-color var(--home-transition),
     border-color var(--home-transition),
     color var(--home-transition);
-  box-shadow: 0 20px 45px oklch(0 0 0 / 0.28);
 }
 
 .homepage__logo {

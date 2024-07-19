@@ -11,37 +11,16 @@
   --color-beige: #f8f6eb;
 
   --home-transition: 0.5s ease-in-out;
+  --buttons-shadow: oklch(0 0 0 / 0.28);
 
-  --color-primary: #f6be01;
   --color-white: #ffffff;
   --color-white--dark: oklch(from var(--color-white) calc(l - 0.07) c h);
   --color-black: #000000;
-  --color-gray: #c5d1e2;
-  --color-light-blue: #cdedff;
-  --color-light-yellow: #fff5d2;
-  --color-light-gray: #f6f6f6;
 
-  --color-background-gray: #f6f6f6;
-
-  --color-backdrop: rgba(0, 0, 0, 0.3);
-
-  --color-text-light-yellow: #ffffcc;
   --color-text-dark: #3a3a38;
   --color-text-primary: #22232c;
-  --color-text-secondary: #435254;
+
   --color-text-light: #8c9aae;
-  --color-text-link: #3a3ac5;
-
-  --color-feedback--warning: #9c7901;
-  --color-feedback--warning-background: #ffeab9;
-
-  --color-feedback--danger: #d81f47;
-  --color-feedback--danger-background: #fecfcf;
-
-  --color-feedback--success: #0e8544;
-  --color-feedback--success-background: #e0fddf;
-
-  --color-zebra-table-background: #f2f2f2;
 }
 
 /// Spacers map
