@@ -1,7 +1,9 @@
 <template>
   <div class="impact">
     <h1 class="impact__number">{{ props.impactedPeople }}</h1>
-    <p class="impact__text">PESSOAS <br> IMPACTADAS</p>
+    <p class="impact__text">
+      {{ $t("quiz.number-of-people-impacted") }}
+    </p>
   </div>
 </template>
 
@@ -16,20 +18,32 @@ const props = defineProps({
 });
 </script>
 
-<style>
+<style lang="scss">
+@use '@styles/abstracts/mixings' as mixing;
+
 .impact {
-  font-family: 'Adobe Clean', sans-serif;
   text-align: center;
-  color: #6C757D;
   max-width: fit-content;
 }
 
 .impact__number {
-  font-size: 48px; 
-  color: #007BFF; 
+  font-family: knicknackregular, sans-serif;
+  font-size: 2.25rem; 
+
+  @include mixing.breakpoint('medium') {
+    font-size: 3rem; 
+  }
+
+  color: var(--color-blue); 
 }
 
 .impact__text {
-  font-size: 14px; 
+  font-size: 0.8rem; 
+  text-transform: uppercase;
+  width: min-content;
+
+  @include mixing.breakpoint('x-large') {
+    font-size: 1rem;
+  }
 }
 </style>

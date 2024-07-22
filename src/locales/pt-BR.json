@@ -1,6 +1,7 @@
 {
-  "main": {
-    "hello": "Olá mundo"
+  "quiz": {
+    "credibility": "Credibilidade",
+    "number-of-people-impacted": "Pessoas Impactadas"
   },
   "home": {
     "start": "Começar!",

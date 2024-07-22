@@ -1,0 +1,40 @@
+@use '@styles/abstracts/mixings' as mixing;
+
+.chat-layout {
+  width: 100%;
+  display: grid;
+  align-items: start;
+  grid-template-rows: auto 1fr auto;
+  max-block-size: 100vh;
+  max-block-size: 100dvb;
+
+  @include mixing.breakpoint('x-large') {
+    grid-template-rows: 1fr auto auto;
+  }
+}
+
+.chat-layout__header {
+  @include mixing.breakpoint('x-large') {
+    margin-top: -3rem;
+    order: 1;
+  }
+}
+
+.chat-layout__body {
+  // Make scroll stay at bottom
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+
+  block-size: 100%;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+}
+
+.chat-layout__footer {
+  @include mixing.breakpoint('x-large') {
+    z-index: 1;
+  }
+}
+

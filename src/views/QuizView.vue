@@ -1,8 +1,5 @@
 <template>
   <main class="quiz-page">
-    <header class="quiz-page__header">
-      0 pessoas impactadas - credibilidade
-    </header>
     <div class="quiz-page__wrapper">
       <QuizQuestions />   
     </div>

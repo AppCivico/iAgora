@@ -66,6 +66,10 @@
   display: grid;
 }
 
+.grid-1-1 {
+  grid-template-columns: 1fr 1fr;
+}
+
 .md-grid-1-1 {
   @include mixing.breakpoint('medium') {
     grid-template-columns: 1fr 1fr;
@@ -133,6 +137,10 @@
   width: clamp(16rem, 90vw, 70rem);
   margin-inline-start: auto;
   margin-inline-end: auto;
+}
+
+.wrapper--small {
+  max-inline-size: 42.5rem;
 }
 
 /**

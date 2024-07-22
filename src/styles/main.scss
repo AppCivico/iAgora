@@ -10,11 +10,14 @@
 @use '@styles/base/reset';
 @use '@styles/base/typography';
 
+// layout
+@use '@styles/layout/main-header';
+
 // components that are app wide
 @use '@styles/components/buttons';
 @use '@styles/components/share-button';
-@use '@styles/components/main-header';
 @use '@styles/components/locale-select';
+@use '@styles/components/chat-layout';
 
 // generated class helpers should be
 // at the end so we don't need important

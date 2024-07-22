@@ -1,3 +1,5 @@
+@use '@styles/abstracts/mixings' as mixing;
+
 .button {
   display: flex;
   flex-direction: row;
@@ -22,15 +24,25 @@
   opacity: 0.6;
 }
 
+.button--small {
+  font-size: 1.1rem;
+
+  @include mixing.breakpoint('x-large') {
+    font-size: 1.25rem;
+  }
+}
+
 .button--primary {
   color: var(--color-text-primary);
   background-color: var(--color-yellow);
   border-color: var(--color-yellow--dark);
 
-  &:hover {
-    color: var(--color-text-light-yellow);
-    background-color: var(--color-red);
-    border-color: var(--color-red);
+  @media (hover: hover) {
+    &:hover {
+      color: var(--color-text-light-yellow);
+      background-color: var(--color-red);
+      border-color: var(--color-red);
+    }
   }
 }
 
