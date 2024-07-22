@@ -61,9 +61,10 @@
 
 .credibily-meter__warning {
   position: absolute;
-  top: 70px;
-  left: 15px;
-  z-index: 3; 
+  top: 5%;
+  left: 0;
+  z-index: 3;
+  width: 25%;
   opacity: 0.9;
 }
 
