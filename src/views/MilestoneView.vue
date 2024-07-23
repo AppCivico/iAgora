@@ -7,23 +7,9 @@
           {{ $t("milestone.congratulations-text") }}
         </p>
       </header>
-      <!--
-        @todo
-        This will gonna be a component that receive those
-        text/images as props and translate them somehow
-      -->
-      <article class="milestone__content">
-        <img
-          class="milestone__icon"
-          src="@/assets/images/brain.svg"
-        />
-        <h1 class="milestone__title">
-          {{ $t("milestone.title") }}
-        </h1>
-        <p class="milestone__description">
-          {{ $t("milestone.description") }}
-        </p>
-      </article>
+      <MilestoneContent
+        milestone="personification"
+      />
       <footer class="milestone__footer">
         <router-link
           class="button button--tertiary"
@@ -38,6 +24,7 @@
 
 <script setup>
   import confetti from "https://cdn.skypack.dev/canvas-confetti";
+  import MilestoneContent from '@components/MileStoneContent.vue'
 
   document.body.style.setProperty('--color-body-background', 'var(--color-blue)');
 

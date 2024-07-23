@@ -12,9 +12,21 @@
   "milestone": {
     "congratulations": "Parabéns",
     "congratulations-text": "Nova técnica dominada",
-    "title": "Personificação",
-    "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor.",
     "continue": "Continuar"
+  },
+  "milestones": {
+    "personification": {
+      "title": "Personificação",
+      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
+    },
+    "emotion": {
+      "title": "Emoção",
+      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
+    },
+    "polarization": {
+      "title": "Polarização",
+      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
+    }
   },
   "links": {
     "about": "Sobre"
