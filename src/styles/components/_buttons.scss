@@ -57,3 +57,9 @@
     /* border-color: var(--color-red); */
   }
 }
+
+.button--tertiary {
+  color: var(--color-black);
+  background-color: var(--color-green);
+  border-color: var(--color-green--dark);
+}

@@ -1,0 +1,73 @@
+@use '@styles/abstracts/mixings' as mixing;
+
+.milestone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.5rem;
+  min-height: 100vh;
+  padding-top: 2.5rem;
+  text-align: center;
+  color: var(--color-white);
+}
+
+.milestone__header {
+  font-size: 1.5rem;
+
+  @include mixing.breakpoint('x-large') {
+    font-size: 1.75rem;
+  }
+}
+
+.milestone__header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: inherit;
+  color: var(--color-green);
+
+  &:before {
+    width: 2.5rem;
+    aspect-ratio: 1;
+    content: '';
+    background-image: url('@images/icon-medal.svg');
+  }
+}
+
+.milestone__header-description {
+  font-family: 'knicknackregular';
+  font-size: inherit;
+}
+
+.milestone__icon {
+  margin-inline: auto;
+}
+
+.milestone__title {
+  font-size: 2rem;
+  color: var(--color-green);
+  text-transform: uppercase;
+
+  @include mixing.breakpoint('x-large') {
+    font-size: 3.5rem;
+  }
+}
+
+.milestone__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.milestone__footer {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 0;
+  align-items: flex-end;
+  padding-block-end: 2rem;
+
+  @include mixing.breakpoint('x-large') {
+    align-items: flex-start;
+  }
+}

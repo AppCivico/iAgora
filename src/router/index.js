@@ -16,6 +16,11 @@ const router = createRouter({
       name: 'quiz',
       component: () => import('@views/QuizView.vue')
     },
+    {
+      path: '/milestone',
+      name: 'milestone',
+      component: () => import('@views/MilestoneView.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',

@@ -9,6 +9,13 @@
     "how-to-play": "Como jogar",
     "description": "Descubra as motivações por trás da criação e propagação de notícias falsas, compreenda os mecanismos psicológicos que as tornam convincentes e explore as técnicas utilizadas para manipular a opinião pública."
   },
+  "milestone": {
+    "congratulations": "Parabéns",
+    "congratulations-text": "Nova técnica dominada",
+    "title": "Personificação",
+    "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor.",
+    "continue": "Continuar"
+  },
   "links": {
     "about": "Sobre"
   }
