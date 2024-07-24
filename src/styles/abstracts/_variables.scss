@@ -5,6 +5,7 @@
 
   --color-green: #ccff33;
   --color-green--dark: oklch(from var(--color-green) calc(l - 0.07) c h);
+  --color-green--shadow: oklch(from var(--color-green) l c h / 0.5);
 
   --color-body-background: var(--color-red);
 
@@ -52,6 +53,15 @@ $spacer-types: (
   'padding-right': ('padding-right'),
   'padding-bottom': ('padding-bottom'),
   'padding-left': ('padding-left'),
+);
+
+/// Spacers map
+/// @prop {String} keys - The technique name
+$techniques: (
+  'personification'
+  'emotion'
+  'polarization'
+  'conspiration'
 );
 
 /// Spacers map

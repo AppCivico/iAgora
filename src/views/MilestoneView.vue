@@ -11,22 +11,52 @@
         milestone="personification"
       />
       <footer class="milestone__footer">
-        <router-link
+        <button
+          @click="showDialog"
           class="button button--tertiary"
           to="/quiz"
         >
           {{ $t("milestone.continue") }}
-        </router-link>
+        </button>
       </footer>
     </div>
+    <Dialog
+      :open="dialogIsOpen"
+      :title="$t('milestone.learned')"
+      :header-icon="DialogIcon"
+    >
+      <template #body>
+        <div class="wrapper">
+          <ul class="learned-techniques">
+            <Technique 
+              v-for="(milestone, index) in $i18n.messages[$i18n.locale].milestones"
+              :key="index"
+              :learned="true"
+              :name="index"
+              :technique="milestone"
+            />
+          </ul>
+        </div>
+      </template>
+    </Dialog>
   </main>
 </template>
 
 <script setup>
+  import { ref } from "vue";
   import confetti from "https://cdn.skypack.dev/canvas-confetti";
-  import MilestoneContent from '@components/MileStoneContent.vue'
+  import MilestoneContent from "@components/MileStoneContent.vue"
+  import Technique from "@components/Technique.vue"
+  import Dialog from "@components/Dialog.vue"
+  import DialogIcon from "@/assets/images/brain.svg"
 
   document.body.style.setProperty('--color-body-background', 'var(--color-blue)');
+
+  const dialogIsOpen = ref(false);
+
+  function showDialog() {
+    dialogIsOpen.value = true;
+  }
 
   confetti({
     particleCount: 250,

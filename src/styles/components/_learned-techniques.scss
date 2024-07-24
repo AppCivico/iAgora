@@ -1,0 +1,66 @@
+@use '@styles/abstracts/variables' as variables;
+@use '@styles/abstracts/mixings' as mixing;
+
+.learned-techniques {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+
+  @include mixing.breakpoint('x-large') {
+    gap: 4rem;
+  }
+}
+
+.learned-techniques__technique {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 0;
+  color: var(--color-green);
+
+  &:not(.learned-techniques__technique--learned) {
+    list-style: none;
+    filter: grayscale(1);
+    opacity: 0.5;
+  }
+}
+
+.learned-techniques__title {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+  @include mixing.breakpoint('x-large') {
+    font-size: 1.5rem;
+  }
+
+  &:before {
+    content: "";
+    width: 80px;
+    aspect-ratio: 1;
+    border-block-end: 5px solid var(--color-green--dark);
+    background-color: var(--color-green);
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px 0px var(--color-green--shadow);
+
+    @include mixing.breakpoint('x-large') {
+      width: 8rem;
+      background-size: 80%;
+    }
+  }
+}
+
+@each $technique in variables.$techniques {
+  .learned-techniques__technique--#{$technique} .learned-techniques__title {
+    &:before {
+      background-image: url('@images/techniques-icons/#{$technique}.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
