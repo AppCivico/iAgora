@@ -1,6 +1,7 @@
 .quiz-page-body {
-  background-image: url('@images/i-like-food.svg');
-  background-blend-mode: soft-light;
+  // @todo replace the multiple image workaround
+  // with a background-image with transparency
+  background-image: linear-gradient(to right, rgba(255,255,255, 0.7) 0 100%), url('@images/chat-bg.svg');
 }
 
 .quiz-page__header {
