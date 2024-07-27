@@ -1,9 +1,14 @@
 <template>
   <div class="credibily-meter">
     <div class="credibily-meter__arch">
-      <ArchMeter></ArchMeter>
+      <ArchMeter
+        :arch-lower-color="props.archLowerColor"
+        :arch-upper-color="props.archUpperColor"
+      ></ArchMeter>
       <div class="credibily-meter__pointer" :style="{ transform: `rotate(${props.pointerPosition}deg)` }">
-        <MeterPointer></MeterPointer>
+        <MeterPointer
+          :pointer-color="props.pointerColor"
+        ></MeterPointer>
       </div>
     </div>
     <div class="credibily-meter__warning" v-if="showWarning">
@@ -29,7 +34,13 @@
     showWarning: {
       type: Boolean,
       required: true
-    }
+    },
+    archLowerColor: {
+      type: String,
+    },
+    archUpperColor: {
+      type: String,
+    },
   });
 </script>
 

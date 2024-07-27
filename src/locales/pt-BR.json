@@ -29,6 +29,17 @@
       "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
     }
   },
+  "congratulations": {
+    "congratulations": "Muito bom! Seu resultado final:",
+    "review": "Confira tudo o que você aprendeu com o IAgora?",
+    "play-again": "Jogar novamente",
+    "share": "Desafiar um(a) amigo(a)"
+  },
+  "newsletter": {
+    "title": "Quer uma dose de reforço?",
+    "placeholder": "Seu e-mail",
+    "button": "Enviar"
+  },
   "links": {
     "about": "Sobre"
   },

@@ -21,6 +21,11 @@ const router = createRouter({
       name: 'milestone',
       component: () => import('@views/MilestoneView.vue'),
     },
+    {
+      path: '/congratulations',
+      name: 'congratulations',
+      component: () => import('@views/CongratulationsView.vue'),
+    },
     // {
     //   path: '/about',
     //   name: 'about',

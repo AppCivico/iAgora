@@ -1,0 +1,26 @@
+@use "@styles/abstracts/mixings" as mixing;
+
+.congratulations-content {
+  margin-block-start: 3rem;
+  text-align: center;
+
+  @include mixing.breakpoint("large") {
+    margin-block-start: 4rem;
+  }
+}
+
+.congratulations-content__score {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  gap: 3rem;
+  color: var(--color-text-light-yellow);
+
+  @include mixing.breakpoint("large") {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.congratulations__brain-icon {
+  width: 7rem;
+}
