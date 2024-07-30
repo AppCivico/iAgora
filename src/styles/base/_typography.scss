@@ -15,3 +15,12 @@ p {
   text-wrap: balance;
 }
 
+.title {
+  font-family: 'knicknackregular';
+  color: var(--color-red);
+  font-size: clamp(1.4375rem, 1.1292rem + 1.3333vw, 2.0625rem);
+}
+
+.title--blue {
+  color: var(--color-blue);
+}

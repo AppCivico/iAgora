@@ -1,0 +1,82 @@
+@use '@styles/abstracts/variables' as variables;
+@use '@styles/abstracts/mixings' as mixing;
+
+.review {
+  display: grid;
+  gap: 2rem;
+  text-align: left;
+}
+
+.review__item {
+  display: grid;
+  padding: 1.5rem;
+  border-radius: 28px;
+  background-color: var(--color-white);
+}
+
+.review__title {
+  display: flex;
+  gap: 2rem;
+  margin-block-end: 1.5rem;
+  font-size: clamp(1.125rem, 0.94rem + 0.8vw, 1.5rem);
+  text-transform: uppercase;
+  align-items: flex-end;
+  font-weight: bold;
+  color: var(--color-blue);
+
+  @include mixing.breakpoint('x-large') {
+    margin-block-end: 2.5rem;
+  }
+
+  &:before {
+    content: "";
+    width: 5rem;
+    aspect-ratio: 1;
+    border-block-end: 5px solid var(--color-green--dark);
+    background-color: var(--color-green);
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px 0px var(--color-green--shadow);
+
+    @include mixing.breakpoint('x-large') {
+      width: 8rem;
+      background-size: 80%;
+    }
+  }
+
+  &::after {
+    content: "";
+    width: 3rem;
+    aspect-ratio: 1;
+    background-image: url('@images/chevron-down.svg');
+    background-size: contain;
+    margin-inline-start: auto;
+    transition: transform 0.5s;
+  }
+}
+
+@each $technique in variables.$techniques {
+  .review__item--#{$technique} .review__title {
+    &:before {
+      background-image: url('@images/techniques-icons/#{$technique}.svg');
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+}
+
+.review__description {
+  overflow: hidden;
+  height: 0;
+  translate: -1rem;
+  transition: translate 0.5s;
+}
+
+.review__item[open] .review__description {
+  height: auto;
+  height: calc(auto);
+  translate: 0;
+}
+
+.review__item[open] .review__title::after {
+  transform: rotate(180deg);
+}

@@ -14,7 +14,10 @@
     <div class="credibily-meter__warning" v-if="showWarning">
       <MeterWarning></MeterWarning>
     </div>
-    <div class="credibily-meter__label">
+    <div
+      class="credibily-meter__label"
+      :class="{ 'credibily-meter__label--big': props.bigLabel }"
+    >
       {{ $t("quiz.credibility") }}
     </div>
   </div>
@@ -41,6 +44,9 @@
     archUpperColor: {
       type: String,
     },
+    bigLabel: {
+      type: Boolean,
+    },
   });
 </script>
 
@@ -49,7 +55,7 @@
 
 .credibily-meter {
   position: relative; /* Necessário para os filhos com posição absoluta */
-  width: 8rem; /* Ajuste conforme necessário */
+  width: min-content; /* Ajuste conforme necessário */
   height: fit-content; /* Ajuste conforme necessário */
   text-align: center;
   text-transform: uppercase;
@@ -80,11 +86,22 @@
 }
 
 .credibily-meter__label {
+  --label-font-size: 0.8rem;
+
   margin-top: 0.5rem;
-  font-size: 0.8rem;
+  font-size: var(--label-font-size);
 
   @include mixing.breakpoint('medium') {
-    font-size: 1rem;
+    --label-font-size: 1rem;
   }
 }
+
+.credibily-meter__label--big {
+  --label-font-size: 1.125rem;
+
+  @include mixing.breakpoint('medium') {
+    --label-font-size: 1.25rem;
+  }
+}
+
 </style>

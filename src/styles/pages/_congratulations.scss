@@ -18,9 +18,14 @@
 
   @include mixing.breakpoint("large") {
     grid-template-columns: 1fr 1fr 1fr;
+    align-items: end;
   }
 }
 
 .congratulations__brain-icon {
   width: 7rem;
+
+  @include mixing.breakpoint("large") {
+    width: 12rem;
+  }
 }
