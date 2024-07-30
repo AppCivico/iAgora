@@ -8,7 +8,7 @@
         </p>
       </header>
       <MilestoneContent
-        milestone="personification"
+        :milestone="$route.params.name"
       />
       <footer class="milestone__footer">
         <button
