@@ -8,10 +8,7 @@
         </figure>
 
         <div class="congratulations-content__score">
-          <ImpactedPeople
-            theme="large"
-            :impacted-people="100"
-          />
+          <ImpactedPeople theme="large" />
 
           <img class="congratulations__brain-icon" src="@/assets/images/brain.svg" />
 

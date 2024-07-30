@@ -4,11 +4,8 @@
       <header class="quiz-page__header">
         <div class="wrapper">
           <div class="quiz-page__header-content">
-            <ImpactedPeople
-              :impacted-people="impactedPeopleCount"
-            />
+            <ImpactedPeople />
             <CredibilityMeter
-              :pointer-position="pointerPositionValue"
               :show-warning="false"
             />
           </div>
@@ -43,7 +40,7 @@
             <button
               class="button button--primary button--small"
               type="button"
-              @click="choseOption(option.next_question_id)"
+              @click="choseOption(option)"
             >
               {{option.text }}
             </button>
@@ -56,11 +53,17 @@
 
 <script setup>
 import quiz from "../data/teste.json"
-import { ref, onMounted, computed } from "vue";
+import { ref, onMounted, computed, watch } from "vue";
+import { useImpactedPeopleStore } from '@/stores/impactedPeople';
+import { useCredibilityStore } from '@/stores/credibility';
+import { useRouter } from 'vue-router';
 import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
 import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
 
-const selectedQuestions = ref([])
+const router = useRouter();
+const impactedPeopleStore = useImpactedPeopleStore();
+const credibilityStore = useCredibilityStore();
+const selectedQuestions = ref([]);
 
 const currentQuestionObject = computed(()=>{
   return selectedQuestions.value[selectedQuestions.value.length-1]
@@ -70,20 +73,24 @@ const currentQuestion = computed(()=>{
   return selectedQuestions.value[selectedQuestions.value.length-1]?.options
 })
 
-const impactedPeopleCount = computed(()=>{
-  return selectedQuestions.value.reduce((sum, question) => {
-    return sum + (question.Pessoas_Impacatadas || 0);
-  }, 0);
-})
+watch(currentQuestionObject, async (question) => {
+  const impactedPeopleNumber = Number(question.pessoas_impactadas);
+  const credibility = Number(currentQuestionObject.value.credibilidade);
 
-const pointerPositionValue = computed(()=>{
-  if (currentQuestionObject.value) {
-    console.log(currentQuestionObject.value);
-    return currentQuestionObject.value.Credibilidade || 0;
+  if (impactedPeopleNumber) {
+    impactedPeopleStore.updateCount(impactedPeopleNumber);
   }
-})
 
-function choseOption(id){
+  if (credibility) {
+    credibilityStore.updateCredibility(credibility);
+  }
+});
+
+async function choseOption(option){
+  const id = option.next_question_id
+  if (option.finish) {
+    await router.push({ name: 'milestone', params: { name: option.finish } })
+  }
   selectedQuestions.value.push(quiz.questions[id])
 }
 

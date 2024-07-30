@@ -3,7 +3,9 @@
     class="impact"
     :class="props.theme ? `impact--${props.theme}` : ''"
   >
-    <h1 class="impact__number">{{ props.impactedPeople }}</h1>
+    <h1 class="impact__number">
+      {{ impactedPeopleStore.count }}
+    </h1>
     <p class="impact__text">
       {{ $t("quiz.number-of-people-impacted") }}
     </p>
@@ -11,13 +13,11 @@
 </template>
 
 <script setup>
+import { useImpactedPeopleStore } from '@/stores/impactedPeople'
 import { defineProps } from 'vue';
+const impactedPeopleStore = useImpactedPeopleStore();
 
 const props = defineProps({
-  impactedPeople: {
-    type: Number,
-    required: true
-  },
   theme: {
     type: String,
     default: ""
@@ -29,7 +29,7 @@ const props = defineProps({
 @use '@styles/abstracts/mixings' as mixing;
 
 .impact {
-  --number-color: var(--color-red--dark);
+  --number-color: var(--color-blue);
   --font-size-small-screen: 2.25rem;
   --font-size-big-screen: 3rem;
   --impact-text-width: min-content;

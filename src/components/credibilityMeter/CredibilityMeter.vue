@@ -5,13 +5,13 @@
         :arch-lower-color="props.archLowerColor"
         :arch-upper-color="props.archUpperColor"
       ></ArchMeter>
-      <div class="credibily-meter__pointer" :style="{ transform: `rotate(${props.pointerPosition}deg)` }">
+      <div class="credibily-meter__pointer" :style="{ transform: `rotate(${credibilityStore.credibility}deg)` }">
         <MeterPointer
           :pointer-color="props.pointerColor"
         ></MeterPointer>
       </div>
     </div>
-    <div class="credibily-meter__warning" v-if="showWarning">
+    <div class="credibily-meter__warning" v-if="credibilityStore.showWarning">
       <MeterWarning></MeterWarning>
     </div>
     <div
@@ -24,20 +24,15 @@
 </template>
 
 <script setup>
+  import { useCredibilityStore } from '@/stores/credibility'
   import { defineProps } from 'vue';
   import ArchMeter from '../assets/ArchMeter.vue';
   import MeterPointer from '../assets/MeterPointer.vue';
   import MeterWarning from '../assets/MeterWarning.vue';
 
+  const credibilityStore = useCredibilityStore();
+
   const props = defineProps({
-    pointerPosition: {
-      type: Number,
-      default: 0
-    },
-    showWarning: {
-      type: Boolean,
-      required: true
-    },
     archLowerColor: {
       type: String,
     },
