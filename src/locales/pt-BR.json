@@ -27,6 +27,18 @@
     "polarization": {
       "title": "Polarização",
       "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
+    },
+    "conspiration": {
+      "title": "Conspiração",
+      "description": "Texto de conspiração"
+    },
+    "defamation": {
+      "title": "Difamação",
+      "description": "Texto de difamação"
+    },
+    "trolling": {
+      "title": "Trolagem",
+      "description": "Texto de trolagem"
     }
   },
   "congratulations": {

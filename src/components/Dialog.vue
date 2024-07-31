@@ -44,7 +44,7 @@ const dialog = ref(null);
 const openValue = ref(props.open);
 
 onMounted(() => {
-  dialog.value.showModal();
+  // dialog.value.showModal();
 })
 
 watch(() => props.open, (newValue, oldValue) => {

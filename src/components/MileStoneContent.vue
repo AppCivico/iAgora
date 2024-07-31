@@ -1,9 +1,11 @@
 <template>
-  <article class="milestone__content">
-    <img
-      class="milestone__icon"
-      src="@/assets/images/brain.svg"
-    />
+  <article :class="`milestone__content milestone__content--${props.milestone}`">
+    <div class="milestone__icon">
+      <img
+        class="milestone__icon-image"
+        src="@/assets/images/brain-reading.svg"
+      />
+    </div>
     <h1 class="milestone__title">
       {{ $t(`milestones.${props.milestone}.title`) }}
     </h1>
