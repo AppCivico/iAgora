@@ -29,10 +29,10 @@
         <div class="wrapper">
           <ul class="learned-techniques">
             <Technique 
-              v-for="(milestone, index) in $i18n.messages[$i18n.locale].milestones"
+              v-for="(milestone, name, index) in milestones"
               :key="index"
-              :learned="true"
-              :name="index"
+              :learned="milestone.learned"
+              :name="name"
               :technique="milestone"
             />
           </ul>
@@ -43,12 +43,30 @@
 </template>
 
 <script setup>
-  import { ref } from "vue";
+  import { ref, computed } from "vue";
+  import { useI18n } from 'vue-i18n';
+  import { useRoute } from 'vue-router';
   import confetti from "https://cdn.skypack.dev/canvas-confetti";
   import MilestoneContent from "@components/MileStoneContent.vue"
   import Technique from "@components/Technique.vue"
   import Dialog from "@components/Dialog.vue"
   import DialogIcon from "@/assets/images/brain.svg"
+
+
+  //@todo maybe find a better way of doing this
+  const route = useRoute();
+  const { locale, messages } = useI18n();
+
+  const milestones = messages.value[locale.value].milestones;
+  let learnedControl = true;
+
+  for (const [key, value] of Object.entries(milestones)) {
+    milestones[key].learned = learnedControl;
+
+    if (route.params.name === key) {
+      learnedControl = false;
+    }
+  }
 
   document.body.style.setProperty('--color-body-background', 'var(--color-blue)');
 

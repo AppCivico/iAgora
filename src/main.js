@@ -10,6 +10,8 @@ import ptBR from '@/locales/pt-BR.json';
 import en from '@/locales/en.json';
 
 const i18n = createI18n({
+  legacy: false,
+  globalInjection: true,
   locale: "ptBR",
   fallbackLocale: "en",
   messages: { ptBR, en },

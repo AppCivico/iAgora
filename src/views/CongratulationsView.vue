@@ -76,7 +76,7 @@
         </h4>
         <article class="review">
           <details
-            v-for="(milestone, name, index) in $i18n.messages[$i18n.locale].milestones"
+            v-for="(milestone, name, index) in milestones"
             :key="name"
             :open="index === 0"
             class="review__item"
@@ -96,9 +96,14 @@
 <script setup>
   import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
   import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
+  import { useI18n } from 'vue-i18n';
   import confetti from "https://cdn.skypack.dev/canvas-confetti";
 
   document.body.style.setProperty('--color-body-background', 'var(--color-red)');
+
+  const { locale, messages } = useI18n();
+
+  const milestones = messages.value[locale.value].milestones;
 
   confetti({
     particleCount: 250,

@@ -1,7 +1,8 @@
 <template>
   <li
     class="learned-techniques__technique"
-    :class="`learned-techniques__technique--${props.name}`, { 'learned-techniques__technique--learned': props.learned }"
+    :class="`learned-techniques__technique--${props.name}`,
+    { 'learned-techniques__technique--learned': props.learned }"
   >
     <p class="learned-techniques__title">
       {{ props.technique.title }}

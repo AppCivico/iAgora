@@ -19,12 +19,13 @@
   align-items: center;
   padding: 0;
   color: var(--color-green);
+  filter: grayscale(1);
+  opacity: 0.5;
+}
 
-  &:not(.learned-techniques__technique--learned) {
-    list-style: none;
-    filter: grayscale(1);
-    opacity: 0.5;
-  }
+.learned-techniques__technique--learned {
+  filter: grayscale(0);
+  opacity: 1;
 }
 
 .learned-techniques__title {
