@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495.924" height="331.424" viewBox="0 0 495.924 331.424">
-  <g id="bg-pattern" transform="translate(0.239 0.171)">
+  <g id="bg-pattern" transform="translate(0.239 0.171)" opacity="0.25">
     <path id="Path_18391" data-name="Path 18391" d="M71.788,108.582c-1.907-4.576-7.71-5.3-11.456-2.988-2.316-3.747-7.831-5.689-11.583-2.451-5.181,4.473-1.854,14.782,7,21.853,11.084-2.364,18.67-10.1,16.037-16.414" transform="translate(-10.158 -22.274)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-width="1"/>
     <path id="Path_18392" data-name="Path 18392" d="M74.448,109.373c-1.907-4.576-7.71-5.3-11.456-2.988l-4.58,19.4c11.084-2.364,18.67-10.1,16.037-16.414" transform="translate(-12.818 -23.064)" fill="#ecebe9" stroke="rgba(0,0,0,0)" stroke-width="1"/>
     <path id="Path_18393" data-name="Path 18393" d="M71.788,108.582c-1.907-4.576-7.71-5.3-11.456-2.988-2.316-3.747-7.831-5.689-11.583-2.451-5.181,4.473-1.854,14.782,7,21.853C66.835,122.633,74.421,114.9,71.788,108.582Z" transform="translate(-10.158 -22.274)" fill="none" stroke="#cebb9b" stroke-width="1.419"/>
