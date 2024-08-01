@@ -23,9 +23,8 @@
 .chat-layout__body {
   // Make scroll stay at bottom
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   align-items: center;
-  justify-content: flex-end;
 
   block-size: 100%;
   overflow-y: auto;
