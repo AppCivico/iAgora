@@ -8,8 +8,18 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      props: { default: true, sidebar: false },
       meta: { hasHeader: true },
+    },
+    {
+      path: '/about',
+      name: 'about',
+      meta: { hasHeader: true },
+      component: () => import('@views/AboutView.vue')
+    },
+    {
+      path: '/how-to-play',
+      name: 'how-to-play',
+      component: () => import('@views/HowToPlayView.vue'),
     },
     {
       path: '/quiz',

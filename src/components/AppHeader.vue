@@ -10,7 +10,8 @@
       <nav class="main-header__nav">
         <RouterLink
           class="main-header__link"
-          to="/about">
+          :to="{ name: 'about' }"
+        >
           {{ $t("links.about") }}
         </RouterLink>
       </nav>

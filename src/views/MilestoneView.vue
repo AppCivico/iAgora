@@ -14,7 +14,6 @@
         <button
           @click="showDialog"
           class="button button--tertiary"
-          to="/quiz"
         >
           {{ $t("milestone.continue") }}
         </button>

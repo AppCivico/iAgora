@@ -22,7 +22,8 @@
           </button>
           <router-link
             class="button button--secondary how-to-play-button"
-            to="/how-to-play">
+            :to="{ name: 'how-to-play' }"
+          >
             {{ $t("home.how-to-play") }}
           </router-link>
         </div>
