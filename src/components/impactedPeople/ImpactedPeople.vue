@@ -52,12 +52,11 @@ const props = defineProps({
 .impact__number {
   font-family: knicknackregular, sans-serif;
   font-size: var(--font-size-small-screen); 
+  color: var(--number-color); 
 
   @include mixing.breakpoint('medium') {
     font-size: var(--font-size-big-screen); 
   }
-
-  color: var(--number-color); 
 }
 
 .impact__text {
