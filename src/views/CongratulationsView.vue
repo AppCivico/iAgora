@@ -25,8 +25,8 @@
 
         <div class="flex gap-32 justify-content-center flex-wrap">
           <router-link
+            :to="{ name: 'home'}"
             class="button button--primary"
-            to="/quiz"
           >
             {{ $t("congratulations.play-again") }}
           </router-link>

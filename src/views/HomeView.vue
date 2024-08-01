@@ -10,16 +10,16 @@
           {{ $t("home.description") }}
         </p>
         <div class="homepage__buttons">
-          <router-link
+          <button
+            @click="onStartQuiz"
             class="button button--primary start-quiz-button"
-            to="/quiz"
           >
             {{ $t("home.start") }}
             <img
               class="homepage__brain-icon"
               src="@/assets/images/brain.svg"
             />
-          </router-link>
+          </button>
           <router-link
             class="button button--secondary how-to-play-button"
             to="/how-to-play">
@@ -32,6 +32,22 @@
 </template>
 
 <script setup>
+  import { useRouter } from 'vue-router';
+  import { useImpactedPeopleStore } from '@/stores/impactedPeople';
+  import { useCredibilityStore } from '@/stores/credibility';
+
+  const impactedPeopleStore = useImpactedPeopleStore();
+  const credibilityStore = useCredibilityStore();
+  const router = useRouter();
+
+  function onStartQuiz() {
+    // Reset counts on start
+    impactedPeopleStore.updateCount(0);
+    credibilityStore.resetCredibility();
+
+    router.push({ name: 'quiz' });
+  }
+
   document.body.style.setProperty('--color-body-background', 'var(--color-red)');
 </script>
 
