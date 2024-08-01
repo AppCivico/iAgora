@@ -21,7 +21,30 @@
               v-for="question in selectedQuestions"
               :key="question.id"
             >
-              {{ question.text }}
+              <template v-if="question.media">
+                <img
+                  class="questions__media questions__media--image"
+                  v-if="question.media.type === 'image'"
+                  :src="question.media.src"
+                  :alt="question.media.alt_text"
+                >
+                <audio
+                  v-else-if="question.media.type === 'audio'"
+                  class="questions__media questions__media--audio"
+                  :src="question.media.src"
+                  controls
+                > 
+                </audio>
+                <video
+                  v-else-if="question.media.type === 'video'"
+                  class="questions__media questions__media--video"
+                  :src="question.media.src"
+                  controls
+                />
+              </template>
+              <p class="questions__text">
+                {{ question.text }}
+              </p>
             </li>
           </TransitionGroup>
         </ul>
@@ -110,6 +133,8 @@ onMounted(()=>{
   }
 
   .questions__question {
+    display: grid;
+    gap: 1rem;
     padding: 1.25rem;
     background-color: var(--color-white);
     color: var(--color-text-light);
@@ -120,6 +145,15 @@ onMounted(()=>{
   .questions li:last-child {
     color: var(--color-text);
     opacity: 1;
+  }
+
+  .questions__media {
+    margin-inline: auto;
+    border-radius: 10px;
+  }
+
+  .questions__media--audio {
+    width: 100%;
   }
 
   .chat-bubbles-enter-active,
