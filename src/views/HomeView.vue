@@ -36,15 +36,18 @@
   import { useRouter } from 'vue-router';
   import { useImpactedPeopleStore } from '@/stores/impactedPeople';
   import { useCredibilityStore } from '@/stores/credibility';
+  import { useQuestionsStore } from '@/stores/questions';
 
   const impactedPeopleStore = useImpactedPeopleStore();
   const credibilityStore = useCredibilityStore();
+  const questionsStore = useQuestionsStore();
   const router = useRouter();
 
   function onStartQuiz() {
-    // Reset counts on start
+    // Reset chat state
     impactedPeopleStore.updateCount(0);
-    credibilityStore.resetCredibility();
+    credibilityStore.resetState();
+    questionsStore.resetState();
 
     router.push({ name: 'quiz' });
   }

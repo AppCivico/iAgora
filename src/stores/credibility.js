@@ -8,7 +8,7 @@ export const useCredibilityStore = defineStore('credibility', {
   },
   persist: true,
   actions: {
-    resetCredibility() {
+    resetState() {
       this.credibility = 0
     },
     updateCredibility(value) {

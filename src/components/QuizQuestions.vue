@@ -19,7 +19,7 @@
             <TransitionGroup name="chat-bubbles">
               <li
                 class="questions__question"
-                v-for="question in selectedQuestions"
+                v-for="question in questionsStore.questions"
                 :key="question.id"
               >
                 <template v-if="question.media">
@@ -59,7 +59,7 @@
           class="flex space-between gap-24 padding-bottom-24"
         >
           <template
-            v-for="option, index in currentQuestion"
+            v-for="option, index in currentQuestion.options"
             :key="index"
           >
             <button
@@ -77,30 +77,24 @@
 </template>
 
 <script setup>
-import quiz from "../data/teste.json"
 import { ref, onMounted, computed, watch } from "vue";
 import { useImpactedPeopleStore } from '@/stores/impactedPeople';
 import { useCredibilityStore } from '@/stores/credibility';
+import { useQuestionsStore } from '@/stores/questions';
 import { useRouter } from 'vue-router';
+import { storeToRefs } from 'pinia'
 import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
 import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
 
 const router = useRouter();
 const impactedPeopleStore = useImpactedPeopleStore();
 const credibilityStore = useCredibilityStore();
-const selectedQuestions = ref([]);
+const questionsStore = useQuestionsStore();
+const { currentQuestion } = storeToRefs(questionsStore);
 
-const currentQuestionObject = computed(()=>{
-  return selectedQuestions.value[selectedQuestions.value.length-1]
-})
-
-const currentQuestion = computed(()=>{
-  return selectedQuestions.value[selectedQuestions.value.length-1]?.options
-})
-
-watch(currentQuestionObject, async (question) => {
+watch(currentQuestion, async (question) => {
   const impactedPeopleNumber = Number(question.pessoas_impactadas);
-  const credibility = Number(currentQuestionObject.value.credibilidade);
+  const credibility = Number(questionsStore.currentQuestion.credibilidade);
 
   if (impactedPeopleNumber) {
     impactedPeopleStore.updateCount(impactedPeopleNumber);
@@ -113,15 +107,12 @@ watch(currentQuestionObject, async (question) => {
 
 async function choseOption(option){
   const id = option.next_question_id
-  if (option.finish) {
-    await router.push({ name: 'milestone', params: { name: option.finish } })
-  }
-  selectedQuestions.value.push(quiz.questions[id])
+  // @todo this will probably not work like that
+  // if (option.finish) {
+  //   await router.push({ name: 'milestone', params: { name: option.finish } })
+  // }
+  questionsStore.addQuestion(id);
 }
-
-onMounted(()=>{
-  selectedQuestions.value.push(quiz.questions['1'])
-})
 </script>
 
 <style lang="scss" scoped>
