@@ -6,6 +6,12 @@
   "header": {
     "language-select-label": "Selecione o idioma"
   },
+  "share": {
+    "share": "Compartilhar",
+    "copied": "URL copiada!",
+    "title": "IAgora",
+    "text": "Jogue o jogo de notícias e fale sobre o mundo real"
+  },
   "home": {
     "start": "Começar!",
     "title": "O jogo das eleições 2024",
