@@ -10,7 +10,11 @@
         <div class="congratulations-content__score">
           <ImpactedPeople theme="large" />
 
-          <img class="congratulations__brain-icon" src="@/assets/images/brain.svg" />
+          <img
+            class="congratulations__brain-icon"
+            src="@/assets/images/brain.svg"
+            alt=""
+          />
 
           <CredibilityMeter
             arch-lower-color="var(--color-red--dark)"

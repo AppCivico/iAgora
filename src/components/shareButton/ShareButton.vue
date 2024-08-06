@@ -3,7 +3,7 @@
     @click="share"
     href="#"
     class="share-button">
-    <img class="share-button__icon" src="@/assets/images/share.svg" />
+    <img class="share-button__icon" src="@/assets/images/share.svg" alt="" />
     <span class="share-button__text">Compartilhar</span>
   </a>
 </template>

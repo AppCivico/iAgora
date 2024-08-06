@@ -3,6 +3,9 @@
     "credibility": "Credibilidade",
     "number-of-people-impacted": "Pessoas Impactadas"
   },
+  "header": {
+    "language-select-label": "Selecione o idioma"
+  },
   "home": {
     "start": "Começar!",
     "title": "O jogo das eleições 2024",

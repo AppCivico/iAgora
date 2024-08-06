@@ -18,6 +18,7 @@
             <img
               class="homepage__brain-icon"
               src="@/assets/images/brain.svg"
+              alt=""
             />
           </button>
           <router-link

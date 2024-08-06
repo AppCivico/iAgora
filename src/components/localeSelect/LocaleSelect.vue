@@ -1,6 +1,17 @@
 <template>
   <div class="locale-select">
-    <select v-model="$i18n.locale" class="locale-select__select">
+    <label
+      for="language-select"
+      class="sr-only">
+      <span class="sr-only">
+        {{ $t("header.language-select-label") }}
+      </span>
+    </label>
+    <select
+      id="language-select"
+      v-model="$i18n.locale"
+      class="locale-select__select"
+    >
       <option v-for="(lang, i) in langs"
         :key="`Lang${i}`"
         :value="lang.code"
