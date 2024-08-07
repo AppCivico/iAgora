@@ -56,7 +56,7 @@
       <div class="wrapper wrapper wrapper--small">
         <div
           v-if="currentQuestion"
-          class="flex space-between gap-24 padding-bottom-24"
+          class="flex space-between gap-24 padding-bottom-24 flex-wrap"
         >
           <template
             v-for="option, index in currentQuestion.options"
