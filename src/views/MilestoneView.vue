@@ -26,15 +26,27 @@
     >
       <template #body>
         <div class="wrapper">
-          <ul class="learned-techniques">
-            <Technique 
-              v-for="(milestone, name, index) in milestones"
-              :key="index"
-              :learned="milestone.learned"
-              :name="name"
-              :technique="milestone"
-            />
-          </ul>
+          <div class="flex flex-column gap-24">
+            <ul class="learned-techniques">
+              <Technique 
+                v-for="(milestone, name, index) in milestones"
+                :key="index"
+                :learned="milestone.learned"
+                :name="name"
+                :technique="milestone"
+              />
+            </ul>
+          </div>
+        </div>
+      </template>
+      <template #footer>
+        <div class="flex justify-content-center">
+          <router-link
+            :to="{ name: 'quiz' }"
+            class="button button--tertiary"
+          >
+            {{ $t("milestone.continue") }}
+          </router-link>
         </div>
       </template>
     </Dialog>
@@ -49,7 +61,7 @@
   import MilestoneContent from "@components/MileStoneContent.vue"
   import Technique from "@components/Technique.vue"
   import Dialog from "@components/Dialog.vue"
-  import DialogIcon from "@/assets/images/brain.svg"
+  import DialogIcon from "@/assets/images/brain-music.svg"
 
 
   //@todo maybe find a better way of doing this

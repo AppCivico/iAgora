@@ -25,29 +25,25 @@
     "continue": "Continuar"
   },
   "milestones": {
-    "personification": {
-      "title": "Personificação",
-      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
-    },
     "emotion": {
       "title": "Emoção",
-      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
-    },
-    "polarization": {
-      "title": "Polarização",
       "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
     },
     "conspiration": {
       "title": "Conspiração",
       "description": "Texto de conspiração"
     },
-    "defamation": {
-      "title": "Difamação",
-      "description": "Texto de difamação"
+    "polarization": {
+      "title": "Polarização",
+      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
     },
     "trolling": {
-      "title": "Trolagem",
+      "title": "Trollagem",
       "description": "Texto de trolagem"
+    },
+    "false-expert": {
+      "title": "Falso Especialista",
+      "description": "Técnica de falso especialista dominada! Vamos ver como o uso de todas essas técnicas impactou o resultado das eleições!"
     }
   },
   "congratulations": {

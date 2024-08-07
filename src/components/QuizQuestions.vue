@@ -65,7 +65,7 @@
             <button
               class="button button--primary button--small"
               type="button"
-              @click="choseOption(option)"
+              @click="questionsStore.chooseOption(option, currentQuestion)"
             >
               {{option.text }}
             </button>
@@ -104,15 +104,6 @@ watch(currentQuestion, async (question) => {
     credibilityStore.updateCredibility(credibility);
   }
 });
-
-async function choseOption(option){
-  const id = option.next_question_id
-  // @todo this will probably not work like that
-  // if (option.finish) {
-  //   await router.push({ name: 'milestone', params: { name: option.finish } })
-  // }
-  questionsStore.addQuestion(id);
-}
 </script>
 
 <style lang="scss" scoped>

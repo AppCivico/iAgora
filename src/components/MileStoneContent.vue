@@ -1,5 +1,5 @@
 <template>
-  <article :class="`milestone__content milestone__content--${props.milestone}`">
+  <article :class="`milestone__content milestone__content--${(currentSection.id_section).toLowerCase()}`">
     <div class="milestone__icon">
       <img
         class="milestone__icon-image"
@@ -7,15 +7,16 @@
       />
     </div>
     <h1 class="milestone__title">
-      {{ $t(`milestones.${props.milestone}.title`) }}
+      {{ currentSection.title }}
     </h1>
     <p class="milestone__description">
-      {{ $t(`milestones.${props.milestone}.description`) }}
+      {{ currentSection.final_message }}
     </p>
   </article>
 </template>
 
 <script setup>
+import sections from '@/data/sections';
 import { defineProps } from 'vue';
 
 const props = defineProps({
@@ -24,4 +25,6 @@ const props = defineProps({
     required: true
   }
 });
+
+const currentSection = sections.find(section => section.name === props.milestone);
 </script>

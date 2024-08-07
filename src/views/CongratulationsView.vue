@@ -97,6 +97,7 @@
 </template>
 
 <script setup>
+  import sections from '@/data/sections';
   import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
   import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
   import ShareButton from "@/components/shareButton/ShareButton.vue";
