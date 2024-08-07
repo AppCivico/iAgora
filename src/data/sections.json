@@ -1,0 +1,44 @@
+[
+  {
+    "id_section": "B0",
+    "name": "Inicio - Iagora",
+    "id_question": "1",
+    "final_message": null
+  },
+  {
+    "id_section": "B1",
+    "name": "emoção",
+    "id_question": "P6",
+    "final_message": "Nova técnica dominada! Emoção! Vamos seguir. Temos uma campanha para vencer!"
+  },
+  {
+    "id_section": "B2",
+    "name": "conspiração",
+    "id_question": "P22",
+    "final_message": "Nova técnica dominada! Teorias da conspiração! Você consegue se lembrar de alguma teoria da conspiração que viu durante as últimas eleições? Com certeza muitas foram criadas. Vamos continuar, temos uma eleição a vencer!"
+  },
+  {
+    "id_section": "B3",
+    "name": "polarização",
+    "id_question": "P33",
+    "final_message": "Nova técnica dominada! Polarização! Com quantas discussões polarizadas você se deparou nos últimos meses?"
+  },
+  {
+    "id_section": "B4",
+    "name": "trollagem",
+    "id_question": "P43",
+    "final_message": "Nova técnica dominada! Trollagem, usando o humor para atacar adversários!"
+  },
+  {
+    "id_section": "B5",
+    "name": "falso especialista",
+    "id_question": "P55",
+    "final_message": "Técnica de falso especialista dominada! Vamos ver como o uso de todas essas técnicas impactou o resultado das eleições!"
+  },
+  {
+    "id_section": "BF",
+    "name": "Final - Iagora",
+    "id_question": "P68",
+    "final_message": null
+  }
+]
