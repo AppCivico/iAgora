@@ -12,13 +12,13 @@
         <h2 class="dialog__title dialog__title--icon-medal">
           {{ props.title }}
         </h2>
-        <button class="dialog__close-button" onclick="this.closest('dialog').close('close')">
-          <span class="sr-only">{{ $t("dialog.close") }}</span>
-        </button>
       </header>
       <article class="dialog__body">
         <slot name="body" />
       </article>
+      <footer class="dialog__footer">
+        <slot name="footer" />
+      </footer>
     </form>
   </dialog>
 </template>
