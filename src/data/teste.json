@@ -1035,8 +1035,7 @@
                 },
                 {
                     "final": true,
-                    "text": "Encerrar quiz",
-                    "next_question_id": "P7"
+                    "text": "Encerrar quiz"
                 },
                 {
                     "next_question_id": "P7",
