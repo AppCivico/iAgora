@@ -1,36 +1,30 @@
 <template>
-  <a
+  <button
     @click="share"
-    href="#"
-    class="share-button">
+    class="share-button"
+  >
     <img class="share-button__icon" src="@/assets/images/share.svg" alt="" />
     <span class="share-button__text">
-      {{ $t("share.share") }}
+      <template v-if="buttonText">
+        {{ buttonText }}
+      </template>
+      <template v-else>
+        {{ $t("share.share") }}
+      </template>
     </span>
-  </a>
+  </button>
 </template>
 
 <script setup>
-import { useRouter } from "vue-router";
-import { useI18n } from 'vue-i18n';
+import { defineProps } from "vue";
+import share from "@/utils/share";
 
-const router = useRouter();
 const canShare = navigator.share;
-const { t } = useI18n();
 
-function share() {
-  const url = window.location.href;
+const props = defineProps({
+  buttonText: {
+    type: String,
+  },
+});
 
-  if (!canShare) {
-    navigator.clipboard.writeText(url);
-    alert(t("share.copied"));
-    return;
-  }
-
-  navigator.share({
-    title: t("share.title"),
-    text: t("share.text"),
-    url,
-  });
-}
 </script>

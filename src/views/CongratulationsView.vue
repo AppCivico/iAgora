@@ -35,7 +35,6 @@
             {{ $t("congratulations.play-again") }}
           </router-link>
           <button
-            href="#"
             class="button button--secondary"
             @click="share"
           >
@@ -100,7 +99,9 @@
 <script setup>
   import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
   import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
+  import ShareButton from "@/components/shareButton/ShareButton.vue";
   import { useI18n } from 'vue-i18n';
+  import share from "@/utils/share";
   import confetti from "https://cdn.skypack.dev/canvas-confetti";
 
   document.body.style.setProperty('--color-body-background', 'var(--color-red)');

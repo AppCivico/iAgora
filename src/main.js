@@ -1,21 +1,11 @@
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
-import { createI18n } from 'vue-i18n'
 import App from './App.vue'
 import '@styles/main.scss';
 import router from './router'
 
-import ptBR from '@/locales/pt-BR.json';
-import en from '@/locales/en.json';
-
-const i18n = createI18n({
-  legacy: false,
-  globalInjection: true,
-  locale: "ptBR",
-  fallbackLocale: "en",
-  messages: { ptBR, en },
-});
+import { i18n } from "@/i18n";
 
 const pinia = createPinia()
 pinia.use(piniaPluginPersistedstate);
