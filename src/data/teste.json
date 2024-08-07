@@ -1030,7 +1030,7 @@
             "options": [
                 {
                     "end": true,
-                    "text": "Encerrar sessão",
+                    "text": "Encerrar seção",
                     "next_question_id": "P7"
                 },
                 {
