@@ -1031,12 +1031,12 @@
                 {
                     "end": true,
                     "text": "Encerrar sessão",
-                    "next_question_id": "P2"
+                    "next_question_id": "P7"
                 },
                 {
                     "final": true,
                     "text": "Encerrar quiz",
-                    "next_question_id": "P2"
+                    "next_question_id": "P7"
                 },
                 {
                     "next_question_id": "P7",
