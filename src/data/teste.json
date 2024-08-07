@@ -223,6 +223,11 @@
             ],
             "id": "1",
             "text": "Oi! Seja bem-vindo(a) ao \"IAgora?\"! Bora aprender sobre como as elei\u00e7\u00f5es podem ser manipuladas por meio de conte\u00fados falsos e ferramentas de intelig\u00eancia artificial?",
+            "media": {
+                "type": "image",
+                "alt_text": "texto descritivo da image",
+                "src": "tiger.webp"
+            },
             "credibility": "0",
             "people": "0",
             "imagem": "",
@@ -455,6 +460,10 @@
             "credibility": "0",
             "id": "P1",
             "text": "Certo! Nesta simula\u00e7\u00e3o, voc\u00ea ser\u00e1 o coordenador(a) de uma campanha pol\u00edtica, que tem como objetivo reeleger o atual prefeito da cidade, Fabinho Fagner. Vamos come\u00e7ar?",
+            "media": {
+                "type": "video",
+                "src": "trailer.webm"
+            },
             "type": "",
             "options": [
                 {
@@ -1705,6 +1714,10 @@
                 }
             ],
             "text": "Como coordenador(a) de campanha, sua miss\u00e3o \u00e9 garantir que o prefeito seja reeleito a qualquer custo!",
+            "media": {
+                "type": "audio",
+                "src": "metal.mp3"
+            },
             "id": "P2"
         },
         "P11": {

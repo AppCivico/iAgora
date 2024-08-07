@@ -26,20 +26,20 @@
                   <img
                     class="questions__media questions__media--image"
                     v-if="question.media.type === 'image'"
-                    :src="question.media.src"
+                    :src="`uploads/${question.media.src}`"
                     :alt="question.media.alt_text"
                   >
                   <audio
                     v-else-if="question.media.type === 'audio'"
                     class="questions__media questions__media--audio"
-                    :src="question.media.src"
+                    :src="`uploads/${question.media.src}`"
                     controls
                   > 
                   </audio>
                   <video
                     v-else-if="question.media.type === 'video'"
                     class="questions__media questions__media--video"
-                    :src="question.media.src"
+                    :src="`uploads/${question.media.src}`"
                     controls
                   />
                 </template>
