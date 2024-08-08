@@ -83,7 +83,7 @@
             :key="name"
             :open="index === 0"
             class="review__item"
-            :class="`review__item--${name}`"
+            :class="`review__item--${milestone.id_section.toLowerCase()}`"
           >
             <summary class="review__title">{{ milestone.title }}</summary>
             <div>
