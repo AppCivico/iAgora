@@ -54,6 +54,7 @@
 </template>
 
 <script setup>
+  import sections from '@/data/sections';
   import { ref, computed } from "vue";
   import { useI18n } from 'vue-i18n';
   import { useRoute } from 'vue-router';
@@ -69,12 +70,13 @@
   const { locale, messages } = useI18n();
 
   const milestones = messages.value[locale.value].milestones;
+  const currentMilestone = sections.find(section => section.name === route.params.name.toLowerCase());
   let learnedControl = true;
 
   for (const [key, value] of Object.entries(milestones)) {
     milestones[key].learned = learnedControl;
 
-    if (route.params.name === key) {
+    if (value.id_section === currentMilestone.id_section) {
       learnedControl = false;
     }
   }
