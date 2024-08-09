@@ -7,7 +7,7 @@
       />
     </div>
     <h1 class="milestone__title">
-      {{ currentSection.title }}
+      {{ currentSection.name }}
     </h1>
     <p class="milestone__description">
       {{ currentSection.final_message }}
