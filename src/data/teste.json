@@ -12,7 +12,7 @@
          "people" : "0",
          "text" : "Técnica de falso especialista dominada! Vamos ver como o uso de todas essas técnicas impactou o resultado das eleições!",
          "id" : "P67",
-         "section" : "B5 "
+         "section" : "B5"
       },
       "P45" : {
          "people" : "0",
@@ -170,7 +170,7 @@
          "people" : "400",
          "text" : "Um relatório científico supostamente publicado por um centro de pesquisa norte-americano escrito por um suposto médico alega que 70% das vacinas contra a Covid-19 apresentam efeitos colaterais graves.",
          "id" : "P62",
-         "section" : "B5 ",
+         "section" : "B5",
          "media" : {
             "type" : "image",
             "alt_text" : "",
@@ -193,7 +193,7 @@
          "people" : "0",
          "id" : "P66",
          "text" : "As falas dos falsos especialistas simulam ter uma base científica na tentativa de fazer com que a informação seja confiável e segura. \n\n",
-         "section" : "B5 "
+         "section" : "B5"
       },
       "P38" : {
          "section" : "B3",
@@ -382,7 +382,7 @@
          "people" : "0",
          "id" : "P58a",
          "text" : "Não se preocupe, está indo muito bem! ",
-         "section" : "B5 ",
+         "section" : "B5",
          "credibility" : "0"
       },
       "P71" : {
@@ -516,7 +516,7 @@
          }
       },
       "P63a" : {
-         "section" : "B5 ",
+         "section" : "B5",
          "text" : "Conseguiu! Está quase na reta final da campanha e você está indo muito bem!",
          "id" : "P63a",
          "people" : "0",
@@ -552,7 +552,7 @@
       "P57" : {
          "text" : "\"Pesquisas apontam: quanto mais policiamento, maior a segurança do cidadão. Digo isso com a experiência da farda e dos relatórios que diferentes órgãos de segurança mostraram nos últimos anos\", explica policial militar aposentado que atualmente trabalha como consultor em segurança pública dando palestras em todo Brasil. Se você apoia maior investimento em segurança, está com Fabinho Fagner pela reeleição. ",
          "id" : "P57",
-         "section" : "B5 ",
+         "section" : "B5",
          "options" : [
             {
                "text" : "Quero usar esta mensagem!",
@@ -602,7 +602,7 @@
          "people" : "",
          "text" : "Usando bots de perfis falsos, compartilhe conteúdos ligados a falsos especialistas que são contra vacina.  ",
          "id" : "P61",
-         "section" : "B5 ",
+         "section" : "B5",
          "credibility" : ""
       },
       "P52" : {
@@ -624,7 +624,7 @@
       },
       "P56" : {
          "credibility" : "",
-         "section" : "B5 ",
+         "section" : "B5",
          "id" : "P56",
          "text" : "Você deve selecionar uma mensagem, que será enviada em diferentes listas. Depois de algumas horas, a fonte de origem da mensagem vai se perder e ninguém vai saber que foi você, coordenador(a) da campanha, que começou com isso. Por outro lado, quanto mais viral a mensagem se tornar, maior a chance das pessoas acreditarem, pois vão receber o conteúdo mais de uma vez. ",
          "people" : "",
@@ -795,7 +795,7 @@
                "text" : "O que faço agora?"
             }
          ],
-         "section" : "B5 ",
+         "section" : "B5",
          "text" : "Não se preocupe, está indo muito bem! Estamos na reta final da campanha.",
          "id" : "P64a"
       },
@@ -854,7 +854,7 @@
          "credibility" : "0",
          "text" : "É bom estar com você nesta campanha. Vamos em frente coordenador(a)!",
          "id" : "P59",
-         "section" : "B5 ",
+         "section" : "B5",
          "options" : [
             {
                "next_question_id" : "P60",
@@ -896,7 +896,7 @@
                "next_question_id" : "P56"
             }
          ],
-         "section" : "B5 ",
+         "section" : "B5",
          "text" : "Está na hora de movimentar as redes do seu candidato nos aplicativos de mensagem. Um dos temas que mais viraliza é o da segurança pública e o do aumento do policiamento como solução para reduzir a criminalidade. Para fortalecer esse argumento e tentar se aproximar de eleitores indecisos, use um número de contato desconhecido, crie listas de transmissão a partir dele e envie depoimentos de falsos especialistas que você encontrou na internet, defendendo que o aumento de policiamento é a principal solução para redução da violência na cidade. \n\n",
          "id" : "P55",
          "credibility" : "0"
@@ -1158,7 +1158,7 @@
             "src" : "image.png",
             "alt_text" : ""
          },
-         "section" : "B5 ",
+         "section" : "B5",
          "text" : "Uma mensagem circula por aplicativos de mensagem, assinada por um médico infectologista de nome Antonio F., mas sem o número de seu registro profissional. A mensagem afirma que um estudo realizado pelo Governo brasileiro e mantido em sigilo, comprova a ineficácia das vacinas em crianças. ",
          "id" : "P63",
          "people" : "300",
@@ -1199,7 +1199,7 @@
                "next_question_id" : "P59"
             }
          ],
-         "section" : "B5 ",
+         "section" : "B5",
          "text" : "Conseguiu! Como se sente nesta corrida pela prefeitura?",
          "id" : "P57a"
       },
@@ -1333,7 +1333,7 @@
          "text" : "Com a divulgação do áudio nos aplicativos de mensagens, a credibilidade do seu candidato cresceu. Você está indo muito bem! Vamos para o próximo passo?"
       },
       "P65" : {
-         "section" : "B5 ",
+         "section" : "B5",
          "text" : "Você acabou de experimentar a técnica do Falso Especialista, que é utilizada para validar determinada visão sobre um tema polêmico. Falsos especialistas são indivíduos ou grupos que se apresentam ou são utilizados por candidatos como autoridades em áreas e temas nos quais não possuem conhecimento ou qualificação real. ",
          "id" : "P65",
          "people" : "0",
@@ -1445,7 +1445,7 @@
                "next_question_id" : "P59"
             }
          ],
-         "section" : "B5 ",
+         "section" : "B5",
          "id" : "P58",
          "text" : "Veja o que esse ex-policial e especialista explica sobre segurança pública: \"É uma conta bem simples. Se você colocar maior efetivo de policiais para estarem na rua fazendo a ronda e de olho em possíveis crimes, isso vai reduzir ou até acabar com assaltos ou qualquer outro tipo de violência. Isso não sou eu que falo, tem dados que mostram. É estudo\". Se você apoia maior investimento em segurança, está com Fabinho Fagner pela reeleição. ",
          "media" : {
@@ -1524,7 +1524,7 @@
          "text" : "Vamos ganhar esta eleição! Há um grande movimento nas redes sociais de pessoas questionando a honestidade do Toninho Tião. Por muitas contas estarem comentando sobre uma mesma questão, as pessoas estão começando a acreditar na narrativa que você impulsionou. "
       },
       "P60" : {
-         "section" : "B5 ",
+         "section" : "B5",
          "text" : "Durante a pandemia de Covid-19, Fabinho Fagner se posicionou contra as vacinas e algumas pessoas concordaram com isso. Pelas alianças políticas que têm na região, Fabinho Fagner continua sendo contra. Porém, nos últimos meses, parte de seu eleitorado mudou de opinião e voltou a confiar nos benefícios da vacinação. Agora, você precisa convencer alguns eleitores a acreditar nos riscos da vacina. Caso contrário, ele vai perder votos.  ",
          "id" : "P60",
          "people" : "0",
