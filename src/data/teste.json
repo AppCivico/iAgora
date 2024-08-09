@@ -1,1814 +1,1710 @@
 {
-    "questions": {
-        "P47": {
-            "id": "P47",
-            "text": "Est\u00e1 na hora de sacudir as redes de seu candidato em um aplicativo de mensagem\n",
-            "type": "",
-            "options": [
-                {
-                    "text": "S\u00f3 se for agora!",
-                    "next_question_id": "P48"
-                },
-                {
-                    "text": "Pode me ajudar?",
-                    "next_question_id": "P48"
-                }
-            ],
-            "people": "0",
-            "imagem": "",
-            "section": "B4",
-            "credibility": "0"
-        },
-        "P38": {
-            "options": [
-                {
-                    "text": "Quero usar esta mensagem!",
-                    "next_question_id": "P38a"
-                },
-                {
-                    "text": "Quero usar a outra mensagem",
-                    "next_question_id": "P37"
-                }
-            ],
-            "type": "Imagem/publica\u00e7\u00e3o",
-            "id": "P38",
-            "text": "O que voc\u00ea acha desta publica\u00e7\u00e3o? \"Voc\u00eas sabiam que Toninho Ti\u00e3o tem amigos ligados \u00e0 mil\u00edcia? Era de se esperar que a extrema-direita estivesse envolvida com esse tipo de gente. \u00c9 essa influ\u00eancia que voc\u00eas querem para as crian\u00e7as da cidade? A direita est\u00e1 aqui para pregar viol\u00eancia e censuras. Diga n\u00e3o ao fascismo, diga n\u00e3o a Toninho Ti\u00e3o!\"",
-            "credibility": "0",
-            "section": "B3",
-            "people": "0",
-            "imagem": ""
-        },
-        "P70": {
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": null,
-                    "text": null
-                },
-                {
-                    "text": null,
-                    "next_question_id": null
-                }
-            ],
-            "id": "P70",
-            "text": "Parece que n\u00e3o valeu tanto a pena! Fabinho Fagner est\u00e1 sendo acusado pelo Tribunal Superior Eleitoral de fraude e crimes cometidos durante a campanha eleitoral. ",
-            "credibility": "100",
-            "imagem": "",
-            "people": "400",
-            "section": "BF"
-        },
-        "P26": {
-            "people": "0",
-            "imagem": "",
-            "section": "B2",
-            "credibility": "0",
-            "text": "Toninho Ti\u00e3o criticando os professores",
-            "id": "P26",
-            "type": "video",
-            "options": [
-                {
-                    "next_question_id": "P26a",
-                    "text": "Quero usar este video!"
-                },
-                {
-                    "text": "Quero usar o v\u00eddeo anterior",
-                    "next_question_id": "P25"
-                }
-            ]
-        },
-        "P12a": {
-            "imagem": "",
-            "people": "400",
-            "section": "B1",
-            "credibility": "100",
-            "text": "Com a divulga\u00e7\u00e3o do \u00e1udio nos aplicativos de mensagens, a credibilidade do seu candidato cresceu. Voc\u00ea est\u00e1 indo muito bem! Vamos para o pr\u00f3ximo passo?",
-            "id": "P12a",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P14",
-                    "text": "Vamos ganhar as elei\u00e7\u00f5es!"
-                },
-                {
-                    "text": "O que fa\u00e7o agora?",
-                    "next_question_id": "P14"
-                }
-            ]
-        },
-        "P45a": {
-            "text": "Boa escolha. Vamos que vamos. Voc\u00ea est\u00e1 indo bem! Qual \u00e9 o seu pr\u00f3ximo passo?",
-            "id": "P45a",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P47",
-                    "text": "Seguir em frente!"
-                },
-                {
-                    "text": "O que fa\u00e7o agora?",
-                    "next_question_id": "P47"
-                }
-            ],
-            "people": "400",
-            "imagem": "",
-            "section": "B4",
-            "credibility": "100"
-        },
-        "P68": {
-            "imagem": "",
-            "people": "0",
-            "section": "BF",
-            "credibility": "0",
-            "text": "Parab\u00e9ns, coordenador(a)! Voc\u00ea conseguiu eleger seu prefeito usando as t\u00e9cnicas: emo\u00e7\u00e3o, polariza\u00e7\u00e3o, conspira\u00e7\u00e3o, trollagem e falso especialista!  Com a ajuda delas, Fabinho Fagner foi reeleito e ter\u00e1 um mandato de mais quatro anos. Mas ser\u00e1 que isso \u00e9 bom? Isso porque, Fabinho come\u00e7ou a ser investigado pelas a\u00e7\u00f5es criminosas realizadas nesta elei\u00e7\u00e3o! ",
-            "id": "P68",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P69",
-                    "text": " Vamos seguir em frente!"
-                },
-                {
-                    "next_question_id": null,
-                    "text": null
-                }
-            ]
-        },
-        "P13a": {
-            "type": "",
-            "options": [
-                {
-                    "text": "Vamos ganhar as elei\u00e7\u00f5es!",
-                    "next_question_id": "P14"
-                },
-                {
-                    "text": "O que fa\u00e7o agora?",
-                    "next_question_id": "P14"
-                }
-            ],
-            "id": "P13a",
-            "text": "Com a divulga\u00e7\u00e3o do \u00e1udio nos aplicativos de mensagens, a credibilidade do seu candidato cresceu. Voc\u00ea est\u00e1 indo muito bem!",
-            "credibility": "75",
-            "people": "300",
-            "imagem": "",
-            "section": "B1"
-        },
-        "P58a": {
-            "options": [
-                {
-                    "text": "Bem! Rumo a vit\u00f3ria!",
-                    "next_question_id": "P59"
-                },
-                {
-                    "next_question_id": "P59",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "type": "",
-            "id": "P58a",
-            "text": "N\u00e3o se preocupe, est\u00e1 indo muito bem! ",
-            "credibility": "0",
-            "section": "B5 ",
-            "imagem": "",
-            "people": "0"
-        },
-        "P34": {
-            "options": [
-                {
-                    "text": "Vamos dizer que ele \u00e9 de extrema-esquerda!",
-                    "next_question_id": "P35"
-                },
-                {
-                    "text": "Vamos dizer que ele \u00e9 de extrema-direita!",
-                    "next_question_id": "P36"
-                }
-            ],
-            "type": "",
-            "text": "Primeiro, podemos classificar o candidato advers\u00e1rio em \"extremista de esquerda\" ou \"extremista de direita\", para depois criarmos publica\u00e7\u00f5es sobre isso. Qual voc\u00ea prefere?",
-            "id": "P34",
-            "credibility": "0",
-            "section": "B3",
-            "imagem": "",
-            "people": "0"
-        },
-        "P71": {
-            "id": "P71",
-            "text": "Em um processo eleitoral democr\u00e1tico, \u00e9 fundamental respeitar as regras e leis estabelecidas pelas autoridades respons\u00e1veis. Conduzir uma campanha com transpar\u00eancia, coer\u00eancia e verdade \u00e9 o primeiro passo para ganhar uma elei\u00e7\u00e3o e realizar um bom mandato.   ",
-            "options": [
-                {
-                    "text": null,
-                    "next_question_id": null
-                },
-                {
-                    "text": null,
-                    "next_question_id": null
-                }
-            ],
-            "type": "",
-            "section": "BF",
-            "people": "300",
-            "imagem": "",
-            "credibility": "75"
-        },
-        "1": {
-            "type": "",
-            "options": [
-                {
-                    "text": "Interessante!",
-                    "next_question_id": "P1"
-                },
-                {
-                    "next_question_id": "P1",
-                    "text": "Bora!"
-                }
-            ],
-            "id": "1",
-            "text": "Oi! Seja bem-vindo(a) ao \"IAgora?\"! Bora aprender sobre como as elei\u00e7\u00f5es podem ser manipuladas por meio de conte\u00fados falsos e ferramentas de intelig\u00eancia artificial?",
-            "media": {
-                "type": "image",
-                "alt_text": "texto descritivo da image",
-                "src": "tiger.webp"
+   "questions" : {
+      "P28" : {
+         "credibility" : "0",
+         "text" : "Sim, fotos são facilmente manipuladas e, com as novas tecnologias de IA, isso ficou ainda mais fácil. Podemos utilizar uma foto já existente de Toninho, candidato adversário, adicionar elementos que sugiram corrupção e diminuir a qualidade da imagem. Assim ficará mais difícil de descobrirem que ela é falsa.",
+         "options" : [
+            {
+               "text" : "Como vamos fazer!",
+               "next_question_id" : "P29"
             },
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B0"
-        },
-        "P29a": {
-            "imagem": "",
-            "people": "400",
-            "section": "B2",
-            "credibility": "100",
-            "text": "Vamos ganhar esta elei\u00e7\u00e3o! H\u00e1 um grande movimento nas redes sociais de pessoas questionando a honestidade do Toninho Ti\u00e3o. Por muitas contas estarem comentando sobre uma mesma quest\u00e3o, as pessoas est\u00e3o come\u00e7ando a acreditar na narrativa que voc\u00ea impulsionou. ",
-            "id": "P29a",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P31",
-                    "text": "Estamos indo bem!"
-                },
-                {
-                    "next_question_id": "P31",
-                    "text": "Ser\u00e1 que vamos ganhar?"
-                }
-            ]
-        },
-        "P21": {
-            "id": "P21",
-            "text": "Nova t\u00e9cnica dominada! Emo\u00e7\u00e3o! Vamos seguir. Temos uma campanha para vencer! ",
-            "options": [
-                {
-                    "next_question_id": "B1",
-                    "text": "End"
-                }
-            ],
-            "type": "",
-            "section": "B1",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0"
-        },
-        "P13": {
-            "credibility": "0",
-            "imagem": "",
-            "people": "0",
-            "section": "B1",
-            "type": "audio",
-            "options": [
-                {
-                    "next_question_id": "P13a",
-                    "text": "Quero usar esse \u00e1udio!"
-                },
-                {
-                    "text": "Prefiro um dos \u00e1udios anteriores",
-                    "next_question_id": "P11"
-                }
-            ],
-            "id": "P13",
-            "text": "O que voc\u00ea acha deste \u00e1udio? \"Durante seu mandato, Fabinho Fagner respondeu \u00e0s necessidades das fam\u00edlias jovens ao iniciar a constru\u00e7\u00e3o de duas novas creches. Essa iniciativa demonstra o compromisso cont\u00ednuo do prefeito em apoiar a educa\u00e7\u00e3o e fortalecer nossa comunidade\""
-        },
-        "P58": {
-            "text": "Veja o que esse ex-policial e especialista explica sobre seguran\u00e7a p\u00fablica: \"\u00c9 uma conta bem simples. Se voc\u00ea colocar maior efetivo de policiais para estarem na rua fazendo a ronda e de olho em poss\u00edveis crimes, isso vai reduzir ou at\u00e9 acabar com assaltos ou qualquer outro tipo de viol\u00eancia. Isso n\u00e3o sou eu que falo, tem dados que mostram. \u00c9 estudo\". Se voc\u00ea apoia maior investimento em seguran\u00e7a, est\u00e1 com Fabinho Fagner pela reelei\u00e7\u00e3o. ",
-            "id": "P58",
-            "type": "postagem texto",
-            "options": [
-                {
-                    "next_question_id": "P58a",
-                    "text": "Quero usar esta mensagem!"
-                },
-                {
-                    "next_question_id": "P59",
-                    "text": "N\u00e3o quero usar esta mensagem!"
-                }
-            ],
-            "imagem": "",
-            "people": "300",
-            "section": "B5 ",
-            "credibility": "75"
-        },
-        "P29": {
-            "credibility": "0",
-            "section": "B2",
-            "imagem": "",
-            "people": "0",
-            "options": [
-                {
-                    "next_question_id": "P29a",
-                    "text": "Sim, quero usar esta foto!"
-                },
-                {
-                    "next_question_id": "P30",
-                    "text": "N\u00e3o quero usar esta foto"
-                }
-            ],
-            "type": "foto",
-            "text": "Cen\u00e1rio de uma reuni\u00e3o em um jantar \u00edntimo com outro pol\u00edtico e uma maleta de d\u00f3lares.\n",
-            "id": "P29"
-        },
-        "P38a": {
-            "credibility": "100",
-            "section": "B3",
-            "people": "400",
-            "imagem": "",
-            "options": [
-                {
-                    "text": "Os perfis fakes s\u00e3o perigosos!",
-                    "next_question_id": "P39"
-                },
-                {
-                    "next_question_id": "P40",
-                    "text": "Vamos continuar!"
-                }
-            ],
-            "type": "",
-            "id": "P38a",
-            "text": "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que voc\u00ea escolheu. Agora, a base de apoio do seu candidato est\u00e1 mais animada na redes sociais chamando o candidato advers\u00e1rio de extremista de direita e os indecisos que t\u00eam cautela com a Direita j\u00e1 est\u00e3o escolhendo seu candidato sem nem mesmo ler as propostas do advers\u00e1rio."
-        },
-        "P54": {
-            "type": "",
-            "options": [
-                {
-                    "text": "End",
-                    "next_question_id": "B4"
-                }
-            ],
-            "text": "Nova t\u00e9cnica dominada! Trollagem, usando o humor para atacar advers\u00e1rios!",
-            "id": "P54",
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B4"
-        },
-        "P26a": {
-            "people": "300",
-            "imagem": "",
-            "section": "B2",
-            "credibility": "75",
-            "text": "Boa escolha! A estrat\u00e9gia do v\u00eddeo deu certo e os professores est\u00e3o se voltando contra Toninho Ti\u00e3o!",
-            "id": "P26a",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P27",
-                    "text": "Funcionou!"
-                },
-                {
-                    "text": "O que fa\u00e7o agora?",
-                    "next_question_id": "P27"
-                }
-            ]
-        },
-        "P12": {
-            "id": "P12",
-            "text": "O que voc\u00ea acha desta outra op\u00e7\u00e3o? \"Fabinho Fagner trabalhou incansavelmente para melhorar o atendimento \u00e0s crian\u00e7as de nossa cidade, as inaugura\u00e7\u00f5es das duas novas creches s\u00e3o provas disso. Mesmo com o atraso de algumas obras, o prefeito est\u00e1 comprometido em proporcionar um ambiente seguro e acolhedor para nossas futuras gera\u00e7\u00f5es\". ",
-            "type": "audio",
-            "options": [
-                {
-                    "next_question_id": "P12a",
-                    "text": "Quero usar esse \u00e1udio!"
-                },
-                {
-                    "text": "N\u00e3o quero usar este \u00e1udio!",
-                    "next_question_id": "P13"
-                }
-            ],
-            "imagem": "",
-            "people": "0",
-            "section": "B1",
-            "credibility": "0"
-        },
-        "P64a": {
-            "credibility": "0",
-            "section": "B5 ",
-            "people": "0",
-            "imagem": "",
-            "options": [
-                {
-                    "text": "Vamos seguir!",
-                    "next_question_id": "P65"
-                },
-                {
-                    "next_question_id": "P65",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "type": "",
-            "id": "P64a",
-            "text": "N\u00e3o se preocupe, est\u00e1 indo muito bem! Estamos na reta final da campanha."
-        },
-        "P20": {
-            "credibility": "0",
-            "section": "B1",
-            "people": "0",
-            "imagem": "",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P21"
-                },
-                {
-                    "text": "Ent\u00e3o..",
-                    "next_question_id": "P21"
-                }
-            ],
-            "type": "",
-            "text": "Voc\u00ea acabou de utilizar a t\u00e9cnica da Emo\u00e7\u00e3o, marcada por termos chamativos que remetem \u00e0 urg\u00eancia. Conte\u00fados deste tipo provocam sentimentos como medo, raiva, alegria, identifica\u00e7\u00e3o ou rejei\u00e7\u00e3o no eleitor.",
-            "id": "P20"
-        },
-        "P45": {
-            "id": "P45",
-            "text": "Filtro de Toninho Ti\u00e3o, conhecido por desvios de verba p\u00fablica, com duas maletas, uma em cada m\u00e3o e a frase: \"Roubo e n\u00e3o fa\u00e7o!\"",
-            "type": "Imagem/filtro",
-            "options": [
-                {
-                    "text": "Sim, quero usar este filtro!",
-                    "next_question_id": "P45a"
-                },
-                {
-                    "next_question_id": "P46",
-                    "text": "N\u00e3o, quero usar este filtro!"
-                }
-            ],
-            "people": "0",
-            "imagem": "",
-            "section": "B4",
-            "credibility": "0"
-        },
-        "P1": {
-            "people": "0",
-            "imagem": "",
-            "section": "B0",
-            "credibility": "0",
-            "id": "P1",
-            "text": "Certo! Nesta simula\u00e7\u00e3o, voc\u00ea ser\u00e1 o coordenador(a) de uma campanha pol\u00edtica, que tem como objetivo reeleger o atual prefeito da cidade, Fabinho Fagner. Vamos come\u00e7ar?",
-            "media": {
-                "type": "video",
-                "src": "trailer.webm"
+            {
+               "text" : "Será que funciona? Me mostra?",
+               "next_question_id" : "P29"
+            }
+         ],
+         "id" : "P28",
+         "section" : "B2",
+         "people" : "0"
+      },
+      "P63a" : {
+         "text" : "Conseguiu! Está quase na reta final da campanha e você está indo muito bem!",
+         "options" : [
+            {
+               "next_question_id" : "P65",
+               "text" : "Vamos rumo à vitória!"
             },
-            "type": "",
-            "options": [
-                {
-                    "text": "Claro!",
-                    "next_question_id": "P2"
-                },
-                {
-                    "next_question_id": "P3",
-                    "text": "A qualquer custo?"
-                }
-            ]
-        },
-        "P30": {
-            "id": "P30",
-            "text": "Duas pessoas caminhando na rua, com uma caixa e um envelope \n",
-            "options": [
-                {
-                    "next_question_id": "P30a",
-                    "text": "Sim, quero usar esta foto!"
-                },
-                {
-                    "next_question_id": "P29",
-                    "text": "Quero usar a foto anterior"
-                }
-            ],
-            "type": "foto",
-            "section": "B2",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0"
-        },
-        "P51a": {
-            "section": "B4",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0",
-            "id": "P51a",
-            "text": "N\u00e3o se preocupe, est\u00e1 indo muito bem! Vamos continuar rumo \u00e0 vit\u00f3ria?",
-            "options": [
-                {
-                    "text": "Estou ganhando!",
-                    "next_question_id": "P52"
-                },
-                {
-                    "text": "O que fa\u00e7o agora?",
-                    "next_question_id": "P52"
-                }
-            ],
-            "type": ""
-        },
-        "P69": {
-            "section": "BF",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0",
-            "id": "P69",
-            "text": "Voc\u00ea experimentou na pr\u00e1tica essas t\u00e9cnicas, mas reelegeu seu candidato com ajuda de mentiras e desinforma\u00e7\u00e3o. E os boatos logo v\u00e3o come\u00e7ar a correr pela cidade e nas redes.  ",
-            "options": [
-                {
-                    "next_question_id": "P70",
-                    "text": "Sim, Valeu demais!"
-                },
-                {
-                    "text": "Estou com medo das consequ\u00eancias!",
-                    "next_question_id": "P70"
-                }
-            ],
-            "type": ""
-        },
-        "P61": {
-            "imagem": "",
-            "people": "",
-            "section": "B5 ",
-            "credibility": "",
-            "text": "Usando bots de perfis falsos, compartilhe conte\u00fados ligados a falsos especialistas que s\u00e3o contra vacina.  ",
-            "id": "P61",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P62",
-                    "text": "Entendi"
-                },
-                {
-                    "text": "Ainda tenho d\u00favida?",
-                    "next_question_id": "P62"
-                }
-            ]
-        },
-        "P43": {
-            "text": "\u00c9 hora de apelar! Toninho Ti\u00e3o est\u00e1 crescendo nas inten\u00e7\u00f5es de voto e isso n\u00e3o \u00e9 nada bom. \n",
-            "id": "P43",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P44"
-                },
-                {
-                    "next_question_id": "P44",
-                    "text": "Pode me ajudar?"
-                }
-            ],
-            "type": "",
-            "section": "B4",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0"
-        },
-        "P36a": {
-            "imagem": "",
-            "people": "300",
-            "section": "B3",
-            "credibility": "75",
-            "text": "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que voc\u00ea escolheu. Agora, a base de apoio do seu candidato est\u00e1 mais animada na redes sociais chamando o candidato advers\u00e1rio de extremista de esquerda e os indecisos que t\u00eam cautela com a Esquerda j\u00e1 est\u00e3o escolhendo seu candidato sem nem mesmo ler as propostas do advers\u00e1rio.",
-            "id": "P36a",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P39",
-                    "text": "Os perfis fakes s\u00e3o perigosos!"
-                },
-                {
-                    "next_question_id": "P39",
-                    "text": "Vamos continuar!"
-                }
-            ]
-        },
-        "P42": {
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B3",
-            "type": "",
-            "options": [
-                {
-                    "text": "End",
-                    "next_question_id": "B3"
-                }
-            ],
-            "text": "Nova t\u00e9cnica dominada! Polariza\u00e7\u00e3o! Com quantas discuss\u00f5es polarizadas voc\u00ea se deparou nos \u00faltimos meses? ",
-            "id": "P42"
-        },
-        "P60": {
-            "section": "B5 ",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0",
-            "text": "Durante a pandemia de Covid-19, Fabinho Fagner se posicionou contra as vacinas e algumas pessoas concordaram com isso. Pelas alian\u00e7as pol\u00edticas que t\u00eam na regi\u00e3o, Fabinho Fagner continua sendo contra. Por\u00e9m, nos \u00faltimos meses, parte de seu eleitorado mudou de opini\u00e3o e voltou a confiar nos benef\u00edcios da vacina\u00e7\u00e3o. Agora, voc\u00ea precisa convencer alguns eleitores a acreditar nos riscos da vacina. Caso contr\u00e1rio, ele vai perder votos.  ",
-            "id": "P60",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P61"
-                },
-                {
-                    "text": "Como fa\u00e7o?",
-                    "next_question_id": "P61"
-                }
-            ],
-            "type": ""
-        },
-        "P15": {
-            "options": [
-                {
-                    "next_question_id": "P16",
-                    "text": "\u00c9 uma boa ideia!"
-                },
-                {
-                    "text": "Vamos ver essa foto",
-                    "next_question_id": "P16"
-                }
-            ],
-            "type": "",
-            "id": "P15",
-            "text": "Vamos utilizar uma imagem de dez anos atr\u00e1s, do candidato advers\u00e1rio, Toninho Ti\u00e3o, com um vereador da cidade, preso por corrup\u00e7\u00e3o entre 2017 e 2019, para associar a imagem de Ti\u00e3o \u00e0 do corrupto. A imagem ser\u00e1 replicada em diferentes perfis nas redes sociais, sugerindo que a foto tenha sido tirada no ano passado - o que n\u00e3o \u00e9 verdade, mas at\u00e9 que descubram, a pol\u00eamica j\u00e1 se espalhou.  ",
-            "credibility": "0",
-            "section": "B1",
-            "people": "0",
-            "imagem": ""
-        },
-        "P4": {
-            "options": [
-                {
-                    "next_question_id": "P5",
-                    "text": "Entendi"
-                },
-                {
-                    "next_question_id": "P6",
-                    "text": "Como fa\u00e7o?"
-                }
-            ],
-            "type": "",
-            "text": "N\u00e3o se preocupe, voc\u00ea est\u00e1 em um ambiente seguro. Nada do que voc\u00ea fa\u00e7a no jogo afetar\u00e1 o mundo real, mas fique atento para perceber que, provavelmente, em seu cotidiano, voc\u00ea j\u00e1 foi afetado por estrat\u00e9gias que utilizar\u00e1 por aqui!",
-            "id": "P4",
-            "credibility": "0",
-            "section": "B0",
-            "imagem": "",
-            "people": "0"
-        },
-        "P39": {
-            "credibility": "",
-            "people": "",
-            "imagem": "",
-            "section": "B3",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P40",
-                    "text": "J\u00e1 vi muitos perfis assim..."
-                },
-                {
-                    "text": "Combinado!",
-                    "next_question_id": "P40"
-                }
-            ],
-            "id": "P39",
-            "text": "Realmente! Fique ligado, os perfis fakes geralmente t\u00eam nomes muito estranhos, pouqu\u00edssimas ou um excesso de publica\u00e7\u00f5es e nenhuma foto ou fotos de bancos de imagens. Se notar algum desses elementos, voc\u00ea pode investigar melhor a conta e se concluir que \u00e9 uma conta fake, denuncie para o aplicativo."
-        },
-        "P56": {
-            "credibility": "",
-            "section": "B5 ",
-            "people": "",
-            "imagem": "",
-            "options": [
-                {
-                    "next_question_id": "P57",
-                    "text": "Entendi"
-                },
-                {
-                    "text": "Ent\u00e3o..",
-                    "next_question_id": "P57"
-                }
-            ],
-            "type": "",
-            "text": "Voc\u00ea deve selecionar uma mensagem, que ser\u00e1 enviada em diferentes listas. Depois de algumas horas, a fonte de origem da mensagem vai se perder e ningu\u00e9m vai saber que foi voc\u00ea, coordenador(a) da campanha, que come\u00e7ou com isso. Por outro lado, quanto mais viral a mensagem se tornar, maior a chance das pessoas acreditarem, pois v\u00e3o receber o conte\u00fado mais de uma vez. ",
-            "id": "P56"
-        },
-        "P17a": {
-            "section": "B1",
-            "imagem": "",
-            "people": "300",
-            "credibility": "75",
-            "text": "Bom trabalho,coordenador(a) de campanha. Sua estrat\u00e9gia de usar conte\u00fados falsos est\u00e1 dando certo.",
-            "id": "P17a",
-            "options": [
-                {
-                    "next_question_id": "P18",
-                    "text": "Bom come\u00e7o!"
-                },
-                {
-                    "next_question_id": "P18",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "type": ""
-        },
-        "P31": {
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P32",
-                    "text": "Entendi!"
-                },
-                {
-                    "next_question_id": "P32",
-                    "text": "Agora faz sentido a viraliza\u00e7\u00e3o..."
-                }
-            ],
-            "text": "As teorias da conspira\u00e7\u00e3o s\u00e3o ferramentas poderosas para manipular elei\u00e7\u00f5es. Elas provocam d\u00favidas, inseguran\u00e7as e medos. Isso ajuda a minar a confian\u00e7a em institui\u00e7\u00f5es e autoridades, inclusive no pr\u00f3prio processo eleitoral.  As conspira\u00e7\u00f5es chamam aten\u00e7\u00e3o dos eleitores, geram engajamento e tendem a ser impulsionadas pelos algoritmos das plataformas, fazendo com que se espalhem rapidamente.",
-            "id": "P31",
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B2"
-        },
-        "P50a": {
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B4",
-            "type": "",
-            "options": [
-                {
-                    "text": "Estou ganhando!",
-                    "next_question_id": "P52"
-                },
-                {
-                    "next_question_id": "P52",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "id": "P50a",
-            "text": "Conseguiu! Como se sente?"
-        },
-        "P74": {
-            "imagem": "",
-            "people": "0",
-            "section": "BF",
-            "credibility": "0",
-            "id": "P74",
-            "text": "Compartilhe com aqueles que voc\u00ea acha que v\u00e3o gostar de aprender. Obrigado pelo experi\u00eancia!",
-            "type": "",
-            "options": [
-                {
-                    "text": "Vou compartilhar!",
-                    "next_question_id": "P75"
-                }
-            ]
-        },
-        "P24": {
-            "id": "P24",
-            "text": "Sim! Na internet voc\u00ea encontra ferramentas de IA que substituem o rosto de pessoas em v\u00eddeos e fotos. Podemos at\u00e9 criar v\u00eddeos do zero a partir de comandos escritos.\nVamos usar o rosto do candidato do Toninho Ti\u00e3o e criar um v\u00eddeo falso?",
-            "options": [
-                {
-                    "next_question_id": "P25",
-                    "text": "Essa eu quero ver!"
-                },
-                {
-                    "next_question_id": "P25",
-                    "text": "Ser\u00e1 que funciona?"
-                }
-            ],
-            "type": "",
-            "section": "B2",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0"
-        },
-        "P8": {
-            "imagem": "",
-            "people": "0",
-            "section": "B1",
-            "credibility": "0",
-            "id": "P8",
-            "text": "No \u00faltimo mandato, seu candidato iniciou a constru\u00e7\u00e3o de duas creches, mas elas foram paralisadas por conta de den\u00fancias de um esquema de desvio de verbas. Vamos abafar a parte da paralisa\u00e7\u00e3o e focar no in\u00edcio das constru\u00e7\u00f5es para conectar a imagem do candidato \u00e0 bandeira da educa\u00e7\u00e3o.",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P9",
-                    "text": "Como fa\u00e7o isso?"
-                },
-                {
-                    "next_question_id": "P9",
-                    "text": "E se ningu\u00e9m acreditar?"
-                }
-            ]
-        },
-        "P17": {
-            "options": [
-                {
-                    "text": "Quero usar esta foto!",
-                    "next_question_id": "P17a"
-                },
-                {
-                    "next_question_id": "P16",
-                    "text": "Prefiro usar a outra foto!"
-                }
-            ],
-            "type": "foto",
-            "id": "P17",
-            "text": "Foto de 10 anos atr\u00e1s em que Toninho Ti\u00e3o aparece ao lado do vereador investigado, em um jantar, na fazenda do vereador.   ",
-            "credibility": "0",
-            "section": "B1",
-            "imagem": "",
-            "people": "0"
-        },
-        "P50": {
-            "type": "prompt",
-            "options": [
-                {
-                    "next_question_id": "P51a",
-                    "text": "Quero usar este comando!"
-                },
-                {
-                    "next_question_id": "P52",
-                    "text": "N\u00e3o quero usar este comando!"
-                }
-            ],
-            "id": "P50",
-            "text": "Crie uma imagem de Toninho Ti\u00e3o em uma roda de rap, com um cen\u00e1rio em tons escuros e pesados.\n",
-            "credibility": "100",
-            "people": "400",
-            "imagem": "",
-            "section": "B4"
-        },
-        "P66": {
-            "text": "As falas dos falsos especialistas simulam ter uma base cient\u00edfica na tentativa de fazer com que a informa\u00e7\u00e3o seja confi\u00e1vel e segura. \n\n",
-            "id": "P66",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P67"
-                },
-                {
-                    "next_question_id": "P67",
-                    "text": "Ent\u00e3o.."
-                }
-            ],
-            "type": "",
-            "section": "B5 ",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0"
-        },
-        "P51": {
-            "section": "B4",
-            "imagem": "",
-            "people": "300",
-            "credibility": "75",
-            "text": "Crie uma imagem de Toninho Ti\u00e3o dan\u00e7ando break no ch\u00e3o da pra\u00e7a da cidade e coloque uma frase de efeito na camisa dele que critique a atual gest\u00e3o da prefeitura.",
-            "id": "P51",
-            "options": [
-                {
-                    "next_question_id": "P52a",
-                    "text": "Quero usar este comando!"
-                },
-                {
-                    "next_question_id": "P51",
-                    "text": "N\u00e3o quero usar este comando!"
-                }
-            ],
-            "type": "prompt"
-        },
-        "P30a": {
-            "text": "Bom trabalho, coordenador(a). Sua estrat\u00e9gia de campanha est\u00e1 dando certo! H\u00e1 um grande movimento nas redes sociais de pessoas questionando a honestidade do Toninho Ti\u00e3o. Gra\u00e7as aos conte\u00fados em tom conspirat\u00f3rio que voc\u00ea espalhou! ",
-            "id": "P30a",
-            "options": [
-                {
-                    "next_question_id": "P31",
-                    "text": "Estamos indo bem!"
-                },
-                {
-                    "text": "Ser\u00e1 que vamos ganhar?",
-                    "next_question_id": "P31"
-                }
-            ],
-            "type": "",
-            "section": "B2",
-            "people": "300",
-            "imagem": "",
-            "credibility": "75"
-        },
-        "P28": {
-            "id": "P28",
-            "text": "Sim, fotos s\u00e3o facilmente manipuladas e, com as novas tecnologias de IA, isso ficou ainda mais f\u00e1cil. Podemos utilizar uma foto j\u00e1 existente de Toninho, candidato advers\u00e1rio, adicionar elementos que sugiram corrup\u00e7\u00e3o e diminuir a qualidade da imagem. Assim ficar\u00e1 mais dif\u00edcil de descobrirem que ela \u00e9 falsa.",
-            "options": [
-                {
-                    "next_question_id": "P29",
-                    "text": "Como vamos fazer!"
-                },
-                {
-                    "next_question_id": "P29",
-                    "text": "Ser\u00e1 que funciona? Me mostra?"
-                }
-            ],
-            "type": "",
-            "section": "B2",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0"
-        },
-        "P36": {
-            "people": "0",
-            "imagem": "",
-            "section": "B3",
-            "credibility": "0",
-            "id": "P36",
-            "text": "O que voc\u00ea acha desta publica\u00e7\u00e3o? \"Voc\u00eas sabiam que Toninho Ti\u00e3o tem amigos que usam maconha? Era de se esperar que esse esquerdista defendesse o uso de drogas. \u00c9 essa influ\u00eancia que voc\u00eas querem para as crian\u00e7as da cidade? A esquerda est\u00e1 aqui para destruir a tradi\u00e7\u00e3o e os bons costumes das fam\u00edlias de bem desta cidade. Diga n\u00e3o ao comunismo, diga n\u00e3o a Toninho Ti\u00e3o!\"",
-            "type": "Imagem/publica\u00e7\u00e3o",
-            "options": [
-                {
-                    "text": "Quero usar esta mensagem!",
-                    "next_question_id": "P36a"
-                },
-                {
-                    "text": "Quero usar a outra mensagem",
-                    "next_question_id": "P35"
-                }
-            ]
-        },
-        "P59": {
-            "people": "0",
-            "imagem": "",
-            "section": "B5 ",
-            "credibility": "0",
-            "id": "P59",
-            "text": "\u00c9 bom estar com voc\u00ea nesta campanha. Vamos em frente coordenador(a)!",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P60",
-                    "text": "Vamos seguir!"
-                },
-                {
-                    "next_question_id": "P60",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ]
-        },
-        "P25": {
-            "section": "B2",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0",
-            "text": "Toninho Ti\u00e3o criticando os agricultores",
-            "id": "P25",
-            "options": [
-                {
-                    "next_question_id": "P25a",
-                    "text": "Quero usar este video!"
-                },
-                {
-                    "next_question_id": "P26",
-                    "text": "N\u00e3o quero usar este v\u00eddeo!"
-                }
-            ],
-            "type": "video"
-        },
-        "P40": {
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P41",
-                    "text": "Me explica?"
-                },
-                {
-                    "next_question_id": "P41",
-                    "text": "Eu usei?"
-                }
-            ],
-            "text": "Voc\u00ea acabou de utilizar a t\u00e9cnica de polariza\u00e7\u00e3o, muito eficiente para tornar uma desinforma\u00e7\u00e3o viral. \u00c9 s\u00f3 combinar a simplifica\u00e7\u00e3o de quest\u00f5es complexas com a cria\u00e7\u00e3o de supostos inimigos. A polariza\u00e7\u00e3o reduz um tema ou um debate plural a apenas dois polos.",
-            "id": "P40",
-            "credibility": "0",
-            "imagem": "",
-            "people": "0",
-            "section": "B3"
-        },
-        "P62": {
-            "id": "P62",
-            "text": "Um relat\u00f3rio cient\u00edfico supostamente publicado por um centro de pesquisa norte-americano escrito por um suposto m\u00e9dico alega que 70% das vacinas contra a Covid-19 apresentam efeitos colaterais graves.",
-            "type": "Imagem/publica\u00e7\u00e3o",
-            "options": [
-                {
-                    "text": "Quero usar este conte\u00fado!",
-                    "next_question_id": "P62a"
-                },
-                {
-                    "text": "N\u00e3o quero usar este conteudo!",
-                    "next_question_id": "P63"
-                }
-            ],
-            "people": "400",
-            "imagem": "",
-            "section": "B5 ",
-            "credibility": "100"
-        },
-        "P6": {
-            "people": "0",
-            "imagem": "",
-            "section": "B1",
-            "credibility": "0",
-            "id": "P6",
-            "text": "Depois de uma pesquisa de inten\u00e7\u00e3o de votos, voc\u00ea descobriu que seu candidato est\u00e1 com uma baixa popularidade. Precisamos aumentar a credibilidade dele com a popula\u00e7\u00e3o!",
-            "type": "",
-            "options": [
-                {
-                    "end": true,
-                    "text": "Encerrar seÃ§Ã£o",
-                    "next_question_id": "P7"
-                },
-                {
-                    "final": true,
-                    "text": "Encerrar quiz"
-                },
-                {
-                    "next_question_id": "P7",
-                    "text": "Como?"
-                },
-                {
-                    "text": "Me ajuda?",
-                    "next_question_id": "P7"
-                }
-            ]
-        },
-        "P46a": {
-            "credibility": "75",
-            "people": "300",
-            "imagem": "",
-            "section": "B4",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P47",
-                    "text": "Vamos bombar!"
-                },
-                {
-                    "next_question_id": "P47",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "id": "P46a",
-            "text": "\u00c9 bom estar com voc\u00ea nesta campanha. Por onde quer continuar?"
-        },
-        "P33": {
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P34",
-                    "text": "Parece interessante"
-                },
-                {
-                    "text": "Como fazer isso?",
-                    "next_question_id": "P34"
-                }
-            ],
-            "id": "P33",
-            "text": "Muitos eleitores ainda est\u00e3o indecisos sobre em quem votar. Uma maneira de for\u00e7\u00e1-los a escolher um lado e ainda inflamar a nossa base eleitoral para que eles se tornem mais ativos nas redes sociais, \u00e9 polarizar este debate.",
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B3"
-        },
-        "P32": {
-            "section": "B2",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0",
-            "text": "Nova t\u00e9cnica dominada! Teorias da conspira\u00e7\u00e3o! Voc\u00ea consegue se lembrar de alguma teoria da conspira\u00e7\u00e3o que viu durante as \u00faltimas elei\u00e7\u00f5es? Com certeza muitas foram criadas. Vamos continuar, temos uma elei\u00e7\u00e3o a vencer! ",
-            "id": "P32",
-            "options": [
-                {
-                    "next_question_id": "B2",
-                    "text": "End"
-                }
-            ],
-            "type": ""
-        },
-        "P49": {
-            "type": "",
-            "options": [
-                {
-                    "text": "Vamos l\u00e1!",
-                    "next_question_id": "P50"
-                },
-                {
-                    "next_question_id": "P50",
-                    "text": "Como fa\u00e7o?"
-                }
-            ],
-            "id": "P49",
-            "text": "Para botar lenha na fogueira, usando IA, crie uma imagem do candidato advers\u00e1rio em uma performance de rap na pra\u00e7a da cidade. A ideia \u00e9 associar a imagem dele a algu\u00e9m que \u00e9 a favor desse projeto. Qual comando voc\u00ea utilizaria? ",
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B4"
-        },
-        "P3": {
-            "id": "P3",
-            "text": "Durante a campanha, voc\u00ea vai utilizar estrat\u00e9gias e t\u00e9cnicas desinformativas, inclusive envolvendo intelig\u00eancia artificial (IA), mesmo n\u00e3o sendo \u00e9tico. Dessa forma, voc\u00ea vai entender como algumas campanhas podem tentar te enganar.",
-            "type": "",
-            "options": [
-                {
-                    "text": "Tudo bem!",
-                    "next_question_id": "P5"
-                },
-                {
-                    "text": "N\u00e3o tenho certeza",
-                    "next_question_id": "P4"
-                }
-            ],
-            "imagem": "",
-            "people": "0",
-            "section": "B0",
-            "credibility": "0"
-        },
-        "P41": {
-            "people": "0",
-            "imagem": "",
-            "section": "B3",
-            "credibility": "0",
-            "text": "Sim, eleitores polarizados tendem a se relacionar em bolhas, o que ajuda a criar uma realidade pr\u00f3pria, distorcendo os fatos, desacreditando as institui\u00e7\u00f5es e o pr\u00f3prio processo eleitoral.\n",
-            "id": "P41",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P42",
-                    "text": "Entendi"
-                },
-                {
-                    "text": "Ent\u00e3o...",
-                    "next_question_id": "P42"
-                }
-            ]
-        },
-        "P63": {
-            "options": [
-                {
-                    "text": "Quero usar este perfil!",
-                    "next_question_id": "P63a"
-                },
-                {
-                    "next_question_id": "P64",
-                    "text": "N\u00e3o quero usar este perfil!"
-                }
-            ],
-            "type": "Imagem/publica\u00e7\u00e3o",
-            "id": "P63",
-            "text": "Uma mensagem circula por aplicativos de mensagem, assinada por um m\u00e9dico infectologista de nome Antonio F., mas sem o n\u00famero de seu registro profissional. A mensagem afirma que um estudo realizado pelo Governo brasileiro e mantido em sigilo, comprova a inefic\u00e1cia das vacinas em crian\u00e7as. ",
-            "credibility": "50",
-            "section": "B5 ",
-            "imagem": "",
-            "people": "300"
-        },
-        "P53": {
-            "type": "",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P54"
-                },
-                {
-                    "text": "Ent\u00e3o..",
-                    "next_question_id": "P54"
-                }
-            ],
-            "id": "P53",
-            "text": "Para trollar, s\u00e3o utilizados memes, v\u00eddeos editados, filtros e par\u00f3dias em \u00e1udio. Na maioria dos casos, os conte\u00fados falsos s\u00e3o disseminados em tom de brincadeira e, quando se percebe, j\u00e1 viralizaram nas redes. \n",
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B4"
-        },
-        "P18": {
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B1",
-            "type": "",
-            "options": [
-                {
-                    "text": "Mas ser\u00e1 que ningu\u00e9m vai desconfiar?",
-                    "next_question_id": "P19"
-                },
-                {
-                    "text": "Foi uma boa ideia!",
-                    "next_question_id": "P19"
-                }
-            ],
-            "text": "Percebe como \u00e9 f\u00e1cil manipular as emo\u00e7\u00f5es dos eleitores com informa\u00e7\u00f5es falsas? Selecionamos uma parte da verdade, omitimos outra e conectamos a imagem do seu candidato, Fabinho Fagner a uma refer\u00eancia positiva para a cidade.",
-            "id": "P18"
-        },
-        "P63a": {
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P65",
-                    "text": "Vamos rumo \u00e0 vit\u00f3ria!"
-                },
-                {
-                    "next_question_id": "P65",
-                    "text": "Ser\u00e1 que vale vencer assim?"
-                }
-            ],
-            "id": "P63a",
-            "text": "Conseguiu! Est\u00e1 quase na reta final da campanha e voc\u00ea est\u00e1 indo muito bem!",
-            "credibility": "0",
-            "imagem": "",
-            "people": "0",
-            "section": "B5 "
-        },
-        "P25a": {
-            "text": "Voc\u00ea conseguiu! O seu v\u00eddeo foi divulgado em plataformas de mensagens e viralizou a partir do compartilhamento por outras pessoas! ",
-            "id": "P25a",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P27",
-                    "text": "Funcionou!!"
-                },
-                {
-                    "next_question_id": "P27",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "people": "400",
-            "imagem": "",
-            "section": "B2",
-            "credibility": "100"
-        },
-        "P14": {
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P15",
-                    "text": "Mas como?"
-                },
-                {
-                    "text": "Boa sugest\u00e3o!",
-                    "next_question_id": "P15"
-                }
-            ],
-            "id": "P14",
-            "text": "Algumas pessoas est\u00e3o questionando a veracidade do \u00e1udio. N\u00e3o podemos deixar que isso afete nosso candidato! Podemos divulgar algo pol\u00eamico para a popula\u00e7\u00e3o focar na pol\u00eamica e esquecer das not\u00edcias passadas.",
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B1"
-        },
-        "P52": {
-            "imagem": "",
-            "people": "0",
-            "section": "B4",
-            "credibility": "0",
-            "id": "P52",
-            "text": "Voc\u00ea acabou de utilizar a t\u00e9cnica da trollagem, que \u00e9 o ato de provocar intencionalmente discord\u00e2ncia, agita\u00e7\u00e3o ou ofensa online, quase sempre por meio de conte\u00fados de humor. O principal objetivo \u00e9 desviar a aten\u00e7\u00e3o do eleitor e provocar disc\u00f3rdia. \n",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P53",
-                    "text": "Mas, como?"
-                },
-                {
-                    "next_question_id": "P53",
-                    "text": "S\u00e9rio? Explica melhor? "
-                }
-            ]
-        },
-        "P27": {
-            "text": "Come\u00e7aram a circular boatos de que o candidato da oposi\u00e7\u00e3o, Toninho Ti\u00e3o, estaria envolvido em um suposto esquema de corrup\u00e7\u00e3o junto a outros pol\u00edticos da cidade. Vamos aproveitar este momento e alimentar os boatos com uma foto fora de contexto?",
-            "id": "P27",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P28",
-                    "text": "Podemos falsificar uma foto?"
-                },
-                {
-                    "next_question_id": "P28",
-                    "text": "Ser\u00e1 uma boa ideia?"
-                }
-            ],
-            "imagem": "",
-            "people": "0",
-            "section": "B2",
-            "credibility": "0"
-        },
-        "P46": {
-            "credibility": "0",
-            "section": "B4",
-            "people": "0",
-            "imagem": "",
-            "options": [
-                {
-                    "text": "Sim, quero usar este filtro!",
-                    "next_question_id": "P46a"
-                },
-                {
-                    "next_question_id": "P47",
-                    "text": "N\u00e3o, quero usar este filtro!"
-                }
-            ],
-            "type": "Imagem/filtro",
-            "id": "P46",
-            "text": "Filtro de Toninho Ti\u00e3o, tamb\u00e9m famoso por seu estilo peculiar de se vestir, com roupas extravagantes e um microfone na m\u00e3o, com a frase: \"Ti\u00e3o Prefeito: destruindo o meu estilo e o seu futuro\"."
-        },
-        "P75": {
-            "people": "",
-            "imagem": "",
-            "section": "BF",
-            "credibility": "",
-            "text": "Fim de jogo! IAgora, retorne \u00e0 vida real e fa\u00e7a o melhor para sua cidade e sua comunidade! Seja contra a desinforma\u00e7\u00e3o e a favor de elei\u00e7\u00f5es limpas. ",
-            "id": "P75",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "BF",
-                    "text": "End"
-                }
-            ]
-        },
-        "P5": {
-            "people": "0",
-            "imagem": "",
-            "section": "B0",
-            "credibility": "0",
-            "id": "P5",
-            "text": "Vamos l\u00e1, coordenador(a), temos uma elei\u00e7\u00e3o a vencer! ",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P6",
-                    "text": "Beleza, bora ganhar!"
-                }
-            ]
-        },
-        "P11a": {
-            "id": "P11a",
-            "text": "Com a divulga\u00e7\u00e3o do \u00e1udio nos aplicativos de mensagens, a credibilidade do seu candidato cresceu. Voc\u00ea est\u00e1 indo muito bem! Vamos para o pr\u00f3ximo passo?",
-            "options": [
-                {
-                    "text": "Vamos ganhar as elei\u00e7\u00f5es!",
-                    "next_question_id": "P14"
-                },
-                {
-                    "next_question_id": "P14",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "type": "",
-            "section": "B1",
-            "imagem": "",
-            "people": "400",
-            "credibility": "100"
-        },
-        "P48": {
-            "text": "Est\u00e1 pegando fogo o debate sobre a aprova\u00e7\u00e3o de um programa cultural municipal que prev\u00ea incentivo para jovens cantores de rap e funk da cidade. Alguns vereadores se recusam a apoiar o projeto, alegando que a medida vai estimular o consumo de \u00e1lcool e drogas por parte dos jovens. Parte do eleitorado do seu candidato concorda com isso. ",
-            "id": "P48",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P49"
-                },
-                {
-                    "text": "O que fazer?",
-                    "next_question_id": "P49"
-                }
-            ],
-            "type": "",
-            "section": "B4",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0"
-        },
-        "P37": {
-            "type": "Imagem/publica\u00e7\u00e3o",
-            "options": [
-                {
-                    "text": "Quero usar esta mensagem!",
-                    "next_question_id": "P37a"
-                },
-                {
-                    "text": "N\u00e3o quero usar esta mensagem",
-                    "next_question_id": "P38"
-                }
-            ],
-            "text": "Boa! O que voc\u00ea acha desta publica\u00e7\u00e3o? \"T\u00e1 em d\u00favida sobre em quem votar nessas elei\u00e7\u00f5es? Voc\u00ea prefere um prefeito que defende os direitos da popula\u00e7\u00e3o ou um autorit\u00e1rio que n\u00e3o sabe dialogar e s\u00f3 pensa em ajudar os ricos? A resposta \u00e9 f\u00e1cil: diga n\u00e3o \u00e0 extrema-direita, diga n\u00e3o a Toninho Ti\u00e3o!\"",
-            "id": "P37",
-            "credibility": "0",
-            "imagem": "",
-            "people": "0",
-            "section": "B3"
-        },
-        "P35a": {
-            "id": "P35a",
-            "text": "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que voc\u00ea escolheu. Agora, a base de apoio do seu candidato est\u00e1 mais animada na redes sociais chamando o candidato advers\u00e1rio de extremista de esquerda e os indecisos que t\u00eam cautela com a Esquerda j\u00e1 est\u00e3o escolhendo seu candidato sem nem mesmo ler as propostas do advers\u00e1rio.",
-            "options": [
-                {
-                    "text": "Os perfis fakes s\u00e3o perigosos!",
-                    "next_question_id": "P39"
-                },
-                {
-                    "next_question_id": "P39",
-                    "text": "Vamos continuar!"
-                }
-            ],
-            "type": "",
-            "section": "B3",
-            "people": "400",
-            "imagem": "",
-            "credibility": "100"
-        },
-        "P73": {
-            "text": "Conhece algu\u00e9m que cairia em conte\u00fados desinformativos como os que voc\u00ea usou na campanha? \n",
-            "id": "P73",
-            "options": [
-                {
-                    "text": "Sim!",
-                    "next_question_id": "P74"
-                },
-                {
-                    "next_question_id": "P75",
-                    "text": "Acho dif\u00edcil"
-                }
-            ],
-            "type": "",
-            "section": "BF",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0"
-        },
-        "P55": {
-            "credibility": "0",
-            "imagem": "",
-            "people": "0",
-            "section": "B5 ",
-            "type": "",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P56"
-                },
-                {
-                    "text": "Como fa\u00e7o?",
-                    "next_question_id": "P56"
-                }
-            ],
-            "id": "P55",
-            "text": "Est\u00e1 na hora de movimentar as redes do seu candidato nos aplicativos de mensagem. Um dos temas que mais viraliza \u00e9 o da seguran\u00e7a p\u00fablica e o do aumento do policiamento como solu\u00e7\u00e3o para reduzir a criminalidade. Para fortalecer esse argumento e tentar se aproximar de eleitores indecisos, use um n\u00famero de contato desconhecido, crie listas de transmiss\u00e3o a partir dele e envie depoimentos de falsos especialistas que voc\u00ea encontrou na internet, defendendo que o aumento de policiamento \u00e9 a principal solu\u00e7\u00e3o para redu\u00e7\u00e3o da viol\u00eancia na cidade. \n\n"
-        },
-        "P7": {
-            "options": [
-                {
-                    "text": "\u00c9 uma boa ideia!",
-                    "next_question_id": "P8"
-                },
-                {
-                    "text": "Como fa\u00e7o isso?",
-                    "next_question_id": "P8"
-                }
-            ],
-            "type": "",
-            "text": "A educa\u00e7\u00e3o \u00e9 uma bandeira que todos defendem, podemos utiliz\u00e1-la a nosso favor! ",
-            "id": "P7",
-            "credibility": "0",
-            "section": "B1",
-            "people": "0",
-            "imagem": ""
-        },
-        "P67": {
-            "section": "B5 ",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0",
-            "text": "T\u00e9cnica de falso especialista dominada! Vamos ver como o uso de todas essas t\u00e9cnicas impactou o resultado das elei\u00e7\u00f5es!",
-            "id": "P67",
-            "options": [
-                {
-                    "text": "End",
-                    "next_question_id": "B5"
-                }
-            ],
-            "type": ""
-        },
-        "P72": {
-            "credibility": "0",
-            "imagem": "",
-            "people": "0",
-            "section": "BF",
-            "type": "",
-            "options": [
-                {
-                    "text": "Entendi",
-                    "next_question_id": "P73"
-                },
-                {
-                    "next_question_id": "P73",
-                    "text": "\u00c9 verdade!"
-                }
-            ],
-            "text": "Pois muitas pessoas s\u00e3o v\u00edtimas de desinforma\u00e7\u00e3o e \u00e9 preciso reconhec\u00ea-las para n\u00e3o acabar sendo v\u00edtima delas. ",
-            "id": "P72"
-        },
-        "P16": {
-            "options": [
-                {
-                    "next_question_id": "P16a",
-                    "text": "Quero usar esta foto!"
-                },
-                {
-                    "next_question_id": "P17",
-                    "text": "N\u00e3o quero usar esta foto!"
-                }
-            ],
-            "type": "foto",
-            "id": "P16",
-            "text": "Foto de 10 anos atr\u00e1s em que Toninho Ti\u00e3o aparece ao lado do vereador investigado, na C\u00e2mara Municipal.  ",
-            "credibility": "0",
-            "section": "B1",
-            "people": "0",
-            "imagem": ""
-        },
-        "P44": {
-            "imagem": "",
-            "people": "0",
-            "section": "B4",
-            "credibility": "0",
-            "text": "Humor e trollagem podem ajudar nessas horas.Vamos aproveitar que Toninho tem o costume de utilizar roupas extravagantes e criar um filtro para redes sociais usando uma foto de corpo inteiro dele. As pessoas que o usarem podem colocar seu pr\u00f3prio rosto e inserir outras frases, como se fossem Toninho.",
-            "id": "P44",
-            "type": "",
-            "options": [
-                {
-                    "text": "Vamos fazer!",
-                    "next_question_id": "P45"
-                },
-                {
-                    "next_question_id": "P45",
-                    "text": "Pode me ajudar?"
-                }
-            ]
-        },
-        "P57a": {
-            "credibility": "0",
-            "section": "B5 ",
-            "people": "0",
-            "imagem": "",
-            "options": [
-                {
-                    "next_question_id": "P59",
-                    "text": "Bem! Rumo a vit\u00f3ria!"
-                },
-                {
-                    "text": "O que fa\u00e7o agora?",
-                    "next_question_id": "P59"
-                }
-            ],
-            "type": "",
-            "id": "P57a",
-            "text": "Conseguiu! Como se sente nesta corrida pela prefeitura?"
-        },
-        "P9": {
-            "imagem": "",
-            "people": "0",
-            "section": "B1",
-            "credibility": "0",
-            "text": "Vamos usar uma ferramenta de IA para criar um \u00e1udio fake de um professor conhecido na cidade. Assim, a popula\u00e7\u00e3o vai acreditar mais nesta hist\u00f3ria. Podemos ainda divulg\u00e1-lo de forma an\u00f4nima, por meio de grupos em aplicativos de mensagens, para que a pe\u00e7a seja encaminhada rapidamente, sem desconfiarem que tem rela\u00e7\u00e3o com a campanha oficial. O que voc\u00ea acha?",
-            "id": "P9",
-            "type": "",
-            "options": [
-                {
-                    "text": "Vamos fazer isso!",
-                    "next_question_id": "P11"
-                },
-                {
-                    "next_question_id": "P10",
-                    "text": "Como fa\u00e7o isso?"
-                }
-            ]
-        },
-        "P16a": {
-            "text": "Bom trabalho,coordenador(a) de campanha. Sua estrat\u00e9gia de usar conte\u00fados falsos est\u00e1 dando certo.",
-            "id": "P16a",
-            "type": "",
-            "options": [
-                {
-                    "text": "Bom come\u00e7o!",
-                    "next_question_id": "P18"
-                },
-                {
-                    "next_question_id": "P18",
-                    "text": "O que fa\u00e7o agora?"
-                }
-            ],
-            "people": "400",
-            "imagem": "",
-            "section": "B1",
-            "credibility": "100"
-        },
-        "P10": {
-            "id": "P10",
-            "text": "Na internet, voc\u00ea encontrar\u00e1 v\u00e1rias ferramentas que copiam a voz de pessoas a partir de \u00e1udios e v\u00eddeos. A tecnologia est\u00e1 se desenvolvendo e est\u00e1 dif\u00edcil de descobrir quais \u00e1udios s\u00e3o verdadeiros e quais n\u00e3o s\u00e3o. Utilizar a voz de pol\u00edticos, refer\u00eancias e famosos \u00e9 uma boa forma de enganar a popula\u00e7\u00e3o!",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P11",
-                    "text": "Entendi!"
-                },
-                {
-                    "text": "Bora criar um \u00e1udio",
-                    "next_question_id": "P11"
-                }
-            ],
-            "people": "0",
-            "imagem": "",
-            "section": "B1",
-            "credibility": "0"
-        },
-        "P65": {
-            "type": "",
-            "options": [
-                {
-                    "text": "Mas como?",
-                    "next_question_id": "P66"
-                },
-                {
-                    "next_question_id": "P66",
-                    "text": "Explica melhor? "
-                }
-            ],
-            "id": "P65",
-            "text": "Voc\u00ea acabou de experimentar a t\u00e9cnica do Falso Especialista, que \u00e9 utilizada para validar determinada vis\u00e3o sobre um tema pol\u00eamico. Falsos especialistas s\u00e3o indiv\u00edduos ou grupos que se apresentam ou s\u00e3o utilizados por candidatos como autoridades em \u00e1reas e temas nos quais n\u00e3o possuem conhecimento ou qualifica\u00e7\u00e3o real. ",
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B5 "
-        },
-        "P57": {
-            "credibility": "100",
-            "section": "B5 ",
-            "people": "400",
-            "imagem": "",
-            "options": [
-                {
-                    "next_question_id": "P57a",
-                    "text": "Quero usar esta mensagem!"
-                },
-                {
-                    "next_question_id": "P58",
-                    "text": "N\u00e3o quero usar esta mensagem!"
-                }
-            ],
-            "type": "postagem texto",
-            "text": "\"Pesquisas apontam: quanto mais policiamento, maior a seguran\u00e7a do cidad\u00e3o. Digo isso com a experi\u00eancia da farda e dos relat\u00f3rios que diferentes \u00f3rg\u00e3os de seguran\u00e7a mostraram nos \u00faltimos anos\", explica policial militar aposentado que atualmente trabalha como consultor em seguran\u00e7a p\u00fablica dando palestras em todo Brasil. Se voc\u00ea apoia maior investimento em seguran\u00e7a, est\u00e1 com Fabinho Fagner pela reelei\u00e7\u00e3o. ",
-            "id": "P57"
-        },
-        "P22": {
-            "id": "P22",
-            "text": "Agora que j\u00e1 ganhamos alguns pontos de credibilidade, o que acha de diminuirmos a credibilidade do candidato advers\u00e1rio, Toninho Ti\u00e3o?",
-            "options": [
-                {
-                    "text": "\u00c9 uma boa!",
-                    "next_question_id": "P23"
-                },
-                {
-                    "next_question_id": "P23",
-                    "text": "Como?"
-                }
-            ],
-            "type": "",
-            "section": "B2",
-            "imagem": "",
-            "people": "0",
-            "credibility": "0"
-        },
-        "P2": {
-            "credibility": "0",
-            "imagem": "",
-            "people": "0",
-            "section": "B0",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P3",
-                    "text": "Estou preparado."
-                },
-                {
-                    "text": "Como?",
-                    "next_question_id": "P3"
-                }
-            ],
-            "text": "Como coordenador(a) de campanha, sua miss\u00e3o \u00e9 garantir que o prefeito seja reeleito a qualquer custo!",
-            "media": {
-                "type": "audio",
-                "src": "metal.mp3"
+            {
+               "next_question_id" : "P65",
+               "text" : "Será que vale vencer assim?"
+            }
+         ],
+         "id" : "P63a",
+         "credibility" : "0",
+         "section" : "B5 ",
+         "people" : "0"
+      },
+      "P6" : {
+         "options" : [
+            {
+               "next_question_id" : "P7",
+               "text" : "Como?"
             },
-            "id": "P2"
-        },
-        "P11": {
-            "people": "0",
-            "imagem": "",
-            "section": "B1",
-            "credibility": "0",
-            "id": "P11",
-            "text": "O que voc\u00ea acha deste \u00e1udio? \"Durante o \u00faltimo mandato, Fabinho Fagner iniciou duas obras de creches para ampliar o atendimento \u00e0s crian\u00e7as da cidade, o que pode resolver um problema do munic\u00edpio. Acho que essas iniciativas demonstram compromisso com o futuro das crian\u00e7as e jovens.\"",
-            "type": "audio",
-            "options": [
-                {
-                    "text": "Quero usar esse \u00e1udio!",
-                    "next_question_id": "P11a"
-                },
-                {
-                    "text": "N\u00e3o quero usar esse \u00e1udio",
-                    "next_question_id": "P12"
-                }
-            ]
-        },
-        "P37a": {
-            "credibility": "75",
-            "imagem": "",
-            "people": "300",
-            "section": "B3",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P39",
-                    "text": "Os perfis fakes s\u00e3o perigosos!"
-                },
-                {
-                    "text": "Vamos continuar!",
-                    "next_question_id": "P40"
-                }
-            ],
-            "id": "P37a",
-            "text": "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que voc\u00ea escolheu. Agora, a base de apoio do seu candidato est\u00e1 mais animada na redes sociais chamando o candidato advers\u00e1rio de extremista de direita e os indecisos que t\u00eam cautela com a Direita j\u00e1 est\u00e3o escolhendo seu candidato sem nem mesmo ler as propostas do advers\u00e1rio."
-        },
-        "P23": {
-            "id": "P23",
-            "text": "Vamos utilizar o rosto do candidato advers\u00e1rio e criar um v\u00eddeo falso com ele dizendo algo que n\u00e3o disse? Podemos adicionar uma fala pol\u00eamica para despertar a raiva de grupos espec\u00edficos de eleitores. Voc\u00ea concorda com a ideia?",
-            "options": [
-                {
-                    "text": "\u00c9 poss\u00edvel fazer isso?",
-                    "next_question_id": "P24"
-                },
-                {
-                    "text": "Ser\u00e1 que funciona?",
-                    "next_question_id": "P24"
-                }
-            ],
-            "type": "",
-            "section": "B2",
-            "people": "0",
-            "imagem": "",
-            "credibility": "0"
-        },
-        "P35": {
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B3",
-            "type": "Imagem/publica\u00e7\u00e3o",
-            "options": [
-                {
-                    "next_question_id": "P35a",
-                    "text": "Quero usar esta mensagem!"
-                },
-                {
-                    "text": "N\u00e3o quero usar esta mensagem",
-                    "next_question_id": "P36"
-                }
-            ],
-            "text": "Boa! O que voc\u00ea acha desta publica\u00e7\u00e3o? \"T\u00e1 em d\u00favida sobre em quem votar nessas elei\u00e7\u00f5es? Voc\u00ea prefere um prefeito que defende as tradi\u00e7\u00f5es da cidade e que resolve os problemas ou um esquerdista mimimi que s\u00f3 sabe reclamar das supostas injsti\u00e7as da vida e que quer desvirtuar a nossa cidade? A resposta \u00e9 f\u00e1cil: diga n\u00e3o ao comunismo, diga n\u00e3o a Toninho Ti\u00e3o!\"",
-            "id": "P35"
-        },
-        "P19": {
-            "credibility": "0",
-            "people": "0",
-            "imagem": "",
-            "section": "B1",
-            "type": "",
-            "options": [
-                {
-                    "next_question_id": "P20",
-                    "text": "Sim, Entendi!"
-                }
-            ],
-            "text": "Mesmo que parte da popula\u00e7\u00e3o saiba que o \u00e1udio \u00e9 falso, a maioria das pessoas que recebeu essa mensagem n\u00e3o vai nem desconfiar da veracidade. Isso acontece porque as pessoas recebem os \u00e1udios em grupos de pessoas que confiam, como os grupos de fam\u00edlia. Com isso, v\u00e3o acreditar e relacionar inconscientemente uma imagem positiva do seu candidato \u00e0 educa\u00e7\u00e3o.",
-            "id": "P19"
-        }
-    }
+            {
+               "text" : "Me ajuda?",
+               "next_question_id" : "P7"
+            }
+         ],
+         "text" : "Depois de uma pesquisa de intenção de votos, você descobriu que seu candidato está com uma baixa popularidade. Precisamos aumentar a credibilidade dele com a população!",
+         "id" : "P6",
+         "credibility" : "0",
+         "section" : "B1",
+         "people" : "0"
+      },
+      "P63" : {
+         "id" : "P63",
+         "options" : [
+            {
+               "text" : "Quero usar este perfil!",
+               "next_question_id" : "P63a"
+            },
+            {
+               "next_question_id" : "P64",
+               "text" : "Não quero usar este perfil!"
+            }
+         ],
+         "text" : "Uma mensagem circula por aplicativos de mensagem, assinada por um médico infectologista de nome Antonio F., mas sem o número de seu registro profissional. A mensagem afirma que um estudo realizado pelo Governo brasileiro e mantido em sigilo, comprova a ineficácia das vacinas em crianças. ",
+         "credibility" : "50",
+         "people" : "300",
+         "section" : "B5 ",
+         "media" : {
+            "type" : "image",
+            "src" : "image.png",
+            "alt_text" : ""
+         }
+      },
+      "P45" : {
+         "media" : {
+            "alt_text" : "",
+            "type" : "image",
+            "src" : "image.png"
+         },
+         "section" : "B4",
+         "people" : "0",
+         "text" : "Filtro de Toninho Tião, conhecido por desvios de verba pública, com duas maletas, uma em cada mão e a frase: \"Roubo e não faço!\"",
+         "options" : [
+            {
+               "next_question_id" : "P45a",
+               "text" : "Sim, quero usar este filtro!"
+            },
+            {
+               "text" : "Não, quero usar este filtro!",
+               "next_question_id" : "P46"
+            }
+         ],
+         "id" : "P45",
+         "credibility" : "0"
+      },
+      "P30a" : {
+         "section" : "B2",
+         "people" : "300",
+         "credibility" : "75",
+         "options" : [
+            {
+               "next_question_id" : "P31",
+               "text" : "Estamos indo bem!"
+            },
+            {
+               "next_question_id" : "P31",
+               "text" : "Será que vamos ganhar?"
+            }
+         ],
+         "text" : "Bom trabalho, coordenador(a). Sua estratégia de campanha está dando certo! Há um grande movimento nas redes sociais de pessoas questionando a honestidade do Toninho Tião. Graças aos conteúdos em tom conspiratório que você espalhou! ",
+         "id" : "P30a"
+      },
+      "P57a" : {
+         "text" : "Conseguiu! Como se sente nesta corrida pela prefeitura?",
+         "options" : [
+            {
+               "next_question_id" : "P59",
+               "text" : "Bem! Rumo a vitória!"
+            },
+            {
+               "next_question_id" : "P59",
+               "text" : "O que faço agora?"
+            }
+         ],
+         "id" : "P57a",
+         "credibility" : "0",
+         "section" : "B5 ",
+         "people" : "0"
+      },
+      "P57" : {
+         "people" : "400",
+         "section" : "B5 ",
+         "media" : {
+            "type" : "image",
+            "src" : "image.png",
+            "alt_text" : ""
+         },
+         "credibility" : "100",
+         "id" : "P57",
+         "text" : "\"Pesquisas apontam: quanto mais policiamento, maior a segurança do cidadão. Digo isso com a experiência da farda e dos relatórios que diferentes órgãos de segurança mostraram nos últimos anos\", explica policial militar aposentado que atualmente trabalha como consultor em segurança pública dando palestras em todo Brasil. Se você apoia maior investimento em segurança, está com Fabinho Fagner pela reeleição. ",
+         "options" : [
+            {
+               "next_question_id" : "P57a",
+               "text" : "Quero usar esta mensagem!"
+            },
+            {
+               "next_question_id" : "P58",
+               "text" : "Não quero usar esta mensagem!"
+            }
+         ]
+      },
+      "P30" : {
+         "media" : {
+            "alt_text" : "",
+            "type" : "image",
+            "src" : "image.png"
+         },
+         "section" : "B2",
+         "people" : "0",
+         "text" : "Duas pessoas caminhando na rua, com uma caixa e um envelope \n",
+         "options" : [
+            {
+               "text" : "Sim, quero usar esta foto!",
+               "next_question_id" : "P30a"
+            },
+            {
+               "text" : "Quero usar a foto anterior",
+               "next_question_id" : "P29"
+            }
+         ],
+         "id" : "P30",
+         "credibility" : "0"
+      },
+      "P45a" : {
+         "options" : [
+            {
+               "text" : "Seguir em frente!",
+               "next_question_id" : "P47"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P47"
+            }
+         ],
+         "text" : "Boa escolha. Vamos que vamos. Você está indo bem! Qual é o seu próximo passo?",
+         "id" : "P45a",
+         "credibility" : "100",
+         "section" : "B4",
+         "people" : "400"
+      },
+      "P64a" : {
+         "section" : "B5 ",
+         "people" : "0",
+         "text" : "Não se preocupe, está indo muito bem! Estamos na reta final da campanha.",
+         "options" : [
+            {
+               "next_question_id" : "P65",
+               "text" : "Vamos seguir!"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P65"
+            }
+         ],
+         "id" : "P64a",
+         "credibility" : "0"
+      },
+      "P29a" : {
+         "people" : "400",
+         "section" : "B2",
+         "id" : "P29a",
+         "options" : [
+            {
+               "next_question_id" : "P31",
+               "text" : "Estamos indo bem!"
+            },
+            {
+               "text" : "Será que vamos ganhar?",
+               "next_question_id" : "P31"
+            }
+         ],
+         "text" : "Vamos ganhar esta eleição! Há um grande movimento nas redes sociais de pessoas questionando a honestidade do Toninho Tião. Por muitas contas estarem comentando sobre uma mesma questão, as pessoas estão começando a acreditar na narrativa que você impulsionou. ",
+         "credibility" : "100"
+      },
+      "P15" : {
+         "id" : "P15",
+         "options" : [
+            {
+               "text" : "É uma boa ideia!",
+               "next_question_id" : "P16"
+            },
+            {
+               "text" : "Vamos ver essa foto",
+               "next_question_id" : "P16"
+            }
+         ],
+         "text" : "Vamos utilizar uma imagem de dez anos atrás, do candidato adversário, Toninho Tião, com um vereador da cidade, preso por corrupção entre 2017 e 2019, para associar a imagem de Tião à do corrupto. A imagem será replicada em diferentes perfis nas redes sociais, sugerindo que a foto tenha sido tirada no ano passado - o que não é verdade, mas até que descubram, a polêmica já se espalhou.  ",
+         "credibility" : "0",
+         "people" : "0",
+         "section" : "B1"
+      },
+      "P29" : {
+         "people" : "0",
+         "section" : "B2",
+         "media" : {
+            "src" : "image.png",
+            "type" : "image",
+            "alt_text" : ""
+         },
+         "credibility" : "0",
+         "id" : "P29",
+         "text" : "Cenário de uma reunião em um jantar íntimo com outro político e uma maleta de dólares.\n",
+         "options" : [
+            {
+               "text" : "Sim, quero usar esta foto!",
+               "next_question_id" : "P29a"
+            },
+            {
+               "next_question_id" : "P30",
+               "text" : "Não quero usar esta foto"
+            }
+         ]
+      },
+      "P16" : {
+         "media" : {
+            "alt_text" : "",
+            "src" : "image.png",
+            "type" : "image"
+         },
+         "people" : "0",
+         "section" : "B1",
+         "id" : "P16",
+         "text" : "Foto de 10 anos atrás em que Toninho Tião aparece ao lado do vereador investigado, na Câmara Municipal.  ",
+         "options" : [
+            {
+               "next_question_id" : "P16a",
+               "text" : "Quero usar esta foto!"
+            },
+            {
+               "text" : "Não quero usar esta foto!",
+               "next_question_id" : "P17"
+            }
+         ],
+         "credibility" : "0"
+      },
+      "P59" : {
+         "section" : "B5 ",
+         "people" : "0",
+         "options" : [
+            {
+               "text" : "Vamos seguir!",
+               "next_question_id" : "P60"
+            },
+            {
+               "next_question_id" : "P60",
+               "text" : "O que faço agora?"
+            }
+         ],
+         "text" : "É bom estar com você nesta campanha. Vamos em frente coordenador(a)!",
+         "id" : "P59",
+         "credibility" : "0"
+      },
+      "P16a" : {
+         "section" : "B1",
+         "people" : "400",
+         "text" : "Bom trabalho,coordenador(a) de campanha. Sua estratégia de usar conteúdos falsos está dando certo.",
+         "options" : [
+            {
+               "text" : "Bom começo!",
+               "next_question_id" : "P18"
+            },
+            {
+               "next_question_id" : "P18",
+               "text" : "O que faço agora?"
+            }
+         ],
+         "id" : "P16a",
+         "credibility" : "100"
+      },
+      "P75" : {
+         "people" : "",
+         "section" : "BF",
+         "credibility" : "",
+         "id" : "P75",
+         "text" : "Fim de jogo! IAgora, retorne à vida real e faça o melhor para sua cidade e sua comunidade! Seja contra a desinformação e a favor de eleições limpas. ",
+         "options" : [
+            {
+               "final" : true,
+               "text" : "Terminei!"
+            }
+         ]
+      },
+      "P46" : {
+         "people" : "0",
+         "section" : "B4",
+         "media" : {
+            "src" : "image.png",
+            "type" : "image",
+            "alt_text" : ""
+         },
+         "id" : "P46",
+         "options" : [
+            {
+               "text" : "Sim, quero usar este filtro!",
+               "next_question_id" : "P46a"
+            },
+            {
+               "text" : "Não, quero usar este filtro!",
+               "next_question_id" : "P47"
+            }
+         ],
+         "text" : "Filtro de Toninho Tião, também famoso por seu estilo peculiar de se vestir, com roupas extravagantes e um microfone na mão, com a frase: \"Tião Prefeito: destruindo o meu estilo e o seu futuro\".",
+         "credibility" : "0"
+      },
+      "P27" : {
+         "section" : "B2",
+         "people" : "0",
+         "text" : "Começaram a circular boatos de que o candidato da oposição, Toninho Tião, estaria envolvido em um suposto esquema de corrupção junto a outros políticos da cidade. Vamos aproveitar este momento e alimentar os boatos com uma foto fora de contexto?",
+         "options" : [
+            {
+               "next_question_id" : "P28",
+               "text" : "Podemos falsificar uma foto?"
+            },
+            {
+               "next_question_id" : "P28",
+               "text" : "Será uma boa ideia?"
+            }
+         ],
+         "id" : "P27",
+         "credibility" : "0"
+      },
+      "P61" : {
+         "credibility" : "",
+         "id" : "P61",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P62"
+            },
+            {
+               "next_question_id" : "P62",
+               "text" : "Ainda tenho dúvida?"
+            }
+         ],
+         "text" : "Usando bots de perfis falsos, compartilhe conteúdos ligados a falsos especialistas que são contra vacina.  ",
+         "people" : "",
+         "section" : "B5 "
+      },
+      "P46a" : {
+         "id" : "P46a",
+         "options" : [
+            {
+               "next_question_id" : "P47",
+               "text" : "Vamos bombar!"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P47"
+            }
+         ],
+         "text" : "É bom estar com você nesta campanha. Por onde quer continuar?",
+         "credibility" : "75",
+         "people" : "300",
+         "section" : "B4"
+      },
+      "P58a" : {
+         "section" : "B5 ",
+         "people" : "0",
+         "text" : "Não se preocupe, está indo muito bem! ",
+         "options" : [
+            {
+               "text" : "Bem! Rumo a vitória!",
+               "next_question_id" : "P59"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P59"
+            }
+         ],
+         "id" : "P58a",
+         "credibility" : "0"
+      },
+      "P32" : {
+         "credibility" : "0",
+         "id" : "P32",
+         "options" : [
+            {
+               "end" : true,
+               "text" : "Quero Continuar",
+               "next_question_id" : "P33"
+            }
+         ],
+         "text" : "Nova técnica dominada! Teorias da conspiração! Você consegue se lembrar de alguma teoria da conspiração que viu durante as últimas eleições? Com certeza muitas foram criadas. Vamos continuar, temos uma eleição a vencer! ",
+         "people" : "0",
+         "section" : "B2"
+      },
+      "P58" : {
+         "id" : "P58",
+         "text" : "Veja o que esse ex-policial e especialista explica sobre segurança pública: \"É uma conta bem simples. Se você colocar maior efetivo de policiais para estarem na rua fazendo a ronda e de olho em possíveis crimes, isso vai reduzir ou até acabar com assaltos ou qualquer outro tipo de violência. Isso não sou eu que falo, tem dados que mostram. É estudo\". Se você apoia maior investimento em segurança, está com Fabinho Fagner pela reeleição. ",
+         "options" : [
+            {
+               "next_question_id" : "P58a",
+               "text" : "Quero usar esta mensagem!"
+            },
+            {
+               "text" : "Não quero usar esta mensagem!",
+               "next_question_id" : "P59"
+            }
+         ],
+         "credibility" : "75",
+         "media" : {
+            "src" : "image.png",
+            "type" : "image",
+            "alt_text" : ""
+         },
+         "people" : "300",
+         "section" : "B5 "
+      },
+      "P17a" : {
+         "id" : "P17a",
+         "options" : [
+            {
+               "text" : "Bom começo!",
+               "next_question_id" : "P18"
+            },
+            {
+               "next_question_id" : "P18",
+               "text" : "O que faço agora?"
+            }
+         ],
+         "text" : "Bom trabalho,coordenador(a) de campanha. Sua estratégia de usar conteúdos falsos está dando certo.",
+         "credibility" : "75",
+         "people" : "300",
+         "section" : "B1"
+      },
+      "P17" : {
+         "id" : "P17",
+         "options" : [
+            {
+               "text" : "Quero usar esta foto!",
+               "next_question_id" : "P17a"
+            },
+            {
+               "text" : "Prefiro usar a outra foto!",
+               "next_question_id" : "P16"
+            }
+         ],
+         "text" : "Foto de 10 anos atrás em que Toninho Tião aparece ao lado do vereador investigado, em um jantar, na fazenda do vereador.   ",
+         "credibility" : "0",
+         "media" : {
+            "alt_text" : "",
+            "type" : "image",
+            "src" : "image.png"
+         },
+         "people" : "0",
+         "section" : "B1"
+      },
+      "P9" : {
+         "text" : "Vamos usar uma ferramenta de IA para criar um áudio fake de um professor conhecido na cidade. Assim, a população vai acreditar mais nesta história. Podemos ainda divulgá-lo de forma anônima, por meio de grupos em aplicativos de mensagens, para que a peça seja encaminhada rapidamente, sem desconfiarem que tem relação com a campanha oficial. O que você acha?",
+         "options" : [
+            {
+               "next_question_id" : "P11",
+               "text" : "Vamos fazer isso!"
+            },
+            {
+               "next_question_id" : "P10",
+               "text" : "Como faço isso?"
+            }
+         ],
+         "id" : "P9",
+         "credibility" : "0",
+         "section" : "B1",
+         "people" : "0"
+      },
+      "P62" : {
+         "media" : {
+            "src" : "image.png",
+            "type" : "image",
+            "alt_text" : ""
+         },
+         "section" : "B5 ",
+         "people" : "400",
+         "credibility" : "100",
+         "options" : [
+            {
+               "text" : "Quero usar este conteúdo!",
+               "next_question_id" : "P62a"
+            },
+            {
+               "text" : "Não quero usar este conteudo!",
+               "next_question_id" : "P63"
+            }
+         ],
+         "text" : "Um relatório científico supostamente publicado por um centro de pesquisa norte-americano escrito por um suposto médico alega que 70% das vacinas contra a Covid-19 apresentam efeitos colaterais graves.",
+         "id" : "P62"
+      },
+      "P26a" : {
+         "credibility" : "75",
+         "text" : "Boa escolha! A estratégia do vídeo deu certo e os professores estão se voltando contra Toninho Tião!",
+         "options" : [
+            {
+               "next_question_id" : "P27",
+               "text" : "Funcionou!"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P27"
+            }
+         ],
+         "id" : "P26a",
+         "section" : "B2",
+         "people" : "300"
+      },
+      "P55" : {
+         "people" : "0",
+         "section" : "B5 ",
+         "id" : "P55",
+         "text" : "Está na hora de movimentar as redes do seu candidato nos aplicativos de mensagem. Um dos temas que mais viraliza é o da segurança pública e o do aumento do policiamento como solução para reduzir a criminalidade. Para fortalecer esse argumento e tentar se aproximar de eleitores indecisos, use um número de contato desconhecido, crie listas de transmissão a partir dele e envie depoimentos de falsos especialistas que você encontrou na internet, defendendo que o aumento de policiamento é a principal solução para redução da violência na cidade. \n\n",
+         "options" : [
+            {
+               "next_question_id" : "P56",
+               "text" : "Entendi"
+            },
+            {
+               "next_question_id" : "P56",
+               "text" : "Como faço?"
+            }
+         ],
+         "credibility" : "0"
+      },
+      "P26" : {
+         "credibility" : "0",
+         "id" : "P26",
+         "options" : [
+            {
+               "text" : "Quero usar este video!",
+               "next_question_id" : "P26a"
+            },
+            {
+               "next_question_id" : "P25",
+               "text" : "Quero usar o vídeo anterior"
+            }
+         ],
+         "text" : "Toninho Tião criticando os professores",
+         "media" : {
+            "src" : "trailer.webm",
+            "type" : "video",
+            "alt_text" : ""
+         },
+         "people" : "0",
+         "section" : "B2"
+      },
+      "P47" : {
+         "credibility" : "0",
+         "id" : "P47",
+         "options" : [
+            {
+               "next_question_id" : "P48",
+               "text" : "Só se for agora!"
+            },
+            {
+               "text" : "Pode me ajudar?",
+               "next_question_id" : "P48"
+            }
+         ],
+         "text" : "Está na hora de sacudir as redes de seu candidato em um aplicativo de mensagem\n",
+         "people" : "0",
+         "section" : "B4"
+      },
+      "P31" : {
+         "section" : "B2",
+         "people" : "0",
+         "credibility" : "0",
+         "options" : [
+            {
+               "text" : "Entendi!",
+               "next_question_id" : "P32"
+            },
+            {
+               "text" : "Agora faz sentido a viralização...",
+               "next_question_id" : "P32"
+            }
+         ],
+         "text" : "As teorias da conspiração são ferramentas poderosas para manipular eleições. Elas provocam dúvidas, inseguranças e medos. Isso ajuda a minar a confiança em instituições e autoridades, inclusive no próprio processo eleitoral.  As conspirações chamam atenção dos eleitores, geram engajamento e tendem a ser impulsionadas pelos algoritmos das plataformas, fazendo com que se espalhem rapidamente.",
+         "id" : "P31"
+      },
+      "P60" : {
+         "text" : "Durante a pandemia de Covid-19, Fabinho Fagner se posicionou contra as vacinas e algumas pessoas concordaram com isso. Pelas alianças políticas que têm na região, Fabinho Fagner continua sendo contra. Porém, nos últimos meses, parte de seu eleitorado mudou de opinião e voltou a confiar nos benefícios da vacinação. Agora, você precisa convencer alguns eleitores a acreditar nos riscos da vacina. Caso contrário, ele vai perder votos.  ",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P61"
+            },
+            {
+               "text" : "Como faço?",
+               "next_question_id" : "P61"
+            }
+         ],
+         "id" : "P60",
+         "credibility" : "0",
+         "section" : "B5 ",
+         "people" : "0"
+      },
+      "P48" : {
+         "id" : "P48",
+         "text" : "Está pegando fogo o debate sobre a aprovação de um programa cultural municipal que prevê incentivo para jovens cantores de rap e funk da cidade. Alguns vereadores se recusam a apoiar o projeto, alegando que a medida vai estimular o consumo de álcool e drogas por parte dos jovens. Parte do eleitorado do seu candidato concorda com isso. ",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P49"
+            },
+            {
+               "next_question_id" : "P49",
+               "text" : "O que fazer?"
+            }
+         ],
+         "credibility" : "0",
+         "people" : "0",
+         "section" : "B4"
+      },
+      "P3" : {
+         "credibility" : "0",
+         "options" : [
+            {
+               "next_question_id" : "P5",
+               "text" : "Tudo bem!"
+            },
+            {
+               "text" : "Não tenho certeza",
+               "next_question_id" : "P4"
+            }
+         ],
+         "text" : "Durante a campanha, você vai utilizar estratégias e técnicas desinformativas, inclusive envolvendo inteligência artificial (IA), mesmo não sendo ético. Dessa forma, você vai entender como algumas campanhas podem tentar te enganar.",
+         "id" : "P3",
+         "section" : "B0",
+         "people" : "0"
+      },
+      "P56" : {
+         "people" : "",
+         "section" : "B5 ",
+         "id" : "P56",
+         "text" : "Você deve selecionar uma mensagem, que será enviada em diferentes listas. Depois de algumas horas, a fonte de origem da mensagem vai se perder e ninguém vai saber que foi você, coordenador(a) da campanha, que começou com isso. Por outro lado, quanto mais viral a mensagem se tornar, maior a chance das pessoas acreditarem, pois vão receber o conteúdo mais de uma vez. ",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P57"
+            },
+            {
+               "next_question_id" : "P57",
+               "text" : "Então.."
+            }
+         ],
+         "credibility" : ""
+      },
+      "P19" : {
+         "credibility" : "0",
+         "id" : "P19",
+         "text" : "Mesmo que parte da população saiba que o áudio é falso, a maioria das pessoas que recebeu essa mensagem não vai nem desconfiar da veracidade. Isso acontece porque as pessoas recebem os áudios em grupos de pessoas que confiam, como os grupos de família. Com isso, vão acreditar e relacionar inconscientemente uma imagem positiva do seu candidato à educação.",
+         "options" : [
+            {
+               "text" : "Sim, Entendi!",
+               "next_question_id" : "P20"
+            }
+         ],
+         "people" : "0",
+         "section" : "B1"
+      },
+      "P25a" : {
+         "credibility" : "100",
+         "text" : "Você conseguiu! O seu vídeo foi divulgado em plataformas de mensagens e viralizou a partir do compartilhamento por outras pessoas! ",
+         "options" : [
+            {
+               "text" : "Funcionou!!",
+               "next_question_id" : "P27"
+            },
+            {
+               "next_question_id" : "P27",
+               "text" : "O que faço agora?"
+            }
+         ],
+         "id" : "P25a",
+         "section" : "B2",
+         "people" : "400"
+      },
+      "P25" : {
+         "credibility" : "0",
+         "id" : "P25",
+         "text" : "Toninho Tião criticando os agricultores",
+         "options" : [
+            {
+               "next_question_id" : "P25a",
+               "text" : "Quero usar este video!"
+            },
+            {
+               "text" : "Não quero usar este vídeo!",
+               "next_question_id" : "P26"
+            }
+         ],
+         "people" : "0",
+         "section" : "B2",
+         "media" : {
+            "alt_text" : "",
+            "type" : "video",
+            "src" : "trailer.webm"
+         }
+      },
+      "P33" : {
+         "text" : "Muitos eleitores ainda estão indecisos sobre em quem votar. Uma maneira de forçá-los a escolher um lado e ainda inflamar a nossa base eleitoral para que eles se tornem mais ativos nas redes sociais, é polarizar este debate.",
+         "options" : [
+            {
+               "text" : "Parece interessante",
+               "next_question_id" : "P34"
+            },
+            {
+               "text" : "Como fazer isso?",
+               "next_question_id" : "P34"
+            }
+         ],
+         "id" : "P33",
+         "credibility" : "0",
+         "section" : "B3",
+         "people" : "0"
+      },
+      "P18" : {
+         "credibility" : "0",
+         "options" : [
+            {
+               "text" : "Mas será que ninguém vai desconfiar?",
+               "next_question_id" : "P19"
+            },
+            {
+               "text" : "Foi uma boa ideia!",
+               "next_question_id" : "P19"
+            }
+         ],
+         "text" : "Percebe como é fácil manipular as emoções dos eleitores com informações falsas? Selecionamos uma parte da verdade, omitimos outra e conectamos a imagem do seu candidato, Fabinho Fagner a uma referência positiva para a cidade.",
+         "id" : "P18",
+         "section" : "B1",
+         "people" : "0"
+      },
+      "P8" : {
+         "people" : "0",
+         "section" : "B1",
+         "credibility" : "0",
+         "id" : "P8",
+         "text" : "No último mandato, seu candidato iniciou a construção de duas creches, mas elas foram paralisadas por conta de denúncias de um esquema de desvio de verbas. Vamos abafar a parte da paralisação e focar no início das construções para conectar a imagem do candidato à bandeira da educação.",
+         "options" : [
+            {
+               "next_question_id" : "P9",
+               "text" : "Como faço isso?"
+            },
+            {
+               "next_question_id" : "P9",
+               "text" : "E se ninguém acreditar?"
+            }
+         ]
+      },
+      "P49" : {
+         "id" : "P49",
+         "text" : "Para botar lenha na fogueira, usando IA, crie uma imagem do candidato adversário em uma performance de rap na praça da cidade. A ideia é associar a imagem dele a alguém que é a favor desse projeto. Qual comando você utilizaria? ",
+         "options" : [
+            {
+               "next_question_id" : "P50",
+               "text" : "Vamos lá!"
+            },
+            {
+               "next_question_id" : "P50",
+               "text" : "Como faço?"
+            }
+         ],
+         "credibility" : "0",
+         "people" : "0",
+         "section" : "B4"
+      },
+      "P34" : {
+         "text" : "Primeiro, podemos classificar o candidato adversário em \"extremista de esquerda\" ou \"extremista de direita\", para depois criarmos publicações sobre isso. Qual você prefere?",
+         "options" : [
+            {
+               "next_question_id" : "P35",
+               "text" : "Vamos dizer que ele é de extrema-esquerda!"
+            },
+            {
+               "next_question_id" : "P36",
+               "text" : "Vamos dizer que ele é de extrema-direita!"
+            }
+         ],
+         "id" : "P34",
+         "credibility" : "0",
+         "section" : "B3",
+         "people" : "0"
+      },
+      "P37a" : {
+         "people" : "300",
+         "section" : "B3",
+         "credibility" : "75",
+         "id" : "P37a",
+         "text" : "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que você escolheu. Agora, a base de apoio do seu candidato está mais animada na redes sociais chamando o candidato adversário de extremista de direita e os indecisos que têm cautela com a Direita já estão escolhendo seu candidato sem nem mesmo ler as propostas do adversário.",
+         "options" : [
+            {
+               "next_question_id" : "P39",
+               "text" : "Os perfis fakes são perigosos!"
+            },
+            {
+               "text" : "Vamos continuar!",
+               "next_question_id" : "P40"
+            }
+         ]
+      },
+      "P50a" : {
+         "people" : "0",
+         "section" : "B4",
+         "id" : "P50a",
+         "text" : "Conseguiu! Como se sente?",
+         "options" : [
+            {
+               "next_question_id" : "P52",
+               "text" : "Estou ganhando!"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P52"
+            }
+         ],
+         "credibility" : "0"
+      },
+      "P50" : {
+         "people" : "400",
+         "section" : "B4",
+         "media" : {
+            "alt_text" : "",
+            "src" : "image.png",
+            "type" : "image"
+         },
+         "credibility" : "100",
+         "id" : "P50",
+         "options" : [
+            {
+               "text" : "Quero usar este comando!",
+               "next_question_id" : "P51a"
+            },
+            {
+               "next_question_id" : "P52",
+               "text" : "Não quero usar este comando!"
+            }
+         ],
+         "text" : "Crie uma imagem de Toninho Tião em uma roda de rap, com um cenário em tons escuros e pesados.\n"
+      },
+      "P37" : {
+         "people" : "0",
+         "section" : "B3",
+         "media" : {
+            "type" : "image",
+            "src" : "image.png",
+            "alt_text" : ""
+         },
+         "credibility" : "0",
+         "id" : "P37",
+         "text" : "Boa! O que você acha desta publicação? \"Tá em dúvida sobre em quem votar nessas eleições? Você prefere um prefeito que defende os direitos da população ou um autoritário que não sabe dialogar e só pensa em ajudar os ricos? A resposta é fácil: diga não à extrema-direita, diga não a Toninho Tião!\"",
+         "options" : [
+            {
+               "text" : "Quero usar esta mensagem!",
+               "next_question_id" : "P37a"
+            },
+            {
+               "text" : "Não quero usar esta mensagem",
+               "next_question_id" : "P38"
+            }
+         ]
+      },
+      "1" : {
+         "credibility" : "0",
+         "text" : "Oi! Seja bem-vindo(a) ao \"IAgora?\"! Bora aprender sobre como as eleições podem ser manipuladas por meio de conteúdos falsos e ferramentas de inteligência artificial?",
+         "options" : [
+            {
+               "text" : "Interessante!",
+               "next_question_id" : "P1"
+            },
+            {
+               "next_question_id" : "P1",
+               "text" : "Bora!"
+            }
+         ],
+         "id" : "1",
+         "section" : "B0",
+         "people" : "0"
+      },
+      "P66" : {
+         "section" : "B5 ",
+         "people" : "0",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P67"
+            },
+            {
+               "text" : "Então..",
+               "next_question_id" : "P67"
+            }
+         ],
+         "text" : "As falas dos falsos especialistas simulam ter uma base científica na tentativa de fazer com que a informação seja confiável e segura. \n\n",
+         "id" : "P66",
+         "credibility" : "0"
+      },
+      "P22" : {
+         "section" : "B2",
+         "people" : "0",
+         "credibility" : "0",
+         "text" : "Agora que já ganhamos alguns pontos de credibilidade, o que acha de diminuirmos a credibilidade do candidato adversário, Toninho Tião?",
+         "options" : [
+            {
+               "next_question_id" : "P23",
+               "text" : "É uma boa!"
+            },
+            {
+               "next_question_id" : "P23",
+               "text" : "Como?"
+            }
+         ],
+         "id" : "P22"
+      },
+      "P74" : {
+         "credibility" : "0",
+         "text" : "Compartilhe com aqueles que você acha que vão gostar de aprender. Obrigado pelo experiência!",
+         "options" : [
+            {
+               "text" : "Vou compartilhar!",
+               "next_question_id" : "P75"
+            }
+         ],
+         "id" : "P74",
+         "section" : "BF",
+         "people" : "0"
+      },
+      "P41" : {
+         "text" : "Sim, eleitores polarizados tendem a se relacionar em bolhas, o que ajuda a criar uma realidade própria, distorcendo os fatos, desacreditando as instituições e o próprio processo eleitoral.\n",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P42"
+            },
+            {
+               "next_question_id" : "P42",
+               "text" : "Então..."
+            }
+         ],
+         "id" : "P41",
+         "credibility" : "0",
+         "section" : "B3",
+         "people" : "0"
+      },
+      "P11a" : {
+         "people" : "400",
+         "section" : "B1",
+         "id" : "P11a",
+         "options" : [
+            {
+               "text" : "Vamos ganhar as eleições!",
+               "next_question_id" : "P14"
+            },
+            {
+               "next_question_id" : "P14",
+               "text" : "O que faço agora?"
+            }
+         ],
+         "text" : "Com a divulgação do áudio nos aplicativos de mensagens, a credibilidade do seu candidato cresceu. Você está indo muito bem! Vamos para o próximo passo?",
+         "credibility" : "100"
+      },
+      "P7" : {
+         "id" : "P7",
+         "options" : [
+            {
+               "next_question_id" : "P8",
+               "text" : "É uma boa ideia!"
+            },
+            {
+               "next_question_id" : "P8",
+               "text" : "Como faço isso?"
+            }
+         ],
+         "text" : "A educação é uma bandeira que todos defendem, podemos utilizá-la a nosso favor! ",
+         "credibility" : "0",
+         "people" : "0",
+         "section" : "B1"
+      },
+      "P11" : {
+         "text" : "O que você acha deste áudio? \"Durante o último mandato, Fabinho Fagner iniciou duas obras de creches para ampliar o atendimento às crianças da cidade, o que pode resolver um problema do município. Acho que essas iniciativas demonstram compromisso com o futuro das crianças e jovens.\"",
+         "options" : [
+            {
+               "next_question_id" : "P11a",
+               "text" : "Quero usar esse áudio!"
+            },
+            {
+               "text" : "Não quero usar esse áudio",
+               "next_question_id" : "P12"
+            }
+         ],
+         "id" : "P11",
+         "credibility" : "0",
+         "section" : "B1",
+         "people" : "0",
+         "media" : {
+            "type" : "audio",
+            "src" : "audio.mp3",
+            "alt_text" : ""
+         }
+      },
+      "P73" : {
+         "section" : "BF",
+         "people" : "0",
+         "credibility" : "0",
+         "text" : "Conhece alguém que cairia em conteúdos desinformativos como os que você usou na campanha? \n",
+         "options" : [
+            {
+               "next_question_id" : "P74",
+               "text" : "Sim!"
+            },
+            {
+               "next_question_id" : "P75",
+               "text" : "Acho difícil"
+            }
+         ],
+         "id" : "P73"
+      },
+      "P1" : {
+         "people" : "0",
+         "section" : "B0",
+         "credibility" : "0",
+         "id" : "P1",
+         "options" : [
+            {
+               "next_question_id" : "P2",
+               "text" : "Claro!"
+            },
+            {
+               "text" : "A qualquer custo?",
+               "next_question_id" : "P3"
+            }
+         ],
+         "text" : "Certo! Nesta simulação, você será o coordenador(a) de uma campanha política, que tem como objetivo reeleger o atual prefeito da cidade, Fabinho Fagner. Vamos começar?"
+      },
+      "P39" : {
+         "section" : "B3",
+         "people" : "",
+         "credibility" : "",
+         "text" : "Realmente! Fique ligado, os perfis fakes geralmente têm nomes muito estranhos, pouquíssimas ou um excesso de publicações e nenhuma foto ou fotos de bancos de imagens. Se notar algum desses elementos, você pode investigar melhor a conta e se concluir que é uma conta fake, denuncie para o aplicativo.",
+         "options" : [
+            {
+               "text" : "Já vi muitos perfis assim...",
+               "next_question_id" : "P40"
+            },
+            {
+               "text" : "Combinado!",
+               "next_question_id" : "P40"
+            }
+         ],
+         "id" : "P39"
+      },
+      "P13a" : {
+         "people" : "300",
+         "section" : "B1",
+         "id" : "P13a",
+         "text" : "Com a divulgação do áudio nos aplicativos de mensagens, a credibilidade do seu candidato cresceu. Você está indo muito bem!",
+         "options" : [
+            {
+               "text" : "Vamos ganhar as eleições!",
+               "next_question_id" : "P14"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P14"
+            }
+         ],
+         "credibility" : "75"
+      },
+      "P44" : {
+         "text" : "Humor e trollagem podem ajudar nessas horas.Vamos aproveitar que Toninho tem o costume de utilizar roupas extravagantes e criar um filtro para redes sociais usando uma foto de corpo inteiro dele. As pessoas que o usarem podem colocar seu próprio rosto e inserir outras frases, como se fossem Toninho.",
+         "options" : [
+            {
+               "text" : "Vamos fazer!",
+               "next_question_id" : "P45"
+            },
+            {
+               "next_question_id" : "P45",
+               "text" : "Pode me ajudar?"
+            }
+         ],
+         "id" : "P44",
+         "credibility" : "0",
+         "section" : "B4",
+         "people" : "0"
+      },
+      "P71" : {
+         "id" : "P71",
+         "options" : [
+            {
+               "next_question_id" : null,
+               "text" : null
+            },
+            {
+               "next_question_id" : null,
+               "text" : null
+            }
+         ],
+         "text" : "Em um processo eleitoral democrático, é fundamental respeitar as regras e leis estabelecidas pelas autoridades responsáveis. Conduzir uma campanha com transparência, coerência e verdade é o primeiro passo para ganhar uma eleição e realizar um bom mandato.   ",
+         "credibility" : "75",
+         "people" : "300",
+         "section" : "BF"
+      },
+      "P13" : {
+         "id" : "P13",
+         "options" : [
+            {
+               "next_question_id" : "P13a",
+               "text" : "Quero usar esse áudio!"
+            },
+            {
+               "text" : "Prefiro um dos áudios anteriores",
+               "next_question_id" : "P11"
+            }
+         ],
+         "text" : "O que você acha deste áudio? \"Durante seu mandato, Fabinho Fagner respondeu às necessidades das famílias jovens ao iniciar a construção de duas novas creches. Essa iniciativa demonstra o compromisso contínuo do prefeito em apoiar a educação e fortalecer nossa comunidade\"",
+         "credibility" : "0",
+         "people" : "0",
+         "section" : "B1",
+         "media" : {
+            "type" : "audio",
+            "src" : "audio.mp3",
+            "alt_text" : ""
+         }
+      },
+      "P52" : {
+         "options" : [
+            {
+               "next_question_id" : "P53",
+               "text" : "Mas, como?"
+            },
+            {
+               "next_question_id" : "P53",
+               "text" : "Sério? Explica melhor? "
+            }
+         ],
+         "text" : "Você acabou de utilizar a técnica da trollagem, que é o ato de provocar intencionalmente discordância, agitação ou ofensa online, quase sempre por meio de conteúdos de humor. O principal objetivo é desviar a atenção do eleitor e provocar discórdia. \n",
+         "id" : "P52",
+         "credibility" : "0",
+         "section" : "B4",
+         "people" : "0"
+      },
+      "P65" : {
+         "id" : "P65",
+         "text" : "Você acabou de experimentar a técnica do Falso Especialista, que é utilizada para validar determinada visão sobre um tema polêmico. Falsos especialistas são indivíduos ou grupos que se apresentam ou são utilizados por candidatos como autoridades em áreas e temas nos quais não possuem conhecimento ou qualificação real. ",
+         "options" : [
+            {
+               "next_question_id" : "P66",
+               "text" : "Mas como?"
+            },
+            {
+               "next_question_id" : "P66",
+               "text" : "Explica melhor? "
+            }
+         ],
+         "credibility" : "0",
+         "people" : "0",
+         "section" : "B5 "
+      },
+      "P38a" : {
+         "section" : "B3",
+         "people" : "400",
+         "options" : [
+            {
+               "text" : "Os perfis fakes são perigosos!",
+               "next_question_id" : "P39"
+            },
+            {
+               "text" : "Vamos continuar!",
+               "next_question_id" : "P40"
+            }
+         ],
+         "text" : "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que você escolheu. Agora, a base de apoio do seu candidato está mais animada na redes sociais chamando o candidato adversário de extremista de direita e os indecisos que têm cautela com a Direita já estão escolhendo seu candidato sem nem mesmo ler as propostas do adversário.",
+         "id" : "P38a",
+         "credibility" : "100"
+      },
+      "P38" : {
+         "credibility" : "0",
+         "text" : "O que você acha desta publicação? \"Vocês sabiam que Toninho Tião tem amigos ligados à milícia? Era de se esperar que a extrema-direita estivesse envolvida com esse tipo de gente. É essa influência que vocês querem para as crianças da cidade? A direita está aqui para pregar violência e censuras. Diga não ao fascismo, diga não a Toninho Tião!\"",
+         "options" : [
+            {
+               "next_question_id" : "P38a",
+               "text" : "Quero usar esta mensagem!"
+            },
+            {
+               "text" : "Quero usar a outra mensagem",
+               "next_question_id" : "P37"
+            }
+         ],
+         "id" : "P38",
+         "section" : "B3",
+         "people" : "0",
+         "media" : {
+            "type" : "image",
+            "src" : "image.png",
+            "alt_text" : ""
+         }
+      },
+      "P4" : {
+         "credibility" : "0",
+         "id" : "P4",
+         "text" : "Não se preocupe, você está em um ambiente seguro. Nada do que você faça no jogo afetará o mundo real, mas fique atento para perceber que, provavelmente, em seu cotidiano, você já foi afetado por estratégias que utilizará por aqui!",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P5"
+            },
+            {
+               "text" : "Como faço?",
+               "next_question_id" : "P6"
+            }
+         ],
+         "people" : "0",
+         "section" : "B0"
+      },
+      "P20" : {
+         "section" : "B1",
+         "people" : "0",
+         "credibility" : "0",
+         "options" : [
+            {
+               "text" : "Entendi",
+               "next_question_id" : "P21"
+            },
+            {
+               "next_question_id" : "P21",
+               "text" : "Então.."
+            }
+         ],
+         "text" : "Você acabou de utilizar a técnica da Emoção, marcada por termos chamativos que remetem à urgência. Conteúdos deste tipo provocam sentimentos como medo, raiva, alegria, identificação ou rejeição no eleitor.",
+         "id" : "P20"
+      },
+      "P14" : {
+         "section" : "B1",
+         "people" : "0",
+         "text" : "Algumas pessoas estão questionando a veracidade do áudio. Não podemos deixar que isso afete nosso candidato! Podemos divulgar algo polêmico para a população focar na polêmica e esquecer das notícias passadas.",
+         "options" : [
+            {
+               "text" : "Mas como?",
+               "next_question_id" : "P15"
+            },
+            {
+               "next_question_id" : "P15",
+               "text" : "Boa sugestão!"
+            }
+         ],
+         "id" : "P14",
+         "credibility" : "0"
+      },
+      "P43" : {
+         "section" : "B4",
+         "people" : "0",
+         "credibility" : "0",
+         "options" : [
+            {
+               "next_question_id" : "P44",
+               "text" : "Entendi"
+            },
+            {
+               "text" : "Pode me ajudar?",
+               "next_question_id" : "P44"
+            }
+         ],
+         "text" : "É hora de apelar! Toninho Tião está crescendo nas intenções de voto e isso não é nada bom. \n",
+         "id" : "P43"
+      },
+      "P69" : {
+         "options" : [
+            {
+               "next_question_id" : "P70",
+               "text" : "Sim, Valeu demais!"
+            },
+            {
+               "next_question_id" : "P70",
+               "text" : "Estou com medo das consequências!"
+            }
+         ],
+         "text" : "Você experimentou na prática essas técnicas, mas reelegeu seu candidato com ajuda de mentiras e desinformação. E os boatos logo vão começar a correr pela cidade e nas redes.  ",
+         "id" : "P69",
+         "credibility" : "0",
+         "section" : "BF",
+         "people" : "0"
+      },
+      "P24" : {
+         "credibility" : "0",
+         "id" : "P24",
+         "options" : [
+            {
+               "text" : "Essa eu quero ver!",
+               "next_question_id" : "P25"
+            },
+            {
+               "next_question_id" : "P25",
+               "text" : "Será que funciona?"
+            }
+         ],
+         "text" : "Sim! Na internet você encontra ferramentas de IA que substituem o rosto de pessoas em vídeos e fotos. Podemos até criar vídeos do zero a partir de comandos escritos.\nVamos usar o rosto do candidato do Toninho Tião e criar um vídeo falso?",
+         "people" : "0",
+         "section" : "B2"
+      },
+      "P72" : {
+         "people" : "0",
+         "section" : "BF",
+         "credibility" : "0",
+         "id" : "P72",
+         "text" : "Pois muitas pessoas são vítimas de desinformação e é preciso reconhecê-las para não acabar sendo vítima delas. ",
+         "options" : [
+            {
+               "next_question_id" : "P73",
+               "text" : "Entendi"
+            },
+            {
+               "next_question_id" : "P73",
+               "text" : "É verdade!"
+            }
+         ]
+      },
+      "P10" : {
+         "people" : "0",
+         "section" : "B1",
+         "id" : "P10",
+         "options" : [
+            {
+               "text" : "Entendi!",
+               "next_question_id" : "P11"
+            },
+            {
+               "next_question_id" : "P11",
+               "text" : "Bora criar um áudio"
+            }
+         ],
+         "text" : "Na internet, você encontrará várias ferramentas que copiam a voz de pessoas a partir de áudios e vídeos. A tecnologia está se desenvolvendo e está difícil de descobrir quais áudios são verdadeiros e quais não são. Utilizar a voz de políticos, referências e famosos é uma boa forma de enganar a população!",
+         "credibility" : "0"
+      },
+      "P51a" : {
+         "section" : "B4",
+         "people" : "0",
+         "credibility" : "0",
+         "text" : "Não se preocupe, está indo muito bem! Vamos continuar rumo à vitória?",
+         "options" : [
+            {
+               "text" : "Estou ganhando!",
+               "next_question_id" : "P52"
+            },
+            {
+               "text" : "O que faço agora?",
+               "next_question_id" : "P52"
+            }
+         ],
+         "id" : "P51a"
+      },
+      "P51" : {
+         "media" : {
+            "src" : "image.png",
+            "type" : "image",
+            "alt_text" : ""
+         },
+         "people" : "300",
+         "section" : "B4",
+         "id" : "P51",
+         "text" : "Crie uma imagem de Toninho Tião dançando break no chão da praça da cidade e coloque uma frase de efeito na camisa dele que critique a atual gestão da prefeitura.",
+         "options" : [
+            {
+               "next_question_id" : "P52a",
+               "text" : "Quero usar este comando!"
+            },
+            {
+               "next_question_id" : "P51",
+               "text" : "Não quero usar este comando!"
+            }
+         ],
+         "credibility" : "75"
+      },
+      "P23" : {
+         "text" : "Vamos utilizar o rosto do candidato adversário e criar um vídeo falso com ele dizendo algo que não disse? Podemos adicionar uma fala polêmica para despertar a raiva de grupos específicos de eleitores. Você concorda com a ideia?",
+         "options" : [
+            {
+               "next_question_id" : "P24",
+               "text" : "É possível fazer isso?"
+            },
+            {
+               "text" : "Será que funciona?",
+               "next_question_id" : "P24"
+            }
+         ],
+         "id" : "P23",
+         "credibility" : "0",
+         "section" : "B2",
+         "people" : "0"
+      },
+      "P35" : {
+         "people" : "0",
+         "section" : "B3",
+         "media" : {
+            "alt_text" : "",
+            "src" : "image.png",
+            "type" : "image"
+         },
+         "credibility" : "0",
+         "id" : "P35",
+         "text" : "Boa! O que você acha desta publicação? \"Tá em dúvida sobre em quem votar nessas eleições? Você prefere um prefeito que defende as tradições da cidade e que resolve os problemas ou um esquerdista mimimi que só sabe reclamar das supostas injstiças da vida e que quer desvirtuar a nossa cidade? A resposta é fácil: diga não ao comunismo, diga não a Toninho Tião!\"",
+         "options" : [
+            {
+               "text" : "Quero usar esta mensagem!",
+               "next_question_id" : "P35a"
+            },
+            {
+               "text" : "Não quero usar esta mensagem",
+               "next_question_id" : "P36"
+            }
+         ]
+      },
+      "P2" : {
+         "people" : "0",
+         "section" : "B0",
+         "credibility" : "0",
+         "id" : "P2",
+         "text" : "Como coordenador(a) de campanha, sua missão é garantir que o prefeito seja reeleito a qualquer custo!",
+         "options" : [
+            {
+               "text" : "Estou preparado.",
+               "next_question_id" : "P3"
+            },
+            {
+               "text" : "Como?",
+               "next_question_id" : "P3"
+            }
+         ]
+      },
+      "P40" : {
+         "id" : "P40",
+         "text" : "Você acabou de utilizar a técnica de polarização, muito eficiente para tornar uma desinformação viral. É só combinar a simplificação de questões complexas com a criação de supostos inimigos. A polarização reduz um tema ou um debate plural a apenas dois polos.",
+         "options" : [
+            {
+               "next_question_id" : "P41",
+               "text" : "Me explica?"
+            },
+            {
+               "next_question_id" : "P41",
+               "text" : "Eu usei?"
+            }
+         ],
+         "credibility" : "0",
+         "people" : "0",
+         "section" : "B3"
+      },
+      "P35a" : {
+         "people" : "400",
+         "section" : "B3",
+         "credibility" : "100",
+         "id" : "P35a",
+         "options" : [
+            {
+               "next_question_id" : "P39",
+               "text" : "Os perfis fakes são perigosos!"
+            },
+            {
+               "text" : "Vamos continuar!",
+               "next_question_id" : "P39"
+            }
+         ],
+         "text" : "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que você escolheu. Agora, a base de apoio do seu candidato está mais animada na redes sociais chamando o candidato adversário de extremista de esquerda e os indecisos que têm cautela com a Esquerda já estão escolhendo seu candidato sem nem mesmo ler as propostas do adversário."
+      },
+      "P68" : {
+         "people" : "0",
+         "section" : "BF",
+         "id" : "P68",
+         "options" : [
+            {
+               "text" : " Vamos seguir em frente!",
+               "next_question_id" : "P69"
+            },
+            {
+               "text" : null,
+               "next_question_id" : null
+            }
+         ],
+         "text" : "Parabéns, coordenador(a)! Você conseguiu eleger seu prefeito usando as técnicas: emoção, polarização, conspiração, trollagem e falso especialista!  Com a ajuda delas, Fabinho Fagner foi reeleito e terá um mandato de mais quatro anos. Mas será que isso é bom? Isso porque, Fabinho começou a ser investigado pelas ações criminosas realizadas nesta eleição! ",
+         "credibility" : "0"
+      },
+      "P36" : {
+         "options" : [
+            {
+               "next_question_id" : "P36a",
+               "text" : "Quero usar esta mensagem!"
+            },
+            {
+               "text" : "Quero usar a outra mensagem",
+               "next_question_id" : "P35"
+            }
+         ],
+         "text" : "O que você acha desta publicação? \"Vocês sabiam que Toninho Tião tem amigos que usam maconha? Era de se esperar que esse esquerdista defendesse o uso de drogas. É essa influência que vocês querem para as crianças da cidade? A esquerda está aqui para destruir a tradição e os bons costumes das famílias de bem desta cidade. Diga não ao comunismo, diga não a Toninho Tião!\"",
+         "id" : "P36",
+         "credibility" : "0",
+         "media" : {
+            "alt_text" : "",
+            "type" : "image",
+            "src" : "image.png"
+         },
+         "section" : "B3",
+         "people" : "0"
+      },
+      "P5" : {
+         "section" : "B0",
+         "people" : "0",
+         "credibility" : "0",
+         "text" : "Vamos lá, coordenador(a), temos uma eleição a vencer! ",
+         "options" : [
+            {
+               "text" : "Beleza, bora ganhar!",
+               "next_question_id" : "P6"
+            }
+         ],
+         "id" : "P5"
+      },
+      "P36a" : {
+         "people" : "300",
+         "section" : "B3",
+         "id" : "P36a",
+         "text" : "Muito bom! Por meio de bots, a equipe da campanha espalhou diversas mensagens como a que você escolheu. Agora, a base de apoio do seu candidato está mais animada na redes sociais chamando o candidato adversário de extremista de esquerda e os indecisos que têm cautela com a Esquerda já estão escolhendo seu candidato sem nem mesmo ler as propostas do adversário.",
+         "options" : [
+            {
+               "next_question_id" : "P39",
+               "text" : "Os perfis fakes são perigosos!"
+            },
+            {
+               "text" : "Vamos continuar!",
+               "next_question_id" : "P39"
+            }
+         ],
+         "credibility" : "75"
+      },
+      "P53" : {
+         "people" : "0",
+         "section" : "B4",
+         "id" : "P53",
+         "text" : "Para trollar, são utilizados memes, vídeos editados, filtros e paródias em áudio. Na maioria dos casos, os conteúdos falsos são disseminados em tom de brincadeira e, quando se percebe, já viralizaram nas redes. \n",
+         "options" : [
+            {
+               "next_question_id" : "P54",
+               "text" : "Entendi"
+            },
+            {
+               "text" : "Então..",
+               "next_question_id" : "P54"
+            }
+         ],
+         "credibility" : "0"
+      },
+      "P42" : {
+         "section" : "B3",
+         "people" : "0",
+         "credibility" : "0",
+         "text" : "Nova técnica dominada! Polarização! Com quantas discussões polarizadas você se deparou nos últimos meses? ",
+         "options" : [
+            {
+               "text" : "Quero Continuar",
+               "end" : true,
+               "next_question_id" : "P43"
+            }
+         ],
+         "id" : "P42"
+      },
+      "P21" : {
+         "people" : "0",
+         "section" : "B1",
+         "id" : "P21",
+         "text" : "Nova técnica dominada! Emoção! Vamos seguir. Temos uma campanha para vencer! ",
+         "options" : [
+            {
+               "end" : true,
+               "text" : "Quero Continuar",
+               "next_question_id" : "P22"
+            }
+         ],
+         "credibility" : "0"
+      },
+      "P67" : {
+         "section" : "B5 ",
+         "people" : "0",
+         "credibility" : "0",
+         "options" : [
+            {
+               "text" : "Quero Continuar",
+               "end" : true,
+               "next_question_id" : "P68"
+            }
+         ],
+         "text" : "Técnica de falso especialista dominada! Vamos ver como o uso de todas essas técnicas impactou o resultado das eleições!",
+         "id" : "P67"
+      },
+      "P54" : {
+         "section" : "B4",
+         "people" : "0",
+         "text" : "Nova técnica dominada! Trollagem, usando o humor para atacar adversários!",
+         "options" : [
+            {
+               "next_question_id" : "P55",
+               "text" : "Quero Continuar",
+               "end" : true
+            }
+         ],
+         "id" : "P54",
+         "credibility" : "0"
+      },
+      "P12" : {
+         "credibility" : "0",
+         "text" : "O que você acha desta outra opção? \"Fabinho Fagner trabalhou incansavelmente para melhorar o atendimento às crianças de nossa cidade, as inaugurações das duas novas creches são provas disso. Mesmo com o atraso de algumas obras, o prefeito está comprometido em proporcionar um ambiente seguro e acolhedor para nossas futuras gerações\". ",
+         "options" : [
+            {
+               "next_question_id" : "P12a",
+               "text" : "Quero usar esse áudio!"
+            },
+            {
+               "next_question_id" : "P13",
+               "text" : "Não quero usar este áudio!"
+            }
+         ],
+         "id" : "P12",
+         "media" : {
+            "type" : "audio",
+            "src" : "audio.mp3",
+            "alt_text" : ""
+         },
+         "section" : "B1",
+         "people" : "0"
+      },
+      "P70" : {
+         "section" : "BF",
+         "people" : "400",
+         "text" : "Parece que não valeu tanto a pena! Fabinho Fagner está sendo acusado pelo Tribunal Superior Eleitoral de fraude e crimes cometidos durante a campanha eleitoral. ",
+         "options" : [
+            {
+               "next_question_id" : null,
+               "text" : null
+            },
+            {
+               "next_question_id" : null,
+               "text" : null
+            }
+         ],
+         "id" : "P70",
+         "credibility" : "100"
+      },
+      "P12a" : {
+         "section" : "B1",
+         "people" : "400",
+         "credibility" : "100",
+         "text" : "Com a divulgação do áudio nos aplicativos de mensagens, a credibilidade do seu candidato cresceu. Você está indo muito bem! Vamos para o próximo passo?",
+         "options" : [
+            {
+               "text" : "Vamos ganhar as eleições!",
+               "next_question_id" : "P14"
+            },
+            {
+               "next_question_id" : "P14",
+               "text" : "O que faço agora?"
+            }
+         ],
+         "id" : "P12a"
+      }
+   }
 }
