@@ -11,8 +11,11 @@
 </template>
 
 <script setup>
-import sections from '@/data/sections';
 import { defineProps } from 'vue';
+import { useQuestionsStore } from '@/stores/questions';
+
+const questionsStore = useQuestionsStore();
+
 
 const props = defineProps({
   technique: {
@@ -29,5 +32,5 @@ const props = defineProps({
   }
 });
 
-const currentSection = sections.find(section => section.name === props.technique.title.toLowerCase());
+const currentSection = questionsStore.sections.find(section => section.name === props.technique.title.toLowerCase());
 </script>

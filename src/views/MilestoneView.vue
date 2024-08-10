@@ -54,23 +54,24 @@
 </template>
 
 <script setup>
-  import sections from '@/data/sections';
   import { ref, computed } from "vue";
   import { useI18n } from 'vue-i18n';
   import { useRoute } from 'vue-router';
+  import { useQuestionsStore } from '@/stores/questions';
   import confetti from "https://cdn.skypack.dev/canvas-confetti";
   import MilestoneContent from "@components/MileStoneContent.vue"
   import Technique from "@components/Technique.vue"
   import Dialog from "@components/Dialog.vue"
   import DialogIcon from "@/assets/images/brain-music.svg"
 
-
   //@todo maybe find a better way of doing this
   const route = useRoute();
   const { locale, messages } = useI18n();
+  const questionsStore = useQuestionsStore();
 
   const milestones = messages.value[locale.value].milestones;
-  const currentMilestone = sections.find(section => section.name === route.params.name.toLowerCase());
+  const currentMilestone = questionsStore.currentSection;
+
   let learnedControl = true;
 
   for (const [key, value] of Object.entries(milestones)) {

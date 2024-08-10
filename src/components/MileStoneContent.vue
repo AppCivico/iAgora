@@ -16,8 +16,11 @@
 </template>
 
 <script setup>
-import sections from '@/data/sections';
 import { defineProps } from 'vue';
+import { useQuestionsStore } from '@/stores/questions';
+
+const questionsStore = useQuestionsStore();
+const currentSection = questionsStore.currentSection;
 
 const props = defineProps({
   milestone: {
@@ -25,6 +28,4 @@ const props = defineProps({
     required: true
   }
 });
-
-const currentSection = sections.find(section => section.name === props.milestone);
 </script>
