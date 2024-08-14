@@ -79,7 +79,6 @@
   import { i18n } from '@/i18n';
   import howToPlayPtBr from '@/data/ptBR/how-to-play.md';
   import howToPlayEn from '@/data/en/how-to-play.md';
-  import VueMarkdown from 'vue-markdown-render'
   import Dialog from '@components/Dialog.vue';
 
   const impactedPeopleStore = useImpactedPeopleStore();
