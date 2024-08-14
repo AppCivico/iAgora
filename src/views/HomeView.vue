@@ -38,7 +38,7 @@
     </div>
 
     <Dialog
-      :open="dialogIsOpen"
+      :open="howToPlayIsOpen"
       :hasCloseButton="true"
       :title="$t('how-to-play.title')"
       @close="showHowToPlayDialog(false)"
@@ -47,7 +47,7 @@
       <template #body>
         <div class="wrapper wrapper--small">
           <div class="flex flex-column gap-24">
-            O objetivo do jogo é expor as táticas e técnicas de manipulação usadas para enganar as pessoas e construir um público fiel. IAgora funciona como uma “vacina” psicológica contra a desinformação: jogá-lo constrói resistência cognitiva contra formas comuns de manipulação que você pode encontrar online. Cientistas que trabalharam conosco no desenvolvimento deste jogo descobriram que jogar IAgora melhora a capacidade das pessoas de identificar técnicas de manipulação em postagens de redes sociais, aumenta sua confiança em detectar tais técnicas e reduz sua vontade de compartilhar conteúdo manipulador com pessoas de sua rede. Você pode ler mais sobre a ciência por trás do jogo aqui.       
+            <component :is="howToPlayText" />
           </div>
         </div>
       </template>
@@ -72,20 +72,31 @@
 
 <script setup>
   import { useRouter } from 'vue-router';
-  import { ref } from 'vue';
+  import { ref, shallowRef, watch } from 'vue';
   import { useImpactedPeopleStore } from '@/stores/impactedPeople';
   import { useCredibilityStore } from '@/stores/credibility';
   import { useQuestionsStore } from '@/stores/questions';
+  import { i18n } from '@/i18n';
+  import howToPlayPtBr from '@/data/ptBR/how-to-play.md';
+  import howToPlayEn from '@/data/en/how-to-play.md';
+  import VueMarkdown from 'vue-markdown-render'
   import Dialog from '@components/Dialog.vue';
 
   const impactedPeopleStore = useImpactedPeopleStore();
   const credibilityStore = useCredibilityStore();
   const questionsStore = useQuestionsStore();
   const router = useRouter();
-  const dialogIsOpen = ref(false);
+  const locale = i18n.global.locale;
+  const howToPlayIsOpen = ref(false);
+  let howToPlayText = shallowRef(howToPlayPtBr);
+
+  async function selectLanguage() {
+    const language = i18n.global.locale.value;
+    howToPlayText = language === 'en' ? howToPlayEn : howToPlayPtBr;
+  }
 
   function showHowToPlayDialog(value) {
-    dialogIsOpen.value = value;
+    howToPlayIsOpen.value = value;
   }
 
   function onStartQuiz() {
@@ -96,6 +107,10 @@
 
     router.push({ name: 'quiz' });
   }
+
+  watch(locale, () => {
+    selectLanguage();
+  });
 
   document.body.style.setProperty('--color-body-background', 'var(--color-red)');
 </script>
