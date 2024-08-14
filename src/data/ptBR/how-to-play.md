@@ -1,6 +1,3 @@
-# Como jogar
-
-[google](http://www.iagora.com.br/how-to-play/)
 O objetivo do jogo é expor as táticas e técnicas de manipulação usadas para enganar as pessoas e construir um público fiel. IAgora funciona como uma “vacina” psicológica contra a desinformação: jogá-lo constrói resistência cognitiva contra formas comuns de manipulação que você pode encontrar online.
 
 Cientistas que trabalharam conosco no desenvolvimento deste jogo descobriram que jogar IAgora melhora a capacidade das pessoas de identificar técnicas de manipulação em postagens de redes sociais, aumenta sua confiança em detectar tais técnicas e reduz sua vontade de compartilhar conteúdo manipulador com pessoas de sua rede. Você pode ler mais sobre a ciência por trás do jogo aqui.       
