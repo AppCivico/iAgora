@@ -68,6 +68,9 @@
   "how-to-play": {
     "title": "Como jogar?"
   },
+  "about": {
+    "title": "Sobre o jogo"
+  },
   "dialog": {
     "close": "Fechar"
   }
