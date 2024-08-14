@@ -77,6 +77,7 @@
   import { useCredibilityStore } from '@/stores/credibility';
   import { useQuestionsStore } from '@/stores/questions';
   import { i18n } from '@/i18n';
+  import { useStartQuiz } from '@/composables/useStartQuiz';
   import howToPlayPtBr from '@/data/ptBR/how-to-play.md';
   import howToPlayEn from '@/data/en/how-to-play.md';
   import Dialog from '@components/Dialog.vue';
@@ -87,6 +88,7 @@
   const router = useRouter();
   const locale = i18n.global.locale;
   const howToPlayIsOpen = ref(false);
+  const { onStartQuiz } = useStartQuiz();
   let howToPlayText = shallowRef(howToPlayPtBr);
 
   async function selectLanguage() {
@@ -96,15 +98,6 @@
 
   function showHowToPlayDialog(value) {
     howToPlayIsOpen.value = value;
-  }
-
-  function onStartQuiz() {
-    // Reset chat state
-    impactedPeopleStore.updateCount(0);
-    credibilityStore.resetState();
-    questionsStore.resetState();
-
-    router.push({ name: 'quiz' });
   }
 
   watch(locale, () => {

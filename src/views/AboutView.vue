@@ -27,8 +27,10 @@
   import { shallowRef, watch } from 'vue';
   import aboutPtBr from '@/data/ptBR/about.md';
   import aboutEn from '@/data/en/about.md';
+  import { useStartQuiz } from '@/composables/useStartQuiz';
   import { i18n } from '@/i18n';
 
+  const { onStartQuiz } = useStartQuiz();
   const locale = i18n.global.locale;
   let aboutText = shallowRef(aboutPtBr);
 
