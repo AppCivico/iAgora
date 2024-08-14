@@ -22,6 +22,7 @@
     <Dialog
       :open="dialogIsOpen"
       :title="$t('milestone.learned')"
+      titleIcon="medal"
       :header-icon="DialogIcon"
     >
       <template #body>

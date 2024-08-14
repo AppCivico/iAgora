@@ -16,6 +16,16 @@
   backdrop-filter: blur(10px);
 }
 
+.dialog--blue {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+
+  :is(.dialog__title) {
+    font-size: clamp(2.1875rem, 0.8448rem + 5.8065vw, 3.3125rem);
+    color: var(--color-yellow);
+  }
+}
+
 .dialog__header {
   display: flex;
   flex-direction: column;
@@ -63,7 +73,7 @@
   background-position: center;
   background-size: 50%;
   border-radius: 50%;
-  border: 3px solid var(--color-green);
+  border: 0;
   cursor: pointer;
   color: var(--color-white);
   font-size: 3rem;

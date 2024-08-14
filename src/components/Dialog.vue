@@ -1,17 +1,32 @@
 <template>
-  <dialog class="dialog" ref="dialog">
+  <dialog
+    class="dialog"
+    :class="props.theme ? `dialog--${props.theme}` : ''"
+    ref="dialog"
+  >
     <form
       method="dialog"
-      className="dialog__form"
+      class="dialog__form"
     >
       <header class="dialog__header">
         <img
           class="dialog__icon"
           :src="props.headerIcon"
         />
-        <h2 class="dialog__title dialog__title--icon-medal">
+        <h2
+          class="dialog__title"
+          :class="props.titleIcon ? `dialog__title--icon-${props.titleIcon}` : ''"
+        >
           {{ props.title }}
         </h2>
+        <button
+          type="button"
+          v-if="props.hasCloseButton"
+          class="dialog__close-button"
+          @click="$emit('close')"
+        >
+          <span class="sr-only">{{ $t("dialog.close") }}</span>
+        </button>
       </header>
       <article class="dialog__body">
         <slot name="body" />
@@ -31,9 +46,19 @@ const props = defineProps({
     type: Boolean,
     default: false
   },
+  hasCloseButton: {
+    type: Boolean,
+    default: false
+  },
+  theme: {
+    type: String,
+  },
   title: {
     type: String,
     required: true
+  },
+  titleIcon: {
+    type: String,
   },
   headerIcon: {
     type: String
@@ -49,7 +74,12 @@ onMounted(() => {
 
 watch(() => props.open, (newValue, oldValue) => {
   if (dialog.value) {
-    dialog.value.showModal();
+    if (newValue) {
+      dialog.value.showModal();
+    }
+    if (!newValue) {
+      dialog.value.close();
+    }
   }
   openValue.value = newValue;
 });
