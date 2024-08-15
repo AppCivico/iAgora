@@ -9,7 +9,7 @@ export const useImpactedPeopleStore = defineStore('impactedPeople', {
   persist: true,
   actions: {
     updateCount(value) {
-      this.count = value;
+      this.count += value;
     },
   },
 })
