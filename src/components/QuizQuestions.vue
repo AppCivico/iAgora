@@ -12,7 +12,10 @@
         </div>
       </header>
     </div>
-    <div class="chat-layout__body">
+    <div
+      ref="chatBody"
+      class="chat-layout__body"
+    >
       <div class="chat-layout__body-content">
         <div class="wrapper wrapper--small">
           <ul class="questions">
@@ -91,8 +94,10 @@ const impactedPeopleStore = useImpactedPeopleStore();
 const credibilityStore = useCredibilityStore();
 const questionsStore = useQuestionsStore();
 const { currentQuestion } = storeToRefs(questionsStore);
+const chatBody = ref(null);
 
 watch(currentQuestion, async (question) => {
+  chatBody.value.scrollTop = 0;
   const impactedPeopleNumber = Number(question.people);
   const credibility = Number(questionsStore.currentQuestion.credibility);
 
