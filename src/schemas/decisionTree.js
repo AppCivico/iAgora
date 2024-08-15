@@ -15,8 +15,8 @@
       "text": "Olá! É bom ver-te.",
       "type": "P",
       "image": null,
-      "pessoas": 0,
-      "credibilidade": 0,
+      "people": 0,
+      "credibility": 0,
       "bloco": "B0"
     }
   }

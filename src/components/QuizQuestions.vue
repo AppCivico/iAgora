@@ -34,7 +34,7 @@
                     class="questions__media questions__media--audio"
                     :src="`uploads/${question.media.src}`"
                     controls
-                  > 
+                  >
                   </audio>
                   <video
                     v-else-if="question.media.type === 'video'"
@@ -93,8 +93,8 @@ const questionsStore = useQuestionsStore();
 const { currentQuestion } = storeToRefs(questionsStore);
 
 watch(currentQuestion, async (question) => {
-  const impactedPeopleNumber = Number(question.pessoas_impactadas);
-  const credibility = Number(questionsStore.currentQuestion.credibilidade);
+  const impactedPeopleNumber = Number(question.people);
+  const credibility = Number(questionsStore.currentQuestion.credibility);
 
   if (impactedPeopleNumber) {
     impactedPeopleStore.updateCount(impactedPeopleNumber);
