@@ -12,7 +12,7 @@ export const useCredibilityStore = defineStore('credibility', {
       this.credibility = 0
     },
     updateCredibility(value) {
-      this.credibility = this.credibility + value;
+      this.credibility = value;
     },
   },
   getters: {
