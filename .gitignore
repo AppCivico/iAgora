@@ -250,3 +250,5 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/linux,macos,node,storybookjs,visualstudiocode,vuejs,windows
 
 *storybook.log
+# Sentry Config File
+.env.sentry-build-plugin
