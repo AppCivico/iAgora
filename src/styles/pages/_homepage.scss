@@ -8,29 +8,31 @@ body {
   transition: background-color var(--home-transition);
 }
 
-body:has(.start-quiz-button:hover) {
-  background-color: var(--color-yellow);
+@media (prefers-reduced-motion: no-preference) {
+  body:has(.start-quiz-button:hover) {
+    background-color: var(--color-yellow);
 
-  .main-header {
-    color: var(--color-red);
-  }
+    .main-header {
+      color: var(--color-red);
+    }
 
-  .homepage__logo-mask {
-    background-color: var(--color-red);
-  }
+    .homepage__logo-mask {
+      background-color: var(--color-red);
+    }
 
-  .homepage__logo figcaption {
-    color: var(--color-text-dark);
-  }
+    .homepage__logo figcaption {
+      color: var(--color-text-dark);
+    }
 
-  .how-to-play-button {
-    background-color: var(--color-white);
-    color: var(--color-text-dark);
-    border-color: var(--color-white--dark);
-  }
+    .how-to-play-button {
+      background-color: var(--color-white);
+      color: var(--color-text-dark);
+      border-color: var(--color-white--dark);
+    }
 
-  .homepage__description {
-    color: var(--color-text-dark);
+    .homepage__description {
+      color: var(--color-text-dark);
+    }
   }
 }
 
