@@ -1,12 +1,11 @@
-import { createApp } from 'vue'
-import { markRaw } from 'vue'
+import { i18n } from "@/i18n"
+import * as Sentry from "@sentry/vue"
+import '@styles/main.scss'
 import { createPinia } from 'pinia'
 import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
+import { createApp, markRaw } from 'vue'
 import App from './App.vue'
-import '@styles/main.scss';
 import router from './router'
-import * as Sentry from "@sentry/vue";
-import { i18n } from "@/i18n";
 
 const pinia = createPinia()
 const app = createApp(App);
