@@ -54,3 +54,8 @@ textarea, select {
 textarea:not([rows]) {
   min-block-size: 10em;
 }
+
+a:link,
+a:visited {
+  color: inherit;
+}
