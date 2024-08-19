@@ -12,7 +12,7 @@ export function useStartQuiz() {
     const questionsStore = useQuestionsStore();
 
     // Reset chat state
-    impactedPeopleStore.updateCount(0);
+    impactedPeopleStore.resetState();
     credibilityStore.resetState();
     questionsStore.resetState();
 

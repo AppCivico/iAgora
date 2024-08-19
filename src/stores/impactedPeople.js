@@ -8,6 +8,9 @@ export const useImpactedPeopleStore = defineStore('impactedPeople', {
   },
   persist: true,
   actions: {
+    resetState() {
+      this.count = 0;
+    },
     updateCount(value) {
       this.count += value;
     },
