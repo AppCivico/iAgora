@@ -1,77 +1,77 @@
 {
-  "quiz": {
-    "credibility": "Credibilidade",
-    "number-of-people-impacted": "Pessoas Impactadas"
+  "about": {
+    "title": "Sobre o jogo"
+  },
+  "congratulations": {
+    "congratulations": "Muito bom! Seu resultado final:",
+    "play-again": "Jogar novamente",
+    "review": "Confira tudo o que você aprendeu com o IAgora?",
+    "share": "Desafiar um(a) amigo(a)"
+  },
+  "dialog": {
+    "close": "Fechar"
   },
   "header": {
     "language-select-label": "Selecione o idioma"
   },
-  "share": {
-    "share": "Compartilhar",
-    "copied": "URL copiada!",
-    "title": "IAgora",
-    "text": "Jogue o jogo de notícias e fale sobre o mundo real"
-  },
   "home": {
-    "start": "Começar!",
-    "title": "O jogo das eleições 2024",
+    "description": "Descubra as motivações por trás da criação e propagação de notícias falsas, compreenda os mecanismos psicológicos que as tornam convincentes e explore as técnicas utilizadas para manipular a opinião pública.",
     "how-to-play": "Como jogar",
-    "description": "Descubra as motivações por trás da criação e propagação de notícias falsas, compreenda os mecanismos psicológicos que as tornam convincentes e explore as técnicas utilizadas para manipular a opinião pública."
-  },
-  "milestone": {
-    "learned": "Técnicas dominadas",
-    "congratulations": "Parabéns",
-    "congratulations-text": "Nova técnica dominada",
-    "continue": "Continuar"
-  },
-  "milestones": {
-    "emotion": {
-      "id_section": "B1",
-      "title": "Emoção",
-      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
-    },
-    "conspiration": {
-      "id_section": "B2",
-      "title": "Conspiração",
-      "description": "Texto de conspiração"
-    },
-    "polarization": {
-      "id_section": "B3",
-      "title": "Polarização",
-      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor."
-    },
-    "trolling": {
-      "id_section": "B4",
-      "title": "Trollagem",
-      "description": "Texto de trolagem"
-    },
-    "false-expert": {
-      "id_section": "B5",
-      "title": "Falso Especialista",
-      "description": "texto de falso especialista"
-    }
-  },
-  "congratulations": {
-    "congratulations": "Muito bom! Seu resultado final:",
-    "review": "Confira tudo o que você aprendeu com o IAgora?",
-    "play-again": "Jogar novamente",
-    "share": "Desafiar um(a) amigo(a)"
-  },
-  "newsletter": {
-    "title": "Quer uma dose de reforço?",
-    "placeholder": "Seu e-mail",
-    "button": "Enviar"
-  },
-  "links": {
-    "about": "Sobre"
+    "start": "Começar!",
+    "title": "O jogo das eleições 2024"
   },
   "how-to-play": {
     "title": "Como jogar?"
   },
-  "about": {
-    "title": "Sobre o jogo"
+  "links": {
+    "about": "Sobre"
   },
-  "dialog": {
-    "close": "Fechar"
+  "milestone": {
+    "congratulations": "Parabéns",
+    "congratulations-text": "Nova técnica dominada",
+    "continue": "Continuar",
+    "learned": "Técnicas dominadas"
+  },
+  "milestones": {
+    "conspiration": {
+      "description": "Texto de conspiração",
+      "id_section": "B2",
+      "title": "Conspiração"
+    },
+    "emotion": {
+      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor.",
+      "id_section": "B1",
+      "title": "Emoção"
+    },
+    "false-expert": {
+      "description": "texto de falso especialista",
+      "id_section": "B5",
+      "title": "Falso Especialista"
+    },
+    "polarization": {
+      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor.",
+      "id_section": "B3",
+      "title": "Polarização"
+    },
+    "trolling": {
+      "description": "Texto de trolagem",
+      "id_section": "B4",
+      "title": "Trollagem"
+    }
+  },
+  "newsletter": {
+    "button": "Enviar",
+    "placeholder": "Seu e-mail",
+    "title": "Quer uma dose de reforço?"
+  },
+  "quiz": {
+    "credibility": "Credibilidade",
+    "number-of-people-impacted": "Pessoas Impactadas"
+  },
+  "share": {
+    "copied": "URL copiada!",
+    "share": "Compartilhar",
+    "text": "Jogue o jogo de notícias e fale sobre o mundo real",
+    "title": "IAgora"
   }
 }
