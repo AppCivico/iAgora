@@ -1,7 +1,6 @@
 <script setup>
-  import { RouterLink } from 'vue-router'
-  import ShareButton from "@/components/shareButton/ShareButton.vue";
-  import LocaleSelect from "@/components/localeSelect/LocaleSelect.vue";
+import ShareButton from "@/components/shareButton/ShareButton.vue";
+import { RouterLink } from 'vue-router';
 </script>
 <template>
   <header class="main-header">
@@ -15,7 +14,6 @@
           {{ $t("links.about") }}
         </RouterLink>
       </nav>
-      <LocaleSelect />
     </div>
   </header>
 </template>
