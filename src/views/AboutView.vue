@@ -18,17 +18,20 @@
             />
           </button>
         </div>
+
+        <SupportersIcons />
       </div>
     </div>
   </main>
 </template>
 
 <script setup>
-  import { shallowRef, watch } from 'vue';
-  import aboutPtBr from '@/data/ptBR/about.md';
-  import aboutEn from '@/data/en/about.md';
-  import { useStartQuiz } from '@/composables/useStartQuiz';
-  import { i18n } from '@/i18n';
+import SupportersIcons from '@/components/SupportersIcons.vue';
+import { useStartQuiz } from '@/composables/useStartQuiz';
+import aboutEn from '@/data/en/about.md';
+import aboutPtBr from '@/data/ptBR/about.md';
+import { i18n } from '@/i18n';
+import { shallowRef, watch } from 'vue';
 
   const { onStartQuiz } = useStartQuiz();
   const locale = i18n.global.locale;

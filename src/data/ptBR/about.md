@@ -22,11 +22,3 @@ O desenvolvimento de [IAgora](/)? é resultado de uma colaboração inovadora en
 
 
 Ao unir forças, essas três organizações trazem uma abordagem multidisciplinar para o desenvolvimento de [IAgora](/)?, combinando a expertise de cada uma para criar um jogo que não só educa, mas também prepara os jogadores para reconhecer e resistir às manipulações e desinformações que são comuns no ambiente político moderno.
-
-### Apoiadores
-<p align="center">
-  <img src="../../assets/images/supporters/instituo_beja.png" alt="Logo Instituto Beja" style="width:200px;"/>
-</p>
-<p align="center">
-  <img src="../../assets/images/supporters/fundacao_heindrich_boll.png" alt="Logo Fundação Heindrich Boll" style="width:200px;"/>
-</p>
