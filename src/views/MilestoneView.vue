@@ -30,10 +30,8 @@
           <div class="flex flex-column gap-24">
             <ul class="learned-techniques">
               <Technique 
-                v-for="(milestone, name, index) in milestones"
-                :key="index"
-                :learned="milestone.learned"
-                :name="name"
+                v-for="(milestone) in milestones"
+                :key="milestone.id_section"
                 :technique="milestone"
               />
             </ul>
@@ -70,18 +68,17 @@
   const { locale, messages } = useI18n();
   const questionsStore = useQuestionsStore();
 
-  const milestones = messages.value[locale.value].milestones;
+  const milestones = questionsStore.sections.filter(section => section.final_message);
   const currentMilestone = questionsStore.currentSection;
 
   let learnedControl = true;
 
-  for (const [key, value] of Object.entries(milestones)) {
-    milestones[key].learned = learnedControl;
-
-    if (value.id_section === currentMilestone.id_section) {
+  milestones.forEach((milestone) => {
+    milestone.learned = learnedControl;
+    if (milestone.id_section === currentMilestone.id_section) {
       learnedControl = false;
     }
-  }
+  })
 
   document.body.style.setProperty('--color-body-background', 'var(--color-blue)');
 
