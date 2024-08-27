@@ -5,12 +5,11 @@ import { useQuestionsStore } from '@/stores/questions';
 
 export function useStartQuiz() {
   const router = useRouter();
+  const impactedPeopleStore = useImpactedPeopleStore();
+  const credibilityStore = useCredibilityStore();
+  const questionsStore = useQuestionsStore();
 
   function onStartQuiz() {
-    const impactedPeopleStore = useImpactedPeopleStore();
-    const credibilityStore = useCredibilityStore();
-    const questionsStore = useQuestionsStore();
-
     // Reset chat state
     impactedPeopleStore.resetState();
     credibilityStore.resetState();
