@@ -1,5 +1,5 @@
 <template>
-  <main class="about-page">
+  <main class="long-text-page">
     <div class="wrapper">
       <div class="grid gap-24">
 
@@ -48,5 +48,5 @@ import { shallowRef, watch } from 'vue';
 </script>
 
 <style lang="scss">
-  @use "@styles/pages/about-page.scss"
+  @use "@styles/pages/long-text-page.scss"
 </style>

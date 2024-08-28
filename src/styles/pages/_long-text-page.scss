@@ -1,0 +1,37 @@
+.long-text-page {
+  background: var(--color-yellow--light);
+  padding: 2rem 0;
+}
+
+.long-text-page h1,
+.long-text-page h2,
+.long-text-page h3 {
+  color: var(--color-red);
+  font-size: clamp(1.25rem, 1.0033rem + 1.0667vw, 1.75rem);
+}
+
+.long-text-page h2 {
+  margin-block-end: 3rem;
+}
+
+.long-text-page h4 {
+  font-size: clamp(1rem, 1.0033rem + 1.0667vw, 1.25rem);
+}
+
+.long-text-page p {
+  font-size: clamp(1rem, 0.8767rem + 0.5333vw, 1.25rem);
+  text-align: center;
+}
+
+.long-text-page ul p {
+  text-align: left;
+}
+
+.long-text-page p:has(+ h3) {
+  margin-block-end: 4rem;
+}
+
+.long-text-page .supporters-icons {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}

@@ -1,0 +1,17 @@
+.main-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem 1.25rem;
+  font-family: 'knicknackregular';
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--color-text-light-yellow);
+  transition: color var(--home-transition);
+  background-color: var(--color-red--dark);
+}
+
+.main-footer__link {
+  color: inherit;
+  text-decoration: none;
+}

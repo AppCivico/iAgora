@@ -8,7 +8,7 @@ const router = createRouter({
       path: '/',
       name: 'home',
       component: HomeView,
-      meta: { hasHeader: true },
+      meta: { hasHeader: true, hasFooter: true },
     },
     {
       path: '/about',
@@ -35,6 +35,12 @@ const router = createRouter({
       path: '/congratulations',
       name: 'congratulations',
       component: () => import('@views/CongratulationsView.vue'),
+    },
+    {
+      path: '/privacy',
+      name: 'privacy',
+      meta: { hasHeader: true },
+      component: () => import('@views/PrivacyView.vue'),
     },
     // {
     //   path: '/about',

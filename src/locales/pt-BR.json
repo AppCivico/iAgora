@@ -11,6 +11,9 @@
   "dialog": {
     "close": "Fechar"
   },
+  "footer": {
+    "privacy": "Política de privacidade"
+  },
   "header": {
     "language-select-label": "Selecione o idioma"
   },
