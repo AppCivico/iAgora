@@ -31,14 +31,8 @@ export const useQuestionsStore = defineStore('questions', () => {
     questions.value.push(quiz.questions[questionId]);
   };
 
-  async function chooseOption(option, question) {
+  async function chooseOption(option) {
     if (option.end) {
-      const sectionId = question.section;
-      // in case we end up without next_question_id;
-      // const nextSectionId = sections.indexOf(currentSection) + 1;
-      // const nextSection = sections[nextSectionId];
-      // option.next_question_id = nextSection.id_question;
-
       await this.router.push({ name: 'milestone', params: { name: currentSection.value.name } })
     }
 
