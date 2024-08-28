@@ -12,13 +12,13 @@ O iAgora se compromete a não coletar, armazenar ou solicitar dados pessoais dos
 
 Para melhorar continuamente a experiência dos usuários e otimizar o desempenho do site, utilizamos o Google Analytics para coletar dados agregados e anônimos sobre o tráfego do site, como número de visitas, páginas mais acessadas, tempo de navegação, entre outros. Essas informações não identificam individualmente os usuários e são usadas exclusivamente para fins estatísticos.
 
-O Google Analytics utiliza cookies para coletar esses dados. Você pode saber mais sobre como o Google Analytics coleta e processa dados acessando Google Analytics - Privacidade e Segurança - https://policies.google.com/technologies/partner-sites.
+O Google Analytics utiliza cookies para coletar esses dados. Você pode saber mais sobre como o Google Analytics coleta e processa dados acessando [Google Analytics - Privacidade e Segurança](https://policies.google.com/technologies/partner-sites).
 
 #### 4\. Hospedagem do Site
 
 Nosso site é hospedado na Cloudflare Pages, uma plataforma que oferece serviços de hospedagem e segurança. A Cloudflare pode coletar dados técnicos relacionados ao acesso ao site, como endereços IP, informações sobre o navegador e sistema operacional utilizado. Esses dados são utilizados para melhorar a segurança e a performance do site e não são vinculados a informações pessoais dos usuários.
 
-Para mais informações sobre as práticas de privacidade da Cloudflare, acesse Cloudflare - Política de Privacidade - https://www.cloudflare.com/privacypolicy/.
+Para mais informações sobre as práticas de privacidade da Cloudflare, acesse [Cloudflare - Política de Privacidade](https://www.cloudflare.com/privacypolicy/).
 
 #### 5\. Cookies
 
