@@ -1,4 +1,5 @@
 <template>
+  <!--
   <div class="credibily-meter">
     <div class="credibily-meter__arch">
       <ArchMeter
@@ -21,6 +22,7 @@
       {{ $t("quiz.credibility") }}
     </div>
   </div>
+  -->
 </template>
 
 <script setup>

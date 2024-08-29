@@ -17,8 +17,12 @@
   color: var(--color-text-light-yellow);
 
   @include mixing.breakpoint("large") {
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: end;
+    // This will be back when we have score again
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* align-items: end; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
