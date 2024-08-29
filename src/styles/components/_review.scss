@@ -35,23 +35,32 @@
 
   &:before {
     content: "";
-    width: 5rem;
+    width: 3rem;
     aspect-ratio: 1;
     border-block-end: 5px solid var(--color-green--dark);
     background-color: var(--color-green);
     border-radius: 10px;
     box-shadow: 0px 8px 20px 0px var(--color-green--shadow);
     background-size: 70% 50%;
+
+    @include mixing.breakpoint('medium') {
+      width: 5rem;
+    }
   }
 
   &::after {
     content: "";
-    width: 3rem;
+    width: 2rem;
     aspect-ratio: 1;
+    flex-shrink: 0;
     background-image: url('@images/chevron-down.svg');
     background-size: contain;
     margin-inline-start: auto;
     transition: transform 0.5s;
+
+    @include mixing.breakpoint('medium') {
+      width: 3rem;
+    }
   }
 }
 
