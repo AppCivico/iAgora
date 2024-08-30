@@ -32,13 +32,17 @@
                     :src="`uploads/${question.media.src}`"
                     :alt="question.media.alt_text"
                   >
-                  <audio
+                  <figure
                     v-else-if="question.media.type === 'audio'"
-                    class="questions__media questions__media--audio"
-                    :src="`uploads/${question.media.src}`"
-                    controls
                   >
-                  </audio>
+                    <audio
+                      class="questions__media questions__media--audio"
+                      :src="`uploads/${question.media.src}`"
+                      controls
+                    >
+                    </audio>
+                    <figcaption>{{ question.media.alt_text }}</figcaption>
+                  </figure>
                   <video
                     v-else-if="question.media.type === 'video'"
                     class="questions__media questions__media--video"
