@@ -7,6 +7,7 @@
           :class="`supporters-icons__logo--${supporter.name.toLowerCase()}`"
           :src="supporter.logo"
           :alt="supporter.name"
+          target="_blank"
         />
       </a>
     </li>
