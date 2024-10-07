@@ -18,7 +18,8 @@
   font-size: clamp(1rem, 1.0033rem + 1.0667vw, 1.25rem);
 }
 
-.long-text-page p {
+.long-text-page p,
+.long-text-page li {
   font-size: clamp(1rem, 0.8767rem + 0.5333vw, 1.25rem);
   text-align: center;
 }
