@@ -25,9 +25,8 @@
             :show-warning="false"
           />
         </div>
-        
 
-        <div class="flex gap-32 justify-content-center flex-wrap">
+        <div class="flex gap-32 justify-content-center flex-wrap wrapper--small">
           <router-link
             :to="{ name: 'home'}"
             class="button button--primary"
@@ -40,6 +39,13 @@
           >
             {{ $t("congratulations.share") }}
           </button>
+          <a
+            href="https://docs.google.com/forms/u/1/d/1XhdCb2lDfPZwH_CYp8ePvXpIFAkkNyofSUcbthTKRAo/edit"
+            target="_blank"
+            class="button button--primary"
+          >
+            {{ $t("congratulations.evaluate") }}
+          </a>
         </div>
       </div>
     </div>
