@@ -38,27 +38,27 @@
   },
   "milestones": {
     "conspiration": {
-      "description": "Texto de conspiração",
+      "description": "Envolve a criação ou promoção de teorias sobre tramas secretas sem evidências concretas, com o objetivo de alimentar desconfiança e deslegitimar adversários políticos. Exemplo comum é a alegação de fraudes eleitorais sem provas.",
       "id_section": "B2",
       "title": "Conspiração"
     },
     "emotion": {
-      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor.",
+      "description": "Desinformação que apela às emoções, como medo e raiva, para influenciar decisões eleitorais, desviando o foco dos fatos. Essa técnica é usada para manipular reações emocionais, em vez de promover um debate racional.",
       "id_section": "B1",
       "title": "Emoção"
     },
     "false-expert": {
-      "description": "texto de falso especialista",
+      "description": "Promove indivíduos com credenciais falsas ou irrelevantes como se fossem autoridades em um determinado tema, criando a ilusão de que há respaldo científico ou técnico para informações enganosas.",
       "id_section": "B5",
       "title": "Falso Especialista"
     },
     "polarization": {
-      "description": "A maioria das pessoas presta pouca atenção às fontes. Como disseminador de desinformação, você pode usar isso a seu favor.",
+      "description": "Exacerba divisões políticas, promovendo uma narrativa de \"nós contra eles\", eliminando o meio-termo e forçando as pessoas a escolherem lados opostos. Isso simplifica debates complexos, reforçando as divisões.",
       "id_section": "B3",
       "title": "Polarização"
     },
     "trolling": {
-      "description": "Texto de trolagem",
+      "description": "Uso de provocações e/ou humor online para desviar discussões e amplificar a desinformação. Trolls inflamam debates, criam polêmicas e desviam o foco de questões importantes, muitas vezes espalhando fake news.",
       "id_section": "B4",
       "title": "Trollagem"
     }
