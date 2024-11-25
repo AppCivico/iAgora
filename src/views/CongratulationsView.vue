@@ -49,6 +49,7 @@
         </div>
       </div>
     </div>
+<!-- 
     <div class="bg-yellow padding--vertical-80">
       <div class="wrapper">
         <article class="newsletter">
@@ -78,6 +79,7 @@
         </article>
       </div>
     </div>
+     -->
     <div class="bg-chat padding--vertical-80">
       <div class="wrapper">
         <h4 class="title title--blue margin-bottom-80">
@@ -103,12 +105,12 @@
 </template>
 
 <script setup>
-  import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
-  import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
   import ShareButton from "@/components/shareButton/ShareButton.vue";
-  import { useI18n } from 'vue-i18n';
-  import share from "@/utils/share";
-  import confetti from "https://cdn.skypack.dev/canvas-confetti";
+import share from "@/utils/share";
+import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
+import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
+import confetti from "https://cdn.skypack.dev/canvas-confetti";
+import { useI18n } from 'vue-i18n';
 
   document.body.style.setProperty('--color-body-background', 'var(--color-red)');
 
