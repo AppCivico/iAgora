@@ -96,6 +96,10 @@
             <summary class="review__title">{{ milestone.title }}</summary>
             <div>
               <p class="review__description">{{ milestone.description }}</p>
+              <p class="review__recomendation"> 
+                <b>Recomendação: </b> 
+                <span v-html="milestone.recomendation"></span>
+              </p>
             </div>
           </details>
         </article>

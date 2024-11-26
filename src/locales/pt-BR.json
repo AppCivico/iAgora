@@ -39,26 +39,31 @@
   "milestones": {
     "conspiration": {
       "description": "Envolve a criação ou promoção de teorias sobre tramas secretas sem evidências concretas, com o objetivo de alimentar desconfiança e deslegitimar adversários políticos. Exemplo comum é a alegação de fraudes eleitorais sem provas.",
+      "recomendation": "Verifique sempre as fontes e busque evidências claras e verificáveis. Use ferramentas de checagem de fatos, como a <a href='https://lupa.uol.com.br/' target='_blank' rel='noopener noreferrer'>Lupa</a>, e desconfie de narrativas que envolvem conspirações sem base factual. Informações confiáveis vêm de fontes oficiais, de jornalistas experientes e de sites confiáveis como a <a href='https://www.politize.com.br/conteudo/' target='_blank' rel='noopener noreferrer'>Politize!</a>.",
       "id_section": "B2",
       "title": "Conspiração"
     },
     "emotion": {
       "description": "Desinformação que apela às emoções, como medo e raiva, para influenciar decisões eleitorais, desviando o foco dos fatos. Essa técnica é usada para manipular reações emocionais, em vez de promover um debate racional.",
+      "recomendation": "Antes de reagir ou compartilhar conteúdos que provoquem emoções intensas, pare e reflita. Cheque se a informação vem de uma fonte confiável e baseie suas decisões em dados e fatos, não em emoções extremas. Checadores de fatos, como a <a href='https://lupa.uol.com.br/' target='_blank' rel='noopener noreferrer'>Lupa</a>, podem ser muito úteis nesse sentido. Além disso, sempre baseie suas decisões políticas em fundamentos sólidos, que podem ser aprendidos em sites de educação política como a <a href='https://www.politize.com.br/conteudo/' target='_blank' rel='noopener noreferrer'>Politize!</a>.",
       "id_section": "B1",
       "title": "Emoção"
     },
     "false-expert": {
       "description": "Promove indivíduos com credenciais falsas ou irrelevantes como se fossem autoridades em um determinado tema, criando a ilusão de que há respaldo científico ou técnico para informações enganosas.",
+      "recomendation": "Verifique as credenciais de especialistas citados. Pesquise se a pessoa tem autoridade no tema e utilize sites confiáveis, como <a href='https://scholar.google.com/' target='_blank' rel='noopener noreferrer'>Google Scholar</a>, para confirmar a expertise real. Além de verificadores de fatos como a <a href='https://lupa.uol.com.br/' target='_blank' rel='noopener noreferrer'>Lupa</a>. Isso ajuda a evitar ser enganado por falsos especialistas que distorcem os fatos.",
       "id_section": "B5",
       "title": "Falso Especialista"
     },
     "polarization": {
       "description": "Exacerba divisões políticas, promovendo uma narrativa de \"nós contra eles\", eliminando o meio-termo e forçando as pessoas a escolherem lados opostos. Isso simplifica debates complexos, reforçando as divisões.",
+      "recomendation": "Busque fontes de informação plural que apresentem diferentes lados de uma questão, como o site da <a href='https://www.politize.com.br/conteudo/' target='_blank' rel='noopener noreferrer'>Politize!</a>. Evite compartilhar conteúdos que alimentam divisões e tente dialogar com pessoas que têm pontos de vista diversos, para ampliar sua compreensão dos problemas.",
       "id_section": "B3",
       "title": "Polarização"
     },
     "trolling": {
       "description": "Uso de provocações e/ou humor online para desviar discussões e amplificar a desinformação. Trolls inflamam debates, criam polêmicas e desviam o foco de questões importantes, muitas vezes espalhando fake news.",
+      "recomendation": "Evite se engajar com trolls e perfis provocadores. Concentre-se em debates construtivos e denuncie contas que espalhem ódio ou desinformação. Isso mantém o foco em discussões produtivas e limita o impacto de trollagem.",
       "id_section": "B4",
       "title": "Trollagem"
     }
