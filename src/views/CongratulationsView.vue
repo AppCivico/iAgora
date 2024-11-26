@@ -105,7 +105,6 @@
 </template>
 
 <script setup>
-  import ShareButton from "@/components/shareButton/ShareButton.vue";
 import share from "@/utils/share";
 import CredibilityMeter from "@components/credibilityMeter/CredibilityMeter.vue";
 import ImpactedPeople from "@components/impactedPeople/ImpactedPeople.vue";
